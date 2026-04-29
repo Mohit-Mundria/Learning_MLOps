@@ -37,7 +37,7 @@ def one_hot_encoding(df:pd.DataFrame)->pd.DataFrame:
     return dataset
 
 def main():
-    params=yaml.safe_load(open("params.yaml"))
+    # params=yaml.safe_load(open("params.yaml"))
     dataset=load_data(params['data_path'])
     dataset=drop_col(dataset, params['drop_columns'])
     dataset=fill_nan(dataset)

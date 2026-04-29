@@ -1,6 +1,7 @@
 import pandas as pd 
 from sklearn.model_selection import train_test_split
 import os
+import yaml
 
 
 def data_load(path:str):
@@ -21,8 +22,8 @@ def data_load(path:str):
     
     
 def main():
-    path="D:\\Downloads\\agentic_reality.csv"
-    data_load(path)
+    params=yaml.safe_load(open("params.yaml"))
+    data_load(params['data_path'])
     
     
     

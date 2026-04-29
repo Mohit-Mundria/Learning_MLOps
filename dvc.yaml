@@ -16,13 +16,13 @@ stages:
       - data_save/processed/data.csv
   
 
-  feature_engineering:
-    cmd: python src/feature_engineering.py
-    deps:
-      - src/feature_engineering.py
-      - data_save/processed/data.csv
-    outs:
-      - data_save/featured_data/data.csv
+  # feature_engineering:
+  #   cmd: python src/feature_engineering.py
+  #   deps:
+  #     - src/feature_engineering.py
+  #     - data_save/processed/data.csv
+  #   outs:
+  #     - data_save/featured_data/data.csv
   
 
   model_training:
