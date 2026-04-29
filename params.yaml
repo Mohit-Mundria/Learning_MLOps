@@ -2,6 +2,8 @@ preprocessing:
   missing_value_strategy: "mean"
   categorical_encoding: "one_hot"
   scaling_method: "standard"
+  drop_columns: ["Project_ID"]
+  one_hot_encode_columns: ["Industry", "Failure_Reason", "Agent_Type", "Primary_Tool", "Status"]
 
 
 model_training:
@@ -10,4 +12,3 @@ model_training:
   n_estimators: 187
   max_depth: 2
   learning_rate: 0.022294413883118733
-  
