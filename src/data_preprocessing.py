@@ -1,6 +1,7 @@
 import pandas as pd
 import yaml
 from sklearn.preprocessing import OneHotEncoder
+from sklearn.model_selection import train_test_split
 
 
 
@@ -36,13 +37,19 @@ def one_hot_encoding(df:pd.DataFrame)->pd.DataFrame:
     
     return dataset
 
+
+def train_test_split_data(df:pd.DataFrame):
+    training_data, testing_data=train_test_split(df, test_size=params['test_size'], random_state=params["random_state"])
+    training_data.to_csv(params["train_data_path"], index=False)
+    testing_data.to_csv(params["test_data_path"], index=False)
+
 def main():
     # params=yaml.safe_load(open("params.yaml"))
     dataset=load_data(params['data_path'])
     dataset=drop_col(dataset, params['drop_columns'])
     dataset=fill_nan(dataset)
     dataset=one_hot_encoding(dataset)
-    dataset.to_csv(params['processed_data_path'], index=False)
+    train_test_split_data(dataset)
 
 
 if __name__ == "__main__":
