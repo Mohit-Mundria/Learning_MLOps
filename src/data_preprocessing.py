@@ -2,6 +2,7 @@ import pandas as pd
 import yaml
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
+from utility_code.utility_func import read_params
 
 
 
@@ -30,23 +31,26 @@ def fill_nan(df:pd.DataFrame)->pd.DataFrame:
 
 
 def one_hot_encoding(df:pd.DataFrame)->pd.DataFrame:
+    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
     encoder=OneHotEncoder(sparse_output=False, handle_unknown='ignore')
-    one_hot_encoded=encoder.fit_transform(df[params['one_hot_encode_columns']])
-    one_hot_encoded_df=pd.DataFrame(one_hot_encoded, columns=encoder.get_feature_names_out(params['one_hot_encode_columns']))
-    dataset=pd.concat([df.drop(columns=params['one_hot_encode_columns']), one_hot_encoded_df], axis=1)
+    one_hot_encoded=encoder.fit_transform(df[params['preprocessing']['one_hot_encode_columns']])
+    one_hot_encoded_df=pd.DataFrame(one_hot_encoded, columns=encoder.get_feature_names_out(params['preprocessing']['one_hot_encode_columns']))
+    dataset=pd.concat([df.drop(columns=params['preprocessing']['one_hot_encode_columns']), one_hot_encoded_df], axis=1)
     
     return dataset
 
 
 def train_test_split_data(df:pd.DataFrame):
-    training_data, testing_data=train_test_split(df, test_size=params['test_size'], random_state=params["random_state"])
-    training_data.to_csv(params["train_data_path"], index=False)
-    testing_data.to_csv(params["test_data_path"], index=False)
+    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
+    training_data, testing_data=train_test_split(df, test_size=params['model_training']['test_size'], random_state=params['model_training']["random_state"])
+    training_data.to_csv(params['preprocessing']["train_data_path"], index=False)
+    testing_data.to_csv(params['preprocessing']["test_data_path"], index=False)
 
 def main():
     # params=yaml.safe_load(open("params.yaml"))
-    dataset=load_data(params['data_path'])
-    dataset=drop_col(dataset, params['drop_columns'])
+    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
+    dataset=load_data(params['preprocessing']['raw_data_path'])
+    dataset=drop_col(dataset, params['preprocessing']['drop_columns'])
     dataset=fill_nan(dataset)
     dataset=one_hot_encoding(dataset)
     train_test_split_data(dataset)

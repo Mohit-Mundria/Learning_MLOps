@@ -2,22 +2,17 @@ preprocessing:
   missing_value_strategy: "mean"
   categorical_encoding: "one_hot"
   scaling_method: "standard"
-  data_path: r"D:\\Downloads\\agentic_reality.csv"
+  data_path: "D:\\Downloads\\agentic_reality.csv"
+  raw_data_path: "D:\\End to end project\\Learning_MLOps\\data_save\\raw\\raw_dataset.csv"
 
   drop_columns: ["Project_ID"]
   one_hot_encode_columns: ["Industry", "Failure_Reason", "Agent_Type", "Primary_Tool", "Status"]
   # processed_data_path: "D:\\End to end project\\Learning_MLOps\\data_save\\processed"
-  train_data_path: r"D:\\End to end project\\Learning_MLOps\\data_save\\processed\\train.csv"
-  test_data_path: r"D:\\End to end project\\Learning_MLOps\\data_save\\processed\\test.csv"
+  train_data_path: "D:\\End to end project\\Learning_MLOps\\data_save\\processed\\train.csv"
+  test_data_path: "D:\\End to end project\\Learning_MLOps\\data_save\\processed\\test.csv"
 
 
 model_training:
   test_size: 0.2
-  random_state: 42
-  n_estimators: 187
-  max_depth: 2
-  learning_rate: 0.022294413883118733
-  sampling_method: 'gradient_based' 
-  gamma: 0.5402952465322451
-  model_path: r"D:\\End to end project\\Learning_MLOps\\model_registry\\model.pkl"
+  model_path: "D:\\End to end project\\Learning_MLOps\\model_registry\\model.pkl"
 

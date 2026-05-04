@@ -6,3 +6,7 @@ dagshub
 tensorflow
 torch
 langchain
+python-box
+optuna
+xgboost
+

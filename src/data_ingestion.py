@@ -1,12 +1,15 @@
 import pandas as pd 
 from sklearn.model_selection import train_test_split
 import os
-import yaml
+from utility_code.utility_func import read_params
+
+
 
 
 def data_load(path:str):
+    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
     dataset=pd.read_csv(path)
-    dataset.to_csv("D:\\End to end project\\Learning_MLOps\data_save\\raw\\raw_dataset.csv", index= False)
+    dataset.to_csv(params['preprocessing']['raw_data_path'], index= False)
     return dataset
 
 
@@ -22,8 +25,8 @@ def data_load(path:str):
     
     
 def main():
-    params=yaml.safe_load(open("params.yaml"))
-    data_load(params['data_path'])
+    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
+    data_load(params['preprocessing']['data_path'])
     
     
     

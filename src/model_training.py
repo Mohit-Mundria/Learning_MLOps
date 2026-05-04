@@ -1,4 +1,4 @@
-from fastapi import params
+# from fastapi import params
 from sklearn.model_selection import train_test_split
 from xgboost import XGBRegressor
 from sklearn.ensemble import RandomForestRegressor
@@ -14,6 +14,7 @@ import optuna as opt
 import mlflow
 import dagshub 
 
+from utility_code.utility_func import read_params
 
 
 
@@ -49,7 +50,8 @@ def load_training_data(path:str):
 ## We can add multiple models and their respetive hyperparameters in the objective function and let optuna slect the best model along with the best hyperprameters for that model.
 
 def objective(trial):
-    x_train, y_train=load_training_data(params['train_data_path'])
+    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
+    x_train, y_train=load_training_data(params['preprocessing']['train_data_path'])
     regressor=trial.suggest_categorical("regressor", ["RandomForestRegressor", "XGBRegressor"])
     
     if regressor=="RandomForestRegressor":
@@ -79,8 +81,9 @@ def create_study(objective):
     return [study.best_trial.params, study.best_trial.value]
     
 def mlflow_tracking(study:list):
+    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
     dagshub.init(repo_owner='mundriamohit100', repo_name='Learning_MLOps', mlflow=True)
-    x_train, y_train=load_training_data(params['train_data_path'])
+    x_train, y_train=load_training_data(params['preprocessing']['train_data_path'])
     model_parameters, model_score=study
     model=model_parameters["regressor"]
     model_params={key: value for key, value in model_parameters.items() if key!="regressor"}
@@ -94,17 +97,16 @@ def mlflow_tracking(study:list):
     model_testing_score=cross_val_score(model, x_train, y_train, cv=5, scoring="r2").mean()
     report.append(model_training_score)
     report.append(model_testing_score)
-    joblib.dump(model, params['model_path'])
+    joblib.dump(model, params['model_training']['model_path'])
     
     with mlflow.start_run(run_name=model, params=model_params):
         
         for key, value in model_params.items():
             mlflow.log_params({key: value})
         mlflow.log_metrics({"training_score": model_training_score, "testing_score": model_testing_score})
-        mlflow.log_artifact(artifact_path=params['model_path'])
+        mlflow.log_artifact(artifact_path=params['model_training']['model_path'])
         
-        mlflow.sklearn.log_model(model, artifact_path=params['model_path'])
-        
+        mlflow.sklearn.log_model(model, artifact_path=params['model_training']['model_path'])
         
 
      
