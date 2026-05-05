@@ -14,5 +14,6 @@ preprocessing:
 
 model_training:
   test_size: 0.2
+  random_state: 42
   model_path: "D:\\End to end project\\Learning_MLOps\\model_registry\\model.pkl"
 

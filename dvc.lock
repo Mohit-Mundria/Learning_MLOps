@@ -1,0 +1,42 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python src/data_ingestion.py
+    deps:
+    - path: src/data_ingestion.py
+      hash: md5
+      md5: 1031a47154595e4ee9f2e1f05c0dab57
+      size: 1288
+    - path: src/utility_code/utility_func.py
+      hash: md5
+      md5: 371fb1957235f7e7bdf3778f2ce1fadb
+      size: 430
+    outs:
+    - path: data_save/raw/raw_dataset.csv
+      hash: md5
+      md5: c8ee1f941d4fbef4637f1c724c1ef061
+      size: 193285
+  data_preprocessing:
+    cmd: python src/data_preprocessing.py
+    deps:
+    - path: data_save/raw/raw_dataset.csv
+      hash: md5
+      md5: c8ee1f941d4fbef4637f1c724c1ef061
+      size: 193285
+    - path: src/data_preprocessing.py
+      hash: md5
+      md5: 1065d4240ed0b5bc97e3755485826544
+      size: 2345
+    - path: src/utility_code/utility_func.py
+      hash: md5
+      md5: 371fb1957235f7e7bdf3778f2ce1fadb
+      size: 430
+    outs:
+    - path: data_save/processed/test.csv
+      hash: md5
+      md5: 2edcc479916a5e4439324050fb886937
+      size: 57188
+    - path: data_save/processed/train.csv
+      hash: md5
+      md5: ea30248d409d8e7ecdb44f1d97b67065
+      size: 227095

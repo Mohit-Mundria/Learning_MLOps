@@ -49,6 +49,8 @@ def train_test_split_data(df:pd.DataFrame):
 def main():
     # params=yaml.safe_load(open("params.yaml"))
     params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
+    path=params['preprocessing']['data_path']
+    # if path.is_file():
     dataset=load_data(params['preprocessing']['raw_data_path'])
     dataset=drop_col(dataset, params['preprocessing']['drop_columns'])
     dataset=fill_nan(dataset)

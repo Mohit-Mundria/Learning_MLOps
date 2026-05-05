@@ -46,12 +46,18 @@ def load_training_data(path:str):
     y_train=dataset["ROI_Score"]
     return x_train, y_train
 
+def load_testing_data(path:str):
+    dataset=pd.read_csv(path)
+    x_test=dataset.drop(columns=["ROI_Score"])
+    y_test=dataset["ROI_Score"]
+    return x_test, y_test
+
 ## We can also use optuna for hyperparameter tuning and model selection. Below is the code for that.
 ## We can add multiple models and their respetive hyperparameters in the objective function and let optuna slect the best model along with the best hyperprameters for that model.
 
-def objective(trial):
-    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
-    x_train, y_train=load_training_data(params['preprocessing']['train_data_path'])
+def objective(trial, x_train, y_train):
+    # params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
+    # x_train, y_train=load_training_data(params['preprocessing']['train_data_path'])
     regressor=trial.suggest_categorical("regressor", ["RandomForestRegressor", "XGBRegressor"])
     
     if regressor=="RandomForestRegressor":
@@ -75,40 +81,60 @@ def objective(trial):
     score=cross_val_score(model, x_train, y_train, cv=5, scoring="r2").mean()
     return score
 
-def create_study(objective):
+def create_study(objective, x_train, y_train):
     study=opt.create_study(direction='maximize')
-    study.optimize(objective, n_trials=200)
+    study.optimize(lambda trial: objective(trial, x_train, y_train), n_trials=100)
     return [study.best_trial.params, study.best_trial.value]
     
-def mlflow_tracking(study:list):
+def mlflow_tracking(model_parameters:dict):
     params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
     dagshub.init(repo_owner='mundriamohit100', repo_name='Learning_MLOps', mlflow=True)
     x_train, y_train=load_training_data(params['preprocessing']['train_data_path'])
-    model_parameters, model_score=study
-    model=model_parameters["regressor"]
+    x_test, y_test=load_testing_data(params['preprocessing']['test_data_path'])
+    model_name=model_parameters["regressor"]
     model_params={key: value for key, value in model_parameters.items() if key!="regressor"}
-    mlflow.set_experiment("model_selection_and_hyperparameter_tuning")
+    mlflow.set_experiment("model_selection_and_hyperparameter_tuning_vs2")
     report=[]
     
-    model=model.set_params(**model_params)
+    # model=model.set_params(**model_params)
+    if model_name=="RandomForestRegressor":
+        model=RandomForestRegressor(**model_params, random_state=42)
+    elif model_name=="XGBRegressor":
+        model=XGBRegressor(**model_params, random_state=42)
+    
+    
     model.fit(x_train, y_train)
+
     train_pred = model.predict(x_train)
     model_training_score= model.score(x_train, y_train)
-    model_testing_score=cross_val_score(model, x_train, y_train, cv=5, scoring="r2").mean()
+    
+    model_testing_score=cross_val_score(model, x_test, y_test, cv=5, scoring="r2").mean()
     report.append(model_training_score)
     report.append(model_testing_score)
     joblib.dump(model, params['model_training']['model_path'])
     
-    with mlflow.start_run(run_name=model, params=model_params):
+    with mlflow.start_run(run_name="Final_Model_MLOps_Project"):
         
-        for key, value in model_params.items():
-            mlflow.log_params({key: value})
+        mlflow.log_params("model", model_name)
+        mlflow.log_params("model_training_hyperparameters", model_params)
         mlflow.log_metrics({"training_score": model_training_score, "testing_score": model_testing_score})
         mlflow.log_artifact(artifact_path=params['model_training']['model_path'])
         
         mlflow.sklearn.log_model(model, artifact_path=params['model_training']['model_path'])
         
 
-     
+
+def main():
+    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
+    x_train, y_train=load_training_data(params['preprocessing']['train_data_path'])
+    model_parameters, model_score=create_study(objective, x_train, y_train)
+    mlflow_tracking(model_parameters)
+    
+if __name__=="__main__":
+    main()
+    
+    
+    
+        
     
     
