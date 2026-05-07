@@ -1,14 +1,15 @@
 # from fastapi import params
-from sklearn.model_selection import train_test_split
+# from sklearn.model_selection import train_test_split
+import json
+
 from xgboost import XGBRegressor
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.linear_model import ElasticNet
-from sklearn.svm import SVR
-from sklearn.neighbors import KNeighborsRegressor as KNN
+# from sklearn.linear_model import ElasticNet
+# from sklearn.svm import SVR
+# from sklearn.neighbors import KNeighborsRegressor as KNN
 from sklearn.model_selection import cross_val_score
-
+import os
 import pandas as pd
-import yaml
 import joblib
 import optuna as opt
 import mlflow
@@ -105,7 +106,6 @@ def mlflow_tracking(model_parameters:dict):
     
     model.fit(x_train, y_train)
 
-    train_pred = model.predict(x_train)
     model_training_score= model.score(x_train, y_train)
     
     model_testing_score=cross_val_score(model, x_test, y_test, cv=5, scoring="r2").mean()
@@ -115,12 +115,19 @@ def mlflow_tracking(model_parameters:dict):
     
     with mlflow.start_run(run_name="Final_Model_MLOps_Project"):
         
-        mlflow.log_params("model", model_name)
-        mlflow.log_params("model_training_hyperparameters", model_params)
+        mlflow.log_param("model", model_name)
+        mlflow.log_params(model_params)
         mlflow.log_metrics({"training_score": model_training_score, "testing_score": model_testing_score})
-        mlflow.log_artifact(artifact_path=params['model_training']['model_path'])
+        mlflow.log_artifact(params['model_training']['model_path'])
         
-        mlflow.sklearn.log_model(model, artifact_path=params['model_training']['model_path'])
+        mlflow.sklearn.log_model(model, "model_object")
+        os.makedirs("reports", exist_ok=True)
+        metrics = {
+        "training_r2": round(model_training_score, 4),
+        "testing_r2":  round(model_testing_score, 4)
+    }
+        with open("reports/metrics.json", "w") as f:
+            json.dump(metrics, f)
         
 
 
