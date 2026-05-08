@@ -1,0 +1,76 @@
+name: Pyhton CD Pipeline
+
+on:
+  push:
+    branches:
+      - main       
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Configure DVC remote credentials
+        run: |
+          dvc remote modify origin --local auth basic
+          dvc remote modify origin --local user $mundriamohit100
+          dvc remote modify origin --local password $66e2596361fe4441971e51cbc90346ccf6222a21
+
+      - name: Pull data from DVC remote
+        run: |
+          dvc pull
+
+      - name: Set MLflow environment variables
+        run: |
+          echo "MLFLOW_TRACKING_URI=$https://dagshub.com/mundriamohit100/Learning_MLOps.mlflow" >> $GITHUB_ENV
+          echo "MLFLOW_TRACKING_USERNAME=$mundriamohit100" >> $GITHUB_ENV
+          echo "MLFLOW_TRACKING_PASSWORD=$66e2596361fe4441971e51cbc90346ccf6222a21" >> $GITHUB_ENV
+
+      - name: Reproduce DVC pipeline
+        run: |
+          dvc repro
+
+      - name: Validate model performance
+        run: |
+          python - <<EOF
+          import json, sys
+
+          with open("reports/metrics.json") as f:
+              metrics = json.load(f)
+
+          testing_r2 = metrics["testing_r2"]
+          threshold  = 0.65      # <-- set this to whatever makes sense for your data
+
+          print(f"Testing R2 Score : {testing_r2}")
+          print(f"Required threshold: {threshold}")
+
+          if testing_r2 < threshold:
+              print(f"FAILED: Model score {testing_r2} is below threshold {threshold}")
+              sys.exit(1)      # This fails the GitHub Action — no bad models pass
+          else:
+              print("PASSED: Model meets performance threshold")
+          EOF
+
+      # Step 9: Push updated DVC state back (so next run knows what changed)
+      - name: Push DVC run cache
+        run: |
+          dvc push
+
+      # Step 10: Save metrics.json as a visible artifact in GitHub Actions UI
+      - name: Upload metrics artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: model-metrics
+          path: reports/metrics.json

@@ -66,25 +66,6 @@ def test_data_load_saves_csv(tmp_path, mock_params):
     assert os.path.exists(raw_save_path), "data_load should save CSV to raw_data_path"
 
 
-# def test_data_load_correct_shape(tmp_path, mock_params):
-#     """
-#     Test that the loaded DataFrame has exactly
-#     the rows and columns from the CSV — nothing
-#     is dropped or added during loading.
-#     """
-#     fake_csv = tmp_path / "data.csv"
-#     fake_csv.write_text("col1,col2,ROI_Score\n1,2,3\n4,5,6\n")
-
-#     mock_params["preprocessing"]["data_path"]     = str(fake_csv)
-#     mock_params["preprocessing"]["raw_data_path"] = str(tmp_path / "raw.csv")
-
-#     with patch("src.data_ingestion.read_params", return_value=mock_params):
-#         result = data_load(str(fake_csv))
-
-#     # 2 rows, 3 columns — matches the CSV above
-#     assert result.shape == (2, 3), f"Expected shape (2,3), got {result.shape}"
-
-
 def test_data_load_file_not_found(tmp_path, mock_params):
     """
     Test that the function raises an error when

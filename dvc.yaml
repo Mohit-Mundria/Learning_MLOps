@@ -36,4 +36,7 @@ stages:
       - src/utility_code/utility_func.py
     outs:
       - model_registry/model.pkl
+    metrics:
+      - reports/metrics.json:   
+          cache: false
     
