@@ -63,38 +63,22 @@ def mock_params():
     read_params() is called in your actual code.
     """
     return {
-        "preprocessing": {
-            "data_path":            "data/original/data.csv",
-            "raw_data_path":        "data/raw/raw_data.csv",
-            "train_data_path":      "data/processed/train_data.csv",
-            "test_data_path":       "data/processed/test_data.csv",
-            "drop_columns":         ["Useless_Col"],
-            "one_hot_encode_columns": ["Product_Type", "Region"],
-        },
-        "model_training": {
-            "test_size":    0.2,
-            "random_state": 42,
-            "model_path":   "models/model.pkl",
-        }
-    }
-    
-    return {
         "preprocessing":{
             "missing_value_strategy": "mean",
             "categorical_encoding": "one_hot",
             "scaling_method": "standard",
-            "data_path": "D:\\Downloads\\agentic_reality.csv",
-            "raw_data_path": "D:\\End to end project\\Learning_MLOps\\data_save\\raw\\raw_dataset.csv",
+            "data_path": "Download/agentic_reality.csv",
+            "raw_data_path": "data_save/raw/raw_dataset.csv",
 
             "drop_columns" : ["Project_ID"],
             "one_hot_encode_columns": ["Industry", "Failure_Reason", "Agent_Type", "Primary_Tool", "Status"],
-            "train_data_path": "D:\\End to end project\\Learning_MLOps\\data_save\\processed\\train.csv",
-            "test_data_path": "D:\\End to end project\\Learning_MLOps\\data_save\\processed\\test.csv"
+            "train_data_path": "data_save/processed/train.csv",
+            "test_data_path": "data_save/processed/test.csv"
 
         },
         "model_training":{
             "test_size": 0.2,
             "random_state": 42,
-            "model_path": "D:\\End to end project\\Learning_MLOps\\model_registry\\model.pkl"
+            "model_path": "model_registry/model.pkl"
         }
     }

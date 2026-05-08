@@ -1,0 +1,2501 @@
+Project_ID,Industry,Agent_Type,Primary_Tool,Status,Failure_Reason,Human_in_the_Loop_Ratio,Tokens_per_Task,ROI_Score
+AGP-0001,Insurance,Autonomous,LangGraph,Production,,0.389,2094,2.51
+AGP-0002,Retail,Assistant,CrewAI,Production,,0.99,5993,3.78
+AGP-0003,Energy,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.475,9032,0.91
+AGP-0004,Technology,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.372,8735,0.75
+AGP-0005,Finance,Autonomous,LangGraph,Production,,0.613,1645,2.58
+AGP-0006,Telecom,Autonomous,CrewAI,Abandoned,Schema Drift,0.168,3713,-0.38
+AGP-0007,Insurance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Schema Drift,0.478,10530,-1.51
+AGP-0008,Insurance,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.224,6478,-0.71
+AGP-0009,Finance,Assistant,CrewAI,Production,,0.795,2821,1.22
+AGP-0010,Retail,Assistant,LangGraph,Production,,0.724,4428,4.49
+AGP-0011,Retail,Assistant,LangGraph,Production,,0.78,3022,3.33
+AGP-0012,Government,Assistant,CrewAI,Production,,0.641,2117,2.95
+AGP-0013,Technology,Autonomous,LangGraph,Pilot,Schema Drift,0.128,2146,1.51
+AGP-0014,Energy,Autonomous,CrewAI,Abandoned,Cost Overrun,0.132,5087,-0.49
+AGP-0015,Retail,Autonomous,LangGraph,Abandoned,Security Violation,0.199,5113,-0.47
+AGP-0016,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.223,2330,1.66
+AGP-0017,Manufacturing,Autonomous,CrewAI,Abandoned,Cost Overrun,0.064,4627,-1.15
+AGP-0018,Finance,Autonomous,CrewAI,Abandoned,Loop Error,0.071,5305,-0.71
+AGP-0019,Energy,Assistant,CrewAI,Pilot,Cost Overrun,0.717,2893,-0.38
+AGP-0020,Technology,Autonomous,CrewAI,Pilot,Schema Drift,0.259,4455,0.07
+AGP-0021,Insurance,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.054,6562,0.81
+AGP-0022,Legal,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.66,6223,0.86
+AGP-0023,Telecom,Assistant,AutoGPT 3.0,Pilot,Schema Drift,0.748,6457,1.12
+AGP-0024,Government,Assistant,CrewAI,Pilot,Loop Error,0.708,8152,-0.89
+AGP-0025,Insurance,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.516,1964,0.46
+AGP-0026,Healthcare,Autonomous,CrewAI,Pilot,Schema Drift,0.371,5000,0.82
+AGP-0027,Retail,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.517,7098,-0.77
+AGP-0028,Finance,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.268,5581,-0.47
+AGP-0029,Finance,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.66,7046,0.88
+AGP-0030,Technology,Assistant,LangGraph,Pilot,Cost Overrun,0.89,3113,2.1
+AGP-0031,Insurance,Assistant,LangGraph,Pilot,Security Violation,0.765,4740,2.19
+AGP-0032,Telecom,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.917,5689,0.14
+AGP-0033,Legal,Assistant,LangGraph,Pilot,Schema Drift,0.771,4676,0.33
+AGP-0034,Retail,Autonomous,CrewAI,Pilot,Security Violation,0.049,3423,0.27
+AGP-0035,Retail,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.638,8826,-0.09
+AGP-0036,Healthcare,Assistant,LangGraph,Abandoned,Security Violation,0.581,2375,-0.5
+AGP-0037,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.597,6631,0.26
+AGP-0038,Retail,Assistant,LangGraph,Abandoned,Loop Error,0.948,4667,-0.36
+AGP-0039,Healthcare,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.229,5895,0.66
+AGP-0040,Technology,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.847,6020,0.3
+AGP-0041,Retail,Assistant,LangGraph,Abandoned,Schema Drift,0.775,3929,-0.21
+AGP-0042,Energy,Assistant,LangGraph,Pilot,Security Violation,0.623,2608,1.14
+AGP-0043,Technology,Autonomous,LangGraph,Abandoned,Security Violation,0.045,4013,-0.7
+AGP-0044,Legal,Autonomous,LangGraph,Abandoned,Security Violation,0.131,1571,0.14
+AGP-0045,Energy,Assistant,LangGraph,Production,,0.899,3960,2.27
+AGP-0046,Energy,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.786,7017,-0.32
+AGP-0047,Retail,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.586,4285,0.22
+AGP-0048,Healthcare,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.039,3256,1.02
+AGP-0049,Technology,Autonomous,LangGraph,Pilot,Schema Drift,0.126,2573,0.94
+AGP-0050,Finance,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.044,8270,1.54
+AGP-0051,Healthcare,Assistant,LangGraph,Abandoned,Loop Error,0.77,3799,-0.48
+AGP-0052,Finance,Assistant,CrewAI,Production,,0.925,3960,2.05
+AGP-0053,Insurance,Assistant,CrewAI,Pilot,Loop Error,0.749,4365,0.05
+AGP-0054,Technology,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.372,3289,1.35
+AGP-0055,Technology,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.229,6193,-0.7
+AGP-0056,Insurance,Assistant,LangGraph,Abandoned,Loop Error,0.711,5110,-0.96
+AGP-0057,Retail,Autonomous,CrewAI,Pilot,Cost Overrun,0.094,4329,0.98
+AGP-0058,Manufacturing,Autonomous,CrewAI,Pilot,Security Violation,0.12,3878,1.46
+AGP-0059,Finance,Assistant,CrewAI,Abandoned,Loop Error,0.795,5123,-0.94
+AGP-0060,Finance,Autonomous,LangGraph,Abandoned,Schema Drift,0.432,3141,-0.33
+AGP-0061,Technology,Assistant,LangGraph,Abandoned,Schema Drift,0.804,3828,-0.58
+AGP-0062,Retail,Assistant,LangGraph,Pilot,Loop Error,0.698,5017,0.67
+AGP-0063,Manufacturing,Assistant,LangGraph,Pilot,Cost Overrun,0.845,3094,-0.05
+AGP-0064,Insurance,Assistant,LangGraph,Pilot,Security Violation,0.853,3868,1.81
+AGP-0065,Technology,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.615,5706,1.89
+AGP-0066,Manufacturing,Assistant,CrewAI,Abandoned,Schema Drift,0.475,4368,-1.36
+AGP-0067,Manufacturing,Autonomous,CrewAI,Pilot,Cost Overrun,0.103,4386,2.13
+AGP-0068,Legal,Autonomous,LangGraph,Abandoned,Loop Error,0.133,2330,-0.41
+AGP-0069,Finance,Assistant,LangGraph,Abandoned,Security Violation,0.505,5264,-0.84
+AGP-0070,Retail,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.309,4927,-0.68
+AGP-0071,Healthcare,Autonomous,LangGraph,Abandoned,Loop Error,0.359,2810,-0.32
+AGP-0072,Retail,Assistant,LangGraph,Abandoned,Security Violation,0.766,4168,-0.41
+AGP-0073,Energy,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.752,5680,1.51
+AGP-0074,Healthcare,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.231,2451,0.71
+AGP-0075,Finance,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.929,5901,-0.29
+AGP-0076,Healthcare,Assistant,LangGraph,Abandoned,Cost Overrun,0.737,4264,-0.25
+AGP-0077,Legal,Assistant,CrewAI,Abandoned,Security Violation,0.666,5105,-0.43
+AGP-0078,Technology,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.587,8338,-0.63
+AGP-0079,Manufacturing,Autonomous,LangGraph,Pilot,Schema Drift,0.081,4666,1.19
+AGP-0080,Insurance,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.514,5031,1.02
+AGP-0081,Technology,Autonomous,LangGraph,Pilot,Security Violation,0.234,1594,1.1
+AGP-0082,Retail,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.637,3036,-0.7
+AGP-0083,Energy,Autonomous,LangGraph,Pilot,Security Violation,0.168,4529,0.68
+AGP-0084,Healthcare,Autonomous,LangGraph,Abandoned,Schema Drift,0.172,3581,0.09
+AGP-0085,Finance,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.11,2709,-0.67
+AGP-0086,Finance,Assistant,LangGraph,Pilot,Loop Error,0.818,4325,0.67
+AGP-0087,Technology,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.104,7230,0.99
+AGP-0088,Retail,Autonomous,LangGraph,Abandoned,Loop Error,0.063,4494,-0.84
+AGP-0089,Healthcare,Assistant,AutoGPT 3.0,Production,,0.856,7567,3.9
+AGP-0090,Manufacturing,Assistant,LangGraph,Pilot,Loop Error,0.729,4071,-0.29
+AGP-0091,Finance,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.32,4028,-0.19
+AGP-0092,Technology,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.69,8084,0.39
+AGP-0093,Retail,Assistant,LangGraph,Abandoned,Schema Drift,0.906,4615,-0.73
+AGP-0094,Retail,Autonomous,LangGraph,Abandoned,Security Violation,0.316,3587,-0.98
+AGP-0095,Legal,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.218,4117,-0.11
+AGP-0096,Technology,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.534,3880,-0.53
+AGP-0097,Legal,Autonomous,CrewAI,Pilot,Loop Error,0.478,3374,0.71
+AGP-0098,Finance,Assistant,CrewAI,Abandoned,Loop Error,0.924,5458,-0.47
+AGP-0099,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.62,7339,-0.2
+AGP-0100,Telecom,Multi-agent Swarm,AutoGPT 3.0,Production,,0.842,13518,2.86
+AGP-0101,Government,Assistant,CrewAI,Abandoned,Cost Overrun,0.576,5311,-0.64
+AGP-0102,Technology,Assistant,LangGraph,Abandoned,Loop Error,0.686,5070,0.2
+AGP-0103,Healthcare,Assistant,LangGraph,Pilot,Schema Drift,0.752,4314,0.22
+AGP-0104,Telecom,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.483,8391,-2.0
+AGP-0105,Insurance,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.249,5261,-0.87
+AGP-0106,Technology,Autonomous,CrewAI,Abandoned,Security Violation,0.052,5771,-0.69
+AGP-0107,Retail,Assistant,LangGraph,Abandoned,Loop Error,0.837,4825,0.05
+AGP-0108,Healthcare,Autonomous,LangGraph,Pilot,Schema Drift,0.234,3890,0.78
+AGP-0109,Finance,Assistant,CrewAI,Pilot,Security Violation,0.644,2517,0.42
+AGP-0110,Government,Assistant,AutoGPT 3.0,Abandoned,Schema Drift,0.807,8431,-1.06
+AGP-0111,Retail,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.561,5279,-0.12
+AGP-0112,Healthcare,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.528,3852,-1.57
+AGP-0113,Legal,Assistant,AutoGPT 3.0,Production,,0.838,3333,3.3
+AGP-0114,Manufacturing,Multi-agent Swarm,AutoGPT 3.0,Pilot,Security Violation,0.546,5152,0.72
+AGP-0115,Healthcare,Autonomous,LangGraph,Pilot,Security Violation,0.288,3380,1.22
+AGP-0116,Energy,Assistant,AutoGPT 3.0,Abandoned,Security Violation,0.83,5720,-0.21
+AGP-0117,Insurance,Autonomous,CrewAI,Pilot,Loop Error,0.213,4325,0.99
+AGP-0118,Technology,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.744,17728,0.12
+AGP-0119,Retail,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.407,5028,-1.04
+AGP-0120,Technology,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.663,6722,-0.85
+AGP-0121,Technology,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.662,7267,-0.06
+AGP-0122,Technology,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.31,6729,0.27
+AGP-0123,Finance,Autonomous,CrewAI,Pilot,Cost Overrun,0.195,3967,0.43
+AGP-0124,Retail,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.268,5507,0.46
+AGP-0125,Finance,Assistant,CrewAI,Pilot,Cost Overrun,0.921,2406,0.43
+AGP-0126,Manufacturing,Assistant,LangGraph,Pilot,Security Violation,0.784,5355,-0.51
+AGP-0127,Legal,Assistant,CrewAI,Abandoned,Schema Drift,0.67,4234,-0.55
+AGP-0128,Finance,Autonomous,LangGraph,Abandoned,Cost Overrun,0.098,2891,-0.67
+AGP-0129,Finance,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.012,6308,0.77
+AGP-0130,Technology,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.043,12199,-1.48
+AGP-0131,Healthcare,Autonomous,LangGraph,Production,,0.078,2721,3.83
+AGP-0132,Government,Assistant,LangGraph,Abandoned,Cost Overrun,0.969,5865,-0.16
+AGP-0133,Technology,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.236,6228,-0.64
+AGP-0134,Legal,Assistant,CrewAI,Production,,0.893,6632,2.47
+AGP-0135,Technology,Assistant,AutoGPT 3.0,Pilot,Schema Drift,0.326,5770,-0.03
+AGP-0136,Finance,Assistant,CrewAI,Pilot,Schema Drift,0.779,3386,1.09
+AGP-0137,Telecom,Assistant,LangGraph,Pilot,Schema Drift,0.853,5490,-0.2
+AGP-0138,Retail,Autonomous,LangGraph,Abandoned,Schema Drift,0.29,3377,-0.5
+AGP-0139,Insurance,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.299,7165,0.72
+AGP-0140,Finance,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.167,7987,0.9
+AGP-0141,Retail,Assistant,CrewAI,Pilot,Schema Drift,0.796,2219,1.63
+AGP-0142,Manufacturing,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.523,5238,-0.55
+AGP-0143,Government,Assistant,LangGraph,Pilot,Schema Drift,0.828,1945,2.72
+AGP-0144,Manufacturing,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.751,6347,-0.79
+AGP-0145,Retail,Autonomous,LangGraph,Abandoned,Security Violation,0.532,4698,-0.79
+AGP-0146,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Pilot,Schema Drift,0.405,8944,-0.8
+AGP-0147,Legal,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.909,8226,-1.24
+AGP-0148,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.899,5401,0.12
+AGP-0149,Retail,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.732,6008,-0.22
+AGP-0150,Finance,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.787,5377,-0.12
+AGP-0151,Energy,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.548,5758,-0.3
+AGP-0152,Government,Assistant,LangGraph,Pilot,Loop Error,0.872,3740,0.07
+AGP-0153,Finance,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.356,6501,-0.45
+AGP-0154,Manufacturing,Assistant,LangGraph,Pilot,Schema Drift,0.504,2421,-0.07
+AGP-0155,Finance,Assistant,LangGraph,Pilot,Schema Drift,0.39,3436,1.68
+AGP-0156,Technology,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.226,4486,0.21
+AGP-0157,Healthcare,Assistant,LangGraph,Abandoned,Cost Overrun,0.883,3802,-0.78
+AGP-0158,Technology,Assistant,CrewAI,Abandoned,Schema Drift,0.789,3940,-0.66
+AGP-0159,Technology,Autonomous,CrewAI,Pilot,Loop Error,0.296,4389,1.03
+AGP-0160,Insurance,Autonomous,LangGraph,Production,,0.465,4639,2.27
+AGP-0161,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Security Violation,0.605,9638,-0.53
+AGP-0162,Government,Assistant,AutoGPT 3.0,Abandoned,Schema Drift,0.733,1370,-1.32
+AGP-0163,Healthcare,Assistant,LangGraph,Production,,0.99,2364,1.0
+AGP-0164,Finance,Autonomous,LangGraph,Abandoned,Schema Drift,0.142,1935,-0.47
+AGP-0165,Manufacturing,Assistant,CrewAI,Pilot,Cost Overrun,0.745,500,1.41
+AGP-0166,Retail,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.433,5350,0.98
+AGP-0167,Energy,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.193,5495,-0.83
+AGP-0168,Energy,Autonomous,CrewAI,Pilot,Security Violation,0.261,3142,1.2
+AGP-0169,Legal,Assistant,LangGraph,Production,,0.99,2387,2.77
+AGP-0170,Telecom,Assistant,LangGraph,Pilot,Schema Drift,0.25,3375,-0.04
+AGP-0171,Legal,Assistant,CrewAI,Abandoned,Cost Overrun,0.774,3941,-0.47
+AGP-0172,Manufacturing,Assistant,CrewAI,Pilot,Cost Overrun,0.543,3520,0.83
+AGP-0173,Healthcare,Assistant,AutoGPT 3.0,Abandoned,Cost Overrun,0.707,8885,-1.18
+AGP-0174,Government,Assistant,LangGraph,Pilot,Cost Overrun,0.593,4852,0.21
+AGP-0175,Healthcare,Assistant,LangGraph,Pilot,Security Violation,0.717,4655,-0.03
+AGP-0176,Finance,Assistant,LangGraph,Production,,0.94,3286,2.84
+AGP-0177,Retail,Assistant,LangGraph,Pilot,Cost Overrun,0.65,4481,0.07
+AGP-0178,Telecom,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.866,6980,-1.18
+AGP-0179,Government,Assistant,CrewAI,Abandoned,Schema Drift,0.718,4584,0.7
+AGP-0180,Insurance,Autonomous,CrewAI,Abandoned,Loop Error,0.028,6717,0.14
+AGP-0181,Government,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.439,8709,-1.01
+AGP-0182,Government,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.296,5068,-0.39
+AGP-0183,Manufacturing,Autonomous,LangGraph,Pilot,Schema Drift,0.205,4617,0.46
+AGP-0184,Legal,Assistant,CrewAI,Abandoned,Security Violation,0.729,4111,-1.07
+AGP-0185,Insurance,Autonomous,LangGraph,Pilot,Security Violation,0.317,5336,0.19
+AGP-0186,Technology,Assistant,AutoGPT 3.0,Abandoned,Security Violation,0.682,5907,-0.37
+AGP-0187,Retail,Autonomous,LangGraph,Production,,0.772,1868,3.34
+AGP-0188,Finance,Assistant,CrewAI,Production,,0.711,4954,2.39
+AGP-0189,Insurance,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.064,1802,0.45
+AGP-0190,Healthcare,Assistant,CrewAI,Pilot,Schema Drift,0.498,2926,-0.67
+AGP-0191,Government,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.435,3093,1.5
+AGP-0192,Healthcare,Assistant,CrewAI,Pilot,Cost Overrun,0.902,4932,0.89
+AGP-0193,Finance,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.551,3448,0.64
+AGP-0194,Energy,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.533,5152,0.93
+AGP-0195,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.684,12496,0.85
+AGP-0196,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.136,5150,0.36
+AGP-0197,Technology,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.538,8503,0.75
+AGP-0198,Government,Autonomous,LangGraph,Abandoned,Loop Error,0.276,3537,-0.4
+AGP-0199,Healthcare,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.782,6274,1.7
+AGP-0200,Legal,Multi-agent Swarm,CrewAI,Production,,0.804,3987,3.12
+AGP-0201,Insurance,Assistant,LangGraph,Pilot,Loop Error,0.827,2948,1.53
+AGP-0202,Telecom,Assistant,LangGraph,Production,,0.763,4882,1.66
+AGP-0203,Manufacturing,Assistant,LangGraph,Production,,0.853,1799,2.11
+AGP-0204,Finance,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.787,5169,-0.56
+AGP-0205,Finance,Assistant,LangGraph,Pilot,Loop Error,0.555,2772,1.09
+AGP-0206,Healthcare,Assistant,LangGraph,Pilot,Cost Overrun,0.658,5051,1.34
+AGP-0207,Finance,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.424,7694,0.01
+AGP-0208,Technology,Autonomous,AutoGPT 3.0,Pilot,Schema Drift,0.078,6069,0.74
+AGP-0209,Finance,Autonomous,LangGraph,Pilot,Schema Drift,0.213,2851,0.81
+AGP-0210,Manufacturing,Assistant,LangGraph,Production,,0.854,2923,2.81
+AGP-0211,Technology,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.326,6964,1.24
+AGP-0212,Technology,Autonomous,LangGraph,Abandoned,Cost Overrun,0.052,2539,-0.13
+AGP-0213,Healthcare,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.07,5336,0.22
+AGP-0214,Energy,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.341,7707,0.24
+AGP-0215,Technology,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.465,5345,1.42
+AGP-0216,Insurance,Autonomous,CrewAI,Pilot,Schema Drift,0.52,5301,0.22
+AGP-0217,Finance,Assistant,LangGraph,Production,,0.553,3903,3.67
+AGP-0218,Finance,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.846,4508,0.44
+AGP-0219,Government,Autonomous,LangGraph,Abandoned,Loop Error,0.386,3139,0.98
+AGP-0220,Retail,Assistant,LangGraph,Pilot,Schema Drift,0.534,4078,1.14
+AGP-0221,Legal,Assistant,LangGraph,Pilot,Security Violation,0.587,3780,-0.22
+AGP-0222,Retail,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.766,6785,-0.67
+AGP-0223,Technology,Assistant,LangGraph,Pilot,Loop Error,0.672,3658,-0.71
+AGP-0224,Telecom,Assistant,LangGraph,Pilot,Loop Error,0.832,3887,1.35
+AGP-0225,Healthcare,Autonomous,CrewAI,Abandoned,Loop Error,0.208,2528,-1.4
+AGP-0226,Government,Assistant,CrewAI,Pilot,Loop Error,0.847,4735,-0.44
+AGP-0227,Finance,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.133,4001,1.27
+AGP-0228,Manufacturing,Autonomous,LangGraph,Pilot,Cost Overrun,0.225,2646,0.43
+AGP-0229,Technology,Assistant,LangGraph,Production,,0.663,3993,2.96
+AGP-0230,Finance,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.191,7402,-0.38
+AGP-0231,Finance,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.238,8250,-0.42
+AGP-0232,Retail,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.837,4916,1.42
+AGP-0233,Telecom,Assistant,LangGraph,Pilot,Loop Error,0.572,2806,0.49
+AGP-0234,Technology,Autonomous,LangGraph,Pilot,Cost Overrun,0.314,2521,-0.96
+AGP-0235,Government,Autonomous,CrewAI,Abandoned,Schema Drift,0.338,1942,-1.39
+AGP-0236,Energy,Assistant,CrewAI,Pilot,Cost Overrun,0.581,2357,0.14
+AGP-0237,Retail,Autonomous,LangGraph,Abandoned,Schema Drift,0.195,3497,-1.43
+AGP-0238,Insurance,Assistant,LangGraph,Pilot,Cost Overrun,0.791,3883,2.3
+AGP-0239,Finance,Assistant,CrewAI,Pilot,Schema Drift,0.884,5424,1.16
+AGP-0240,Finance,Assistant,CrewAI,Pilot,Loop Error,0.864,5085,-0.95
+AGP-0241,Energy,Autonomous,LangGraph,Production,,0.216,4122,2.99
+AGP-0242,Insurance,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.317,5619,2.17
+AGP-0243,Healthcare,Autonomous,LangGraph,Abandoned,Loop Error,0.303,3822,0.58
+AGP-0244,Manufacturing,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.335,6407,-0.21
+AGP-0245,Technology,Assistant,CrewAI,Abandoned,Schema Drift,0.526,6420,-0.38
+AGP-0246,Government,Multi-agent Swarm,CrewAI,Production,,0.582,3486,2.4
+AGP-0247,Technology,Autonomous,CrewAI,Production,,0.147,3128,2.05
+AGP-0248,Retail,Autonomous,LangGraph,Abandoned,Schema Drift,0.095,2531,0.15
+AGP-0249,Retail,Assistant,LangGraph,Pilot,Loop Error,0.649,3612,0.85
+AGP-0250,Retail,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.183,2043,-0.24
+AGP-0251,Technology,Autonomous,CrewAI,Abandoned,Loop Error,0.123,5632,-0.4
+AGP-0252,Government,Assistant,LangGraph,Pilot,Loop Error,0.505,3412,-0.27
+AGP-0253,Retail,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.635,5986,-1.13
+AGP-0254,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.319,10018,-1.27
+AGP-0255,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.36,10534,-0.19
+AGP-0256,Insurance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.266,7583,-1.81
+AGP-0257,Energy,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.752,8045,0.41
+AGP-0258,Finance,Assistant,CrewAI,Pilot,Schema Drift,0.755,5476,-0.08
+AGP-0259,Finance,Assistant,CrewAI,Pilot,Cost Overrun,0.861,1442,0.43
+AGP-0260,Technology,Assistant,LangGraph,Production,,0.665,5078,3.07
+AGP-0261,Finance,Assistant,CrewAI,Pilot,Cost Overrun,0.471,3479,-0.74
+AGP-0262,Energy,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.211,7064,-1.49
+AGP-0263,Legal,Autonomous,LangGraph,Pilot,Cost Overrun,0.392,2030,0.19
+AGP-0264,Finance,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.48,6581,0.05
+AGP-0265,Government,Autonomous,LangGraph,Abandoned,Security Violation,0.499,4327,0.12
+AGP-0266,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.536,8355,-0.26
+AGP-0267,Healthcare,Assistant,LangGraph,Abandoned,Security Violation,0.784,848,-1.31
+AGP-0268,Finance,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.567,5397,0.28
+AGP-0269,Finance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.562,15166,-0.93
+AGP-0270,Finance,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.368,10075,-1.68
+AGP-0271,Finance,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.393,4984,0.12
+AGP-0272,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Pilot,Schema Drift,0.557,6799,1.38
+AGP-0273,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.099,8809,-0.58
+AGP-0274,Technology,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.179,10579,-0.88
+AGP-0275,Technology,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.825,4206,-0.23
+AGP-0276,Retail,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.315,5372,0.1
+AGP-0277,Legal,Assistant,CrewAI,Pilot,Schema Drift,0.566,1830,0.92
+AGP-0278,Manufacturing,Assistant,CrewAI,Abandoned,Cost Overrun,0.681,5568,-0.87
+AGP-0279,Government,Autonomous,LangGraph,Pilot,Schema Drift,0.368,6013,-0.6
+AGP-0280,Energy,Autonomous,CrewAI,Abandoned,Security Violation,0.177,2204,-1.19
+AGP-0281,Finance,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.472,4884,-0.33
+AGP-0282,Healthcare,Autonomous,LangGraph,Pilot,Security Violation,0.539,4162,1.95
+AGP-0283,Healthcare,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.586,7996,-0.71
+AGP-0284,Healthcare,Assistant,LangGraph,Pilot,Cost Overrun,0.789,2568,1.9
+AGP-0285,Manufacturing,Autonomous,LangGraph,Pilot,Loop Error,0.221,1999,-0.91
+AGP-0286,Retail,Assistant,LangGraph,Abandoned,Cost Overrun,0.803,2716,0.03
+AGP-0287,Finance,Assistant,AutoGPT 3.0,Production,,0.827,10574,1.8
+AGP-0288,Retail,Assistant,CrewAI,Abandoned,Security Violation,0.572,4065,0.19
+AGP-0289,Manufacturing,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.602,6481,1.07
+AGP-0290,Finance,Assistant,CrewAI,Pilot,Cost Overrun,0.587,4891,1.41
+AGP-0291,Energy,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.466,10885,-1.36
+AGP-0292,Finance,Autonomous,CrewAI,Production,,0.07,3088,2.56
+AGP-0293,Government,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.72,7094,0.41
+AGP-0294,Finance,Multi-agent Swarm,CrewAI,Pilot,Security Violation,0.127,8569,0.64
+AGP-0295,Energy,Multi-agent Swarm,AutoGPT 3.0,Production,,0.99,8793,1.86
+AGP-0296,Government,Assistant,CrewAI,Abandoned,Schema Drift,0.544,3795,-0.21
+AGP-0297,Telecom,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.852,7170,0.21
+AGP-0298,Energy,Assistant,LangGraph,Abandoned,Cost Overrun,0.893,941,0.04
+AGP-0299,Insurance,Assistant,LangGraph,Pilot,Cost Overrun,0.811,2827,0.45
+AGP-0300,Technology,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.44,8636,-0.31
+AGP-0301,Insurance,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.913,4060,1.16
+AGP-0302,Finance,Assistant,CrewAI,Abandoned,Loop Error,0.593,3084,-1.06
+AGP-0303,Manufacturing,Autonomous,CrewAI,Pilot,Schema Drift,0.297,4342,0.95
+AGP-0304,Manufacturing,Assistant,LangGraph,Pilot,Loop Error,0.409,4521,0.52
+AGP-0305,Energy,Autonomous,LangGraph,Pilot,Security Violation,0.482,1839,0.8
+AGP-0306,Retail,Autonomous,CrewAI,Abandoned,Loop Error,0.137,4917,-0.47
+AGP-0307,Retail,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.108,9616,-0.58
+AGP-0308,Technology,Assistant,LangGraph,Pilot,Schema Drift,0.675,4225,-1.81
+AGP-0309,Healthcare,Autonomous,LangGraph,Abandoned,Schema Drift,0.371,4553,-0.84
+AGP-0310,Finance,Autonomous,LangGraph,Pilot,Loop Error,0.409,2809,0.81
+AGP-0311,Retail,Autonomous,CrewAI,Pilot,Cost Overrun,0.335,2329,0.72
+AGP-0312,Retail,Multi-agent Swarm,LangGraph,Production,,0.289,6487,5.0
+AGP-0313,Healthcare,Assistant,LangGraph,Abandoned,Schema Drift,0.802,4762,-0.77
+AGP-0314,Legal,Autonomous,CrewAI,Pilot,Security Violation,0.077,4115,0.96
+AGP-0315,Legal,Autonomous,LangGraph,Abandoned,Loop Error,0.259,4392,-0.12
+AGP-0316,Legal,Assistant,LangGraph,Pilot,Security Violation,0.826,4870,1.57
+AGP-0317,Retail,Autonomous,LangGraph,Production,,0.458,2421,1.79
+AGP-0318,Technology,Assistant,AutoGPT 3.0,Production,,0.705,6289,3.86
+AGP-0319,Legal,Assistant,LangGraph,Abandoned,Cost Overrun,0.92,3811,-0.62
+AGP-0320,Telecom,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.321,6556,1.07
+AGP-0321,Government,Autonomous,LangGraph,Abandoned,Cost Overrun,0.379,2960,-1.78
+AGP-0322,Retail,Assistant,CrewAI,Production,,0.62,1465,3.05
+AGP-0323,Legal,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.639,9314,0.36
+AGP-0324,Manufacturing,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.774,3872,1.05
+AGP-0325,Energy,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.778,6584,-0.36
+AGP-0326,Technology,Assistant,LangGraph,Pilot,Cost Overrun,0.754,6474,0.73
+AGP-0327,Energy,Assistant,CrewAI,Abandoned,Schema Drift,0.83,4817,-0.71
+AGP-0328,Manufacturing,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.459,7021,0.69
+AGP-0329,Technology,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.43,8548,-1.02
+AGP-0330,Healthcare,Assistant,LangGraph,Pilot,Security Violation,0.54,4022,1.14
+AGP-0331,Insurance,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.231,2639,-1.22
+AGP-0332,Healthcare,Assistant,CrewAI,Production,,0.886,4878,2.07
+AGP-0333,Technology,Assistant,LangGraph,Pilot,Schema Drift,0.726,1412,0.86
+AGP-0334,Government,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.636,7654,-0.45
+AGP-0335,Finance,Assistant,LangGraph,Production,,0.795,2722,2.82
+AGP-0336,Technology,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.862,1505,2.05
+AGP-0337,Finance,Assistant,CrewAI,Pilot,Cost Overrun,0.713,3736,-0.06
+AGP-0338,Technology,Autonomous,CrewAI,Abandoned,Loop Error,0.095,3835,0.01
+AGP-0339,Finance,Assistant,AutoGPT 3.0,Abandoned,Security Violation,0.468,5843,-0.43
+AGP-0340,Government,Autonomous,LangGraph,Pilot,Cost Overrun,0.072,1218,0.29
+AGP-0341,Finance,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.75,8817,-1.91
+AGP-0342,Telecom,Assistant,LangGraph,Pilot,Loop Error,0.736,1706,1.6
+AGP-0343,Energy,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.838,7801,0.77
+AGP-0344,Technology,Autonomous,CrewAI,Production,,0.293,4758,1.61
+AGP-0345,Insurance,Autonomous,LangGraph,Pilot,Security Violation,0.309,3362,0.13
+AGP-0346,Insurance,Assistant,LangGraph,Pilot,Loop Error,0.845,3580,0.21
+AGP-0347,Telecom,Autonomous,CrewAI,Production,,0.506,3343,2.21
+AGP-0348,Healthcare,Autonomous,CrewAI,Pilot,Loop Error,0.673,4375,0.36
+AGP-0349,Technology,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.923,6210,0.01
+AGP-0350,Finance,Assistant,LangGraph,Abandoned,Loop Error,0.222,3670,-0.08
+AGP-0351,Technology,Assistant,AutoGPT 3.0,Production,,0.653,6194,2.49
+AGP-0352,Healthcare,Assistant,AutoGPT 3.0,Abandoned,Schema Drift,0.858,4196,0.22
+AGP-0353,Manufacturing,Multi-agent Swarm,CrewAI,Production,,0.501,6129,3.65
+AGP-0354,Manufacturing,Autonomous,CrewAI,Production,,0.458,3255,4.23
+AGP-0355,Retail,Multi-agent Swarm,AutoGPT 3.0,Pilot,Schema Drift,0.685,10320,0.55
+AGP-0356,Manufacturing,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.546,10234,-1.22
+AGP-0357,Insurance,Assistant,CrewAI,Pilot,Loop Error,0.911,4684,-0.34
+AGP-0358,Insurance,Assistant,LangGraph,Pilot,Security Violation,0.685,2175,0.96
+AGP-0359,Manufacturing,Assistant,LangGraph,Abandoned,Loop Error,0.618,4103,0.3
+AGP-0360,Technology,Assistant,AutoGPT 3.0,Production,,0.974,11860,2.11
+AGP-0361,Government,Assistant,CrewAI,Production,,0.922,3607,2.06
+AGP-0362,Finance,Assistant,LangGraph,Pilot,Security Violation,0.823,3029,0.26
+AGP-0363,Finance,Autonomous,LangGraph,Pilot,Cost Overrun,0.487,4345,-0.12
+AGP-0364,Finance,Autonomous,AutoGPT 3.0,Production,,0.568,4738,1.79
+AGP-0365,Technology,Assistant,AutoGPT 3.0,Production,,0.639,4686,2.7
+AGP-0366,Retail,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.373,5276,-0.28
+AGP-0367,Insurance,Assistant,CrewAI,Pilot,Security Violation,0.494,3816,-0.4
+AGP-0368,Technology,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.742,4751,1.82
+AGP-0369,Legal,Multi-agent Swarm,AutoGPT 3.0,Production,,0.789,17379,0.99
+AGP-0370,Government,Autonomous,LangGraph,Abandoned,Security Violation,0.209,3966,-0.9
+AGP-0371,Insurance,Assistant,LangGraph,Pilot,Loop Error,0.707,2724,1.96
+AGP-0372,Healthcare,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.961,9961,0.75
+AGP-0373,Legal,Autonomous,LangGraph,Pilot,Loop Error,0.324,3564,0.44
+AGP-0374,Legal,Autonomous,CrewAI,Pilot,Schema Drift,0.325,7963,-0.06
+AGP-0375,Finance,Autonomous,CrewAI,Production,,0.298,3218,2.84
+AGP-0376,Finance,Autonomous,CrewAI,Pilot,Schema Drift,0.24,5183,0.55
+AGP-0377,Government,Autonomous,LangGraph,Abandoned,Cost Overrun,0.361,5138,-0.4
+AGP-0378,Retail,Assistant,CrewAI,Abandoned,Schema Drift,0.885,4771,-0.72
+AGP-0379,Retail,Assistant,LangGraph,Abandoned,Cost Overrun,0.807,3423,-0.77
+AGP-0380,Technology,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.229,9031,-0.95
+AGP-0381,Manufacturing,Autonomous,LangGraph,Pilot,Cost Overrun,0.226,4364,0.21
+AGP-0382,Government,Autonomous,CrewAI,Pilot,Loop Error,0.154,4107,-0.17
+AGP-0383,Insurance,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.496,7515,1.36
+AGP-0384,Retail,Autonomous,LangGraph,Abandoned,Schema Drift,0.034,4141,-1.54
+AGP-0385,Retail,Assistant,LangGraph,Pilot,Schema Drift,0.849,3632,0.36
+AGP-0386,Telecom,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.097,4155,-0.05
+AGP-0387,Technology,Autonomous,LangGraph,Pilot,Loop Error,0.207,3728,-0.25
+AGP-0388,Telecom,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.535,6892,0.56
+AGP-0389,Finance,Autonomous,CrewAI,Abandoned,Cost Overrun,0.433,4845,-1.0
+AGP-0390,Energy,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.448,4374,0.03
+AGP-0391,Technology,Autonomous,CrewAI,Production,,0.319,2221,2.13
+AGP-0392,Finance,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.207,8669,-1.26
+AGP-0393,Technology,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.704,2859,-0.03
+AGP-0394,Technology,Assistant,CrewAI,Pilot,Schema Drift,0.647,3153,0.02
+AGP-0395,Finance,Multi-agent Swarm,CrewAI,Pilot,Security Violation,0.719,4294,0.13
+AGP-0396,Retail,Autonomous,LangGraph,Abandoned,Cost Overrun,0.195,2160,-0.44
+AGP-0397,Energy,Multi-agent Swarm,LangGraph,Production,,0.634,6764,4.35
+AGP-0398,Legal,Autonomous,LangGraph,Pilot,Security Violation,0.185,3549,0.84
+AGP-0399,Retail,Assistant,CrewAI,Abandoned,Cost Overrun,0.762,3977,0.07
+AGP-0400,Retail,Assistant,LangGraph,Pilot,Loop Error,0.903,4795,-0.05
+AGP-0401,Legal,Assistant,CrewAI,Pilot,Cost Overrun,0.863,2152,1.76
+AGP-0402,Government,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.301,5675,-1.28
+AGP-0403,Insurance,Autonomous,LangGraph,Abandoned,Cost Overrun,0.718,1834,-0.99
+AGP-0404,Finance,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.657,4254,-0.88
+AGP-0405,Telecom,Assistant,CrewAI,Abandoned,Loop Error,0.798,5278,-0.97
+AGP-0406,Government,Assistant,CrewAI,Pilot,Loop Error,0.287,3974,0.66
+AGP-0407,Healthcare,Multi-agent Swarm,LangGraph,Production,,0.352,7708,3.7
+AGP-0408,Energy,Autonomous,LangGraph,Abandoned,Loop Error,0.637,4652,0.46
+AGP-0409,Finance,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.377,4765,-0.39
+AGP-0410,Telecom,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.779,5658,0.84
+AGP-0411,Technology,Assistant,LangGraph,Abandoned,Loop Error,0.429,3119,0.44
+AGP-0412,Technology,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.211,2540,0.35
+AGP-0413,Finance,Assistant,LangGraph,Pilot,Loop Error,0.633,2728,1.22
+AGP-0414,Government,Assistant,LangGraph,Abandoned,Security Violation,0.786,5065,0.39
+AGP-0415,Finance,Assistant,CrewAI,Abandoned,Cost Overrun,0.786,3695,-0.18
+AGP-0416,Healthcare,Autonomous,CrewAI,Abandoned,Schema Drift,0.213,3499,-0.78
+AGP-0417,Finance,Autonomous,LangGraph,Abandoned,Loop Error,0.087,3942,-1.18
+AGP-0418,Insurance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Schema Drift,0.284,10728,0.15
+AGP-0419,Healthcare,Autonomous,LangGraph,Abandoned,Cost Overrun,0.29,4094,0.0
+AGP-0420,Government,Assistant,LangGraph,Pilot,Security Violation,0.803,2489,-0.06
+AGP-0421,Technology,Multi-agent Swarm,LangGraph,Production,,0.803,4332,2.24
+AGP-0422,Finance,Autonomous,CrewAI,Pilot,Cost Overrun,0.12,5577,0.17
+AGP-0423,Finance,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.726,7542,-0.72
+AGP-0424,Finance,Assistant,LangGraph,Production,,0.958,5514,4.39
+AGP-0425,Technology,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.139,7243,-1.14
+AGP-0426,Energy,Assistant,CrewAI,Pilot,Schema Drift,0.729,3956,0.06
+AGP-0427,Healthcare,Assistant,AutoGPT 3.0,Pilot,Schema Drift,0.442,1823,1.58
+AGP-0428,Energy,Assistant,AutoGPT 3.0,Pilot,Schema Drift,0.831,10763,0.1
+AGP-0429,Finance,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.742,4319,-0.04
+AGP-0430,Energy,Assistant,CrewAI,Production,,0.99,3571,1.88
+AGP-0431,Government,Assistant,LangGraph,Pilot,Loop Error,0.576,4093,0.83
+AGP-0432,Insurance,Autonomous,CrewAI,Production,,0.113,3908,3.56
+AGP-0433,Technology,Assistant,CrewAI,Pilot,Loop Error,0.923,4282,1.33
+AGP-0434,Energy,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.491,6770,-0.5
+AGP-0435,Finance,Assistant,CrewAI,Production,,0.948,3417,2.8
+AGP-0436,Healthcare,Assistant,LangGraph,Pilot,Cost Overrun,0.518,848,1.32
+AGP-0437,Finance,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.217,6927,0.42
+AGP-0438,Manufacturing,Autonomous,LangGraph,Pilot,Schema Drift,0.084,5571,0.86
+AGP-0439,Insurance,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.15,4745,2.13
+AGP-0440,Technology,Autonomous,LangGraph,Abandoned,Loop Error,0.438,2499,-0.3
+AGP-0441,Energy,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.191,3816,-0.66
+AGP-0442,Finance,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.272,4487,-0.28
+AGP-0443,Insurance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.238,14013,-1.44
+AGP-0444,Healthcare,Autonomous,CrewAI,Production,,0.219,4881,2.81
+AGP-0445,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.202,6625,-0.7
+AGP-0446,Technology,Assistant,LangGraph,Pilot,Loop Error,0.698,3065,-0.55
+AGP-0447,Telecom,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.116,8635,-0.11
+AGP-0448,Technology,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.704,8538,0.15
+AGP-0449,Finance,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.116,6488,1.16
+AGP-0450,Technology,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.536,9170,-0.69
+AGP-0451,Finance,Autonomous,LangGraph,Abandoned,Security Violation,0.079,3157,-0.3
+AGP-0452,Government,Multi-agent Swarm,CrewAI,Production,,0.737,5024,2.14
+AGP-0453,Technology,Autonomous,CrewAI,Abandoned,Loop Error,0.149,2407,0.04
+AGP-0454,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.626,8937,-0.41
+AGP-0455,Finance,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.636,11545,-1.07
+AGP-0456,Healthcare,Autonomous,CrewAI,Abandoned,Cost Overrun,0.135,4179,-0.1
+AGP-0457,Telecom,Autonomous,LangGraph,Pilot,Schema Drift,0.235,3510,1.3
+AGP-0458,Retail,Autonomous,CrewAI,Pilot,Cost Overrun,0.266,4242,0.56
+AGP-0459,Insurance,Autonomous,LangGraph,Pilot,Security Violation,0.09,3075,1.07
+AGP-0460,Technology,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.3,7479,-1.33
+AGP-0461,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Security Violation,0.571,7141,-1.08
+AGP-0462,Finance,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.496,9815,-0.03
+AGP-0463,Telecom,Autonomous,LangGraph,Abandoned,Loop Error,0.034,2580,-0.49
+AGP-0464,Legal,Assistant,CrewAI,Abandoned,Loop Error,0.663,2897,-0.73
+AGP-0465,Manufacturing,Autonomous,LangGraph,Pilot,Cost Overrun,0.095,4957,1.31
+AGP-0466,Technology,Assistant,AutoGPT 3.0,Abandoned,Cost Overrun,0.826,3613,0.16
+AGP-0467,Technology,Autonomous,AutoGPT 3.0,Production,,0.519,9925,0.45
+AGP-0468,Telecom,Autonomous,LangGraph,Abandoned,Security Violation,0.157,2820,-0.58
+AGP-0469,Finance,Assistant,CrewAI,Pilot,Loop Error,0.699,2956,-1.23
+AGP-0470,Manufacturing,Autonomous,LangGraph,Pilot,Loop Error,0.042,4382,-0.16
+AGP-0471,Retail,Assistant,CrewAI,Production,,0.845,5164,1.91
+AGP-0472,Retail,Assistant,LangGraph,Pilot,Cost Overrun,0.572,5060,-0.21
+AGP-0473,Finance,Autonomous,AutoGPT 3.0,Production,,0.394,4623,2.69
+AGP-0474,Finance,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.323,5164,-0.55
+AGP-0475,Healthcare,Assistant,CrewAI,Abandoned,Schema Drift,0.883,4609,-0.89
+AGP-0476,Legal,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.381,5622,-0.66
+AGP-0477,Retail,Assistant,LangGraph,Abandoned,Loop Error,0.392,3663,0.02
+AGP-0478,Technology,Assistant,CrewAI,Abandoned,Cost Overrun,0.609,4786,-0.5
+AGP-0479,Technology,Assistant,CrewAI,Abandoned,Security Violation,0.723,5545,-0.13
+AGP-0480,Retail,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.292,12439,0.58
+AGP-0481,Retail,Assistant,LangGraph,Pilot,Schema Drift,0.471,1197,1.7
+AGP-0482,Healthcare,Autonomous,LangGraph,Abandoned,Schema Drift,0.178,4051,-1.18
+AGP-0483,Technology,Autonomous,LangGraph,Abandoned,Loop Error,0.2,3721,-0.8
+AGP-0484,Legal,Assistant,LangGraph,Abandoned,Schema Drift,0.581,2863,-1.5
+AGP-0485,Finance,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.196,12767,-0.14
+AGP-0486,Retail,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.538,7376,0.79
+AGP-0487,Retail,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.24,4619,-0.36
+AGP-0488,Healthcare,Assistant,LangGraph,Abandoned,Loop Error,0.655,4612,-1.02
+AGP-0489,Manufacturing,Autonomous,LangGraph,Abandoned,Loop Error,0.208,5332,-0.11
+AGP-0490,Manufacturing,Assistant,CrewAI,Abandoned,Schema Drift,0.85,6638,-0.58
+AGP-0491,Technology,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.199,7132,-0.44
+AGP-0492,Technology,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.29,8876,-0.74
+AGP-0493,Technology,Autonomous,LangGraph,Pilot,Loop Error,0.379,4903,0.56
+AGP-0494,Legal,Assistant,LangGraph,Abandoned,Schema Drift,0.63,3713,-0.62
+AGP-0495,Insurance,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.602,8167,1.31
+AGP-0496,Manufacturing,Assistant,LangGraph,Pilot,Cost Overrun,0.396,5253,-1.18
+AGP-0497,Retail,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.956,6872,0.87
+AGP-0498,Technology,Autonomous,LangGraph,Production,,0.566,4578,4.06
+AGP-0499,Legal,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.354,7576,0.7
+AGP-0500,Manufacturing,Autonomous,LangGraph,Abandoned,Security Violation,0.24,2897,-0.99
+AGP-0501,Insurance,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.175,4387,0.53
+AGP-0502,Government,Assistant,CrewAI,Abandoned,Security Violation,0.611,4701,-0.19
+AGP-0503,Government,Autonomous,LangGraph,Pilot,Security Violation,0.221,3278,0.76
+AGP-0504,Manufacturing,Assistant,CrewAI,Pilot,Cost Overrun,0.894,4232,0.25
+AGP-0505,Manufacturing,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.271,10857,-1.96
+AGP-0506,Insurance,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.448,4926,-1.69
+AGP-0507,Legal,Assistant,LangGraph,Production,,0.47,1092,2.23
+AGP-0508,Energy,Autonomous,LangGraph,Abandoned,Security Violation,0.283,2232,-0.52
+AGP-0509,Manufacturing,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.186,6661,-0.3
+AGP-0510,Finance,Multi-agent Swarm,CrewAI,Production,,0.732,10694,1.57
+AGP-0511,Finance,Autonomous,LangGraph,Abandoned,Loop Error,0.171,3540,-0.81
+AGP-0512,Energy,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.191,4844,0.39
+AGP-0513,Finance,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.19,4010,-0.93
+AGP-0514,Healthcare,Assistant,LangGraph,Pilot,Schema Drift,0.735,2783,0.4
+AGP-0515,Legal,Autonomous,LangGraph,Pilot,Schema Drift,0.133,3795,-0.21
+AGP-0516,Healthcare,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.794,7869,-0.22
+AGP-0517,Legal,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.35,4594,-0.39
+AGP-0518,Insurance,Autonomous,LangGraph,Abandoned,Security Violation,0.228,4054,-0.13
+AGP-0519,Finance,Autonomous,LangGraph,Pilot,Security Violation,0.414,3121,-0.53
+AGP-0520,Energy,Autonomous,CrewAI,Abandoned,Schema Drift,0.216,4785,0.21
+AGP-0521,Energy,Assistant,CrewAI,Pilot,Cost Overrun,0.711,2574,1.06
+AGP-0522,Retail,Assistant,LangGraph,Pilot,Security Violation,0.772,3479,0.15
+AGP-0523,Finance,Assistant,CrewAI,Abandoned,Cost Overrun,0.728,3717,0.1
+AGP-0524,Technology,Assistant,CrewAI,Pilot,Schema Drift,0.4,3656,0.52
+AGP-0525,Finance,Autonomous,LangGraph,Pilot,Cost Overrun,0.194,3437,-0.95
+AGP-0526,Legal,Autonomous,AutoGPT 3.0,Production,,0.381,6482,3.15
+AGP-0527,Telecom,Autonomous,LangGraph,Pilot,Loop Error,0.084,5510,0.86
+AGP-0528,Telecom,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.306,5398,-1.2
+AGP-0529,Insurance,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.358,9220,-0.87
+AGP-0530,Legal,Assistant,AutoGPT 3.0,Production,,0.99,7099,2.64
+AGP-0531,Technology,Multi-agent Swarm,LangGraph,Production,,0.921,4321,2.46
+AGP-0532,Technology,Autonomous,AutoGPT 3.0,Pilot,Schema Drift,0.064,4543,0.79
+AGP-0533,Retail,Autonomous,CrewAI,Production,,0.342,3096,4.31
+AGP-0534,Technology,Autonomous,LangGraph,Pilot,Loop Error,0.206,3497,0.51
+AGP-0535,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.533,12093,-0.26
+AGP-0536,Healthcare,Assistant,AutoGPT 3.0,Abandoned,Security Violation,0.852,7796,-1.14
+AGP-0537,Manufacturing,Assistant,LangGraph,Pilot,Cost Overrun,0.832,4205,0.56
+AGP-0538,Healthcare,Autonomous,CrewAI,Production,,0.387,5166,3.7
+AGP-0539,Healthcare,Autonomous,LangGraph,Pilot,Cost Overrun,0.301,3152,0.49
+AGP-0540,Energy,Assistant,LangGraph,Abandoned,Cost Overrun,0.956,2568,-0.42
+AGP-0541,Telecom,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.724,6927,0.11
+AGP-0542,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.254,3662,0.98
+AGP-0543,Energy,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.701,11861,-1.18
+AGP-0544,Telecom,Assistant,CrewAI,Pilot,Loop Error,0.638,2366,1.65
+AGP-0545,Finance,Assistant,CrewAI,Abandoned,Loop Error,0.43,3783,-0.14
+AGP-0546,Retail,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.45,3419,-0.39
+AGP-0547,Retail,Assistant,AutoGPT 3.0,Production,,0.911,4320,1.64
+AGP-0548,Finance,Assistant,CrewAI,Abandoned,Schema Drift,0.774,6007,-0.06
+AGP-0549,Insurance,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.45,4872,1.51
+AGP-0550,Retail,Autonomous,CrewAI,Abandoned,Cost Overrun,0.404,3959,-1.13
+AGP-0551,Retail,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.351,4257,-0.26
+AGP-0552,Finance,Autonomous,LangGraph,Abandoned,Security Violation,0.023,3977,0.23
+AGP-0553,Healthcare,Assistant,LangGraph,Abandoned,Security Violation,0.877,5422,-1.5
+AGP-0554,Government,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.733,7512,-1.33
+AGP-0555,Finance,Assistant,CrewAI,Abandoned,Loop Error,0.801,5678,-0.0
+AGP-0556,Healthcare,Assistant,AutoGPT 3.0,Production,,0.723,6304,1.98
+AGP-0557,Legal,Assistant,LangGraph,Production,,0.704,2132,1.33
+AGP-0558,Manufacturing,Autonomous,LangGraph,Pilot,Loop Error,0.296,2886,0.61
+AGP-0559,Technology,Autonomous,CrewAI,Abandoned,Schema Drift,0.117,6259,-0.43
+AGP-0560,Manufacturing,Autonomous,LangGraph,Abandoned,Loop Error,0.198,5391,-1.44
+AGP-0561,Finance,Assistant,AutoGPT 3.0,Production,,0.743,8273,1.39
+AGP-0562,Healthcare,Assistant,LangGraph,Pilot,Schema Drift,0.817,3663,1.45
+AGP-0563,Energy,Autonomous,LangGraph,Production,,0.214,4134,3.3
+AGP-0564,Technology,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.709,2845,-0.38
+AGP-0565,Technology,Assistant,AutoGPT 3.0,Abandoned,Security Violation,0.739,5124,-1.06
+AGP-0566,Technology,Assistant,LangGraph,Pilot,Loop Error,0.674,3313,1.91
+AGP-0567,Insurance,Assistant,CrewAI,Pilot,Schema Drift,0.289,3737,1.6
+AGP-0568,Finance,Autonomous,LangGraph,Pilot,Cost Overrun,0.18,2664,1.38
+AGP-0569,Legal,Assistant,LangGraph,Pilot,Security Violation,0.886,2412,-0.23
+AGP-0570,Manufacturing,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.658,6214,-0.67
+AGP-0571,Legal,Autonomous,LangGraph,Pilot,Security Violation,0.251,2790,0.11
+AGP-0572,Energy,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.425,3743,0.3
+AGP-0573,Retail,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.742,4604,0.93
+AGP-0574,Insurance,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.732,3557,0.77
+AGP-0575,Energy,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.385,7736,-0.52
+AGP-0576,Manufacturing,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.629,10027,-0.55
+AGP-0577,Government,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.051,7882,0.62
+AGP-0578,Technology,Assistant,CrewAI,Pilot,Schema Drift,0.856,3661,1.27
+AGP-0579,Energy,Assistant,AutoGPT 3.0,Abandoned,Cost Overrun,0.898,6019,-0.05
+AGP-0580,Legal,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.057,8227,-0.88
+AGP-0581,Manufacturing,Autonomous,CrewAI,Pilot,Loop Error,0.26,2508,1.49
+AGP-0582,Manufacturing,Autonomous,LangGraph,Abandoned,Loop Error,0.063,3182,-0.9
+AGP-0583,Finance,Assistant,LangGraph,Pilot,Loop Error,0.913,2850,-0.1
+AGP-0584,Retail,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.798,4825,0.13
+AGP-0585,Government,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.799,7022,0.48
+AGP-0586,Technology,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.035,7980,-0.99
+AGP-0587,Healthcare,Autonomous,CrewAI,Abandoned,Loop Error,0.471,6762,0.64
+AGP-0588,Legal,Assistant,LangGraph,Pilot,Security Violation,0.617,4175,1.25
+AGP-0589,Healthcare,Assistant,CrewAI,Pilot,Schema Drift,0.886,3468,-0.23
+AGP-0590,Finance,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.19,6544,0.42
+AGP-0591,Government,Multi-agent Swarm,CrewAI,Pilot,Security Violation,0.301,6016,0.23
+AGP-0592,Retail,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.27,17185,1.58
+AGP-0593,Legal,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.419,3553,-0.27
+AGP-0594,Technology,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.367,6024,-0.5
+AGP-0595,Finance,Assistant,CrewAI,Pilot,Loop Error,0.938,3986,0.42
+AGP-0596,Healthcare,Autonomous,CrewAI,Abandoned,Security Violation,0.057,3718,-0.88
+AGP-0597,Technology,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.131,5104,0.87
+AGP-0598,Technology,Assistant,LangGraph,Production,,0.742,4326,3.7
+AGP-0599,Telecom,Autonomous,CrewAI,Pilot,Loop Error,0.113,2676,0.13
+AGP-0600,Technology,Autonomous,CrewAI,Abandoned,Schema Drift,0.192,2834,-0.24
+AGP-0601,Retail,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.651,10094,0.89
+AGP-0602,Insurance,Autonomous,LangGraph,Pilot,Security Violation,0.037,4303,1.89
+AGP-0603,Government,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.315,8723,-1.96
+AGP-0604,Technology,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Security Violation,0.135,10464,-1.05
+AGP-0605,Telecom,Assistant,CrewAI,Production,,0.781,5190,3.56
+AGP-0606,Insurance,Assistant,CrewAI,Pilot,Loop Error,0.669,2492,1.61
+AGP-0607,Government,Autonomous,LangGraph,Pilot,Schema Drift,0.166,2258,-1.4
+AGP-0608,Finance,Assistant,CrewAI,Abandoned,Cost Overrun,0.795,4075,-0.41
+AGP-0609,Insurance,Autonomous,CrewAI,Abandoned,Loop Error,0.263,5854,-0.18
+AGP-0610,Retail,Multi-agent Swarm,CrewAI,Production,,0.195,8763,3.21
+AGP-0611,Manufacturing,Autonomous,LangGraph,Pilot,Schema Drift,0.531,5026,0.45
+AGP-0612,Technology,Autonomous,CrewAI,Pilot,Cost Overrun,0.09,1202,2.56
+AGP-0613,Telecom,Assistant,LangGraph,Abandoned,Loop Error,0.815,4031,-1.02
+AGP-0614,Telecom,Assistant,CrewAI,Production,,0.94,2855,4.57
+AGP-0615,Healthcare,Assistant,CrewAI,Pilot,Schema Drift,0.668,4208,0.71
+AGP-0616,Insurance,Assistant,LangGraph,Abandoned,Cost Overrun,0.85,3665,-0.75
+AGP-0617,Insurance,Autonomous,CrewAI,Production,,0.402,5167,2.8
+AGP-0618,Legal,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.693,6242,1.07
+AGP-0619,Finance,Autonomous,CrewAI,Pilot,Loop Error,0.168,6439,0.06
+AGP-0620,Finance,Autonomous,LangGraph,Abandoned,Loop Error,0.103,6853,-0.52
+AGP-0621,Insurance,Autonomous,CrewAI,Pilot,Security Violation,0.074,6023,0.54
+AGP-0622,Retail,Autonomous,LangGraph,Production,,0.519,5374,2.56
+AGP-0623,Telecom,Autonomous,CrewAI,Abandoned,Security Violation,0.214,5455,-0.54
+AGP-0624,Retail,Assistant,CrewAI,Pilot,Cost Overrun,0.912,2628,1.04
+AGP-0625,Telecom,Autonomous,LangGraph,Abandoned,Schema Drift,0.282,1185,-0.31
+AGP-0626,Retail,Autonomous,CrewAI,Pilot,Loop Error,0.223,6670,-0.14
+AGP-0627,Insurance,Assistant,CrewAI,Pilot,Schema Drift,0.838,3904,0.6
+AGP-0628,Finance,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.186,6285,-0.32
+AGP-0629,Manufacturing,Assistant,LangGraph,Production,,0.754,2517,1.52
+AGP-0630,Energy,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.542,3943,-0.94
+AGP-0631,Government,Assistant,CrewAI,Production,,0.613,2348,4.05
+AGP-0632,Energy,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.728,3909,-0.71
+AGP-0633,Finance,Autonomous,CrewAI,Abandoned,Loop Error,0.428,5097,-0.3
+AGP-0634,Retail,Autonomous,LangGraph,Abandoned,Loop Error,0.221,3224,-0.02
+AGP-0635,Finance,Assistant,LangGraph,Pilot,Security Violation,0.932,2907,0.65
+AGP-0636,Finance,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.555,7770,0.49
+AGP-0637,Technology,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.444,8526,0.66
+AGP-0638,Technology,Autonomous,CrewAI,Pilot,Schema Drift,0.225,3450,0.33
+AGP-0639,Insurance,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.468,5698,-0.5
+AGP-0640,Government,Assistant,CrewAI,Pilot,Security Violation,0.961,3674,0.1
+AGP-0641,Insurance,Autonomous,LangGraph,Pilot,Cost Overrun,0.028,2967,0.66
+AGP-0642,Energy,Autonomous,AutoGPT 3.0,Pilot,Schema Drift,0.242,6714,1.4
+AGP-0643,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Security Violation,0.589,7757,-0.9
+AGP-0644,Healthcare,Autonomous,LangGraph,Pilot,Security Violation,0.115,4781,0.27
+AGP-0645,Technology,Multi-agent Swarm,CrewAI,Production,,0.459,2827,2.78
+AGP-0646,Energy,Assistant,LangGraph,Production,,0.835,4656,2.83
+AGP-0647,Finance,Assistant,CrewAI,Pilot,Cost Overrun,0.91,6441,0.95
+AGP-0648,Manufacturing,Assistant,LangGraph,Pilot,Loop Error,0.547,4180,1.11
+AGP-0649,Technology,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.509,5890,-1.28
+AGP-0650,Finance,Autonomous,LangGraph,Pilot,Cost Overrun,0.017,3108,1.22
+AGP-0651,Retail,Autonomous,AutoGPT 3.0,Production,,0.155,5514,1.55
+AGP-0652,Government,Assistant,CrewAI,Pilot,Loop Error,0.692,5661,0.96
+AGP-0653,Technology,Assistant,CrewAI,Production,,0.757,6855,0.7
+AGP-0654,Healthcare,Autonomous,LangGraph,Abandoned,Cost Overrun,0.248,4870,0.11
+AGP-0655,Energy,Autonomous,LangGraph,Abandoned,Schema Drift,0.426,2159,-1.22
+AGP-0656,Legal,Autonomous,LangGraph,Abandoned,Security Violation,0.397,3731,-1.06
+AGP-0657,Energy,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.418,5563,-0.39
+AGP-0658,Legal,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.167,7208,0.09
+AGP-0659,Technology,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.51,6177,1.61
+AGP-0660,Retail,Autonomous,CrewAI,Pilot,Loop Error,0.358,3015,2.33
+AGP-0661,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.315,4474,0.66
+AGP-0662,Government,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.048,7711,1.13
+AGP-0663,Healthcare,Autonomous,CrewAI,Pilot,Loop Error,0.506,2165,1.74
+AGP-0664,Finance,Assistant,LangGraph,Pilot,Loop Error,0.756,5383,0.55
+AGP-0665,Legal,Assistant,LangGraph,Pilot,Security Violation,0.799,2240,0.22
+AGP-0666,Technology,Assistant,CrewAI,Production,,0.501,8044,2.1
+AGP-0667,Energy,Autonomous,LangGraph,Abandoned,Cost Overrun,0.145,4284,0.04
+AGP-0668,Telecom,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.328,4055,0.75
+AGP-0669,Legal,Autonomous,CrewAI,Pilot,Schema Drift,0.217,5563,2.19
+AGP-0670,Retail,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.643,11381,0.97
+AGP-0671,Finance,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.536,5521,0.13
+AGP-0672,Manufacturing,Assistant,AutoGPT 3.0,Production,,0.572,10939,2.29
+AGP-0673,Telecom,Assistant,LangGraph,Production,,0.99,1829,2.87
+AGP-0674,Technology,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.48,3485,0.9
+AGP-0675,Technology,Assistant,CrewAI,Pilot,Cost Overrun,0.626,2744,0.34
+AGP-0676,Retail,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.368,5015,-0.74
+AGP-0677,Government,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.204,6735,-0.65
+AGP-0678,Manufacturing,Assistant,CrewAI,Production,,0.771,5620,2.41
+AGP-0679,Finance,Autonomous,AutoGPT 3.0,Production,,0.125,5675,2.63
+AGP-0680,Legal,Assistant,LangGraph,Pilot,Loop Error,0.546,3931,0.81
+AGP-0681,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Security Violation,0.663,11184,1.19
+AGP-0682,Healthcare,Autonomous,LangGraph,Abandoned,Schema Drift,0.238,3462,0.28
+AGP-0683,Finance,Assistant,LangGraph,Pilot,Loop Error,0.403,3667,1.35
+AGP-0684,Retail,Autonomous,CrewAI,Pilot,Schema Drift,0.196,4562,0.12
+AGP-0685,Technology,Autonomous,CrewAI,Pilot,Loop Error,0.04,3272,-0.23
+AGP-0686,Legal,Autonomous,LangGraph,Abandoned,Loop Error,0.069,3735,-0.07
+AGP-0687,Retail,Assistant,LangGraph,Pilot,Cost Overrun,0.484,4083,0.99
+AGP-0688,Telecom,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.6,6179,0.45
+AGP-0689,Insurance,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.131,9460,-0.44
+AGP-0690,Manufacturing,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.105,7326,-0.6
+AGP-0691,Healthcare,Autonomous,CrewAI,Abandoned,Cost Overrun,0.187,3741,-1.02
+AGP-0692,Government,Autonomous,LangGraph,Abandoned,Schema Drift,0.016,2929,-0.1
+AGP-0693,Healthcare,Assistant,CrewAI,Pilot,Security Violation,0.535,6550,0.43
+AGP-0694,Legal,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.766,8165,-0.57
+AGP-0695,Government,Assistant,CrewAI,Abandoned,Loop Error,0.81,3255,-0.72
+AGP-0696,Manufacturing,Assistant,LangGraph,Pilot,Security Violation,0.698,3584,0.02
+AGP-0697,Insurance,Assistant,LangGraph,Production,,0.764,6408,2.73
+AGP-0698,Technology,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.18,5632,0.2
+AGP-0699,Technology,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.151,4934,0.06
+AGP-0700,Legal,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.285,6448,0.48
+AGP-0701,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.186,9158,-0.55
+AGP-0702,Legal,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.692,4700,-0.99
+AGP-0703,Finance,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.421,3506,0.93
+AGP-0704,Government,Assistant,AutoGPT 3.0,Production,,0.766,6711,2.54
+AGP-0705,Healthcare,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.467,4766,1.26
+AGP-0706,Manufacturing,Assistant,LangGraph,Pilot,Cost Overrun,0.554,4088,-0.53
+AGP-0707,Insurance,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.109,6999,-0.41
+AGP-0708,Insurance,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.125,9940,-0.81
+AGP-0709,Retail,Autonomous,LangGraph,Abandoned,Schema Drift,0.528,2832,-0.36
+AGP-0710,Retail,Autonomous,CrewAI,Abandoned,Loop Error,0.35,3458,-0.99
+AGP-0711,Telecom,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.855,7392,-0.05
+AGP-0712,Technology,Assistant,CrewAI,Abandoned,Cost Overrun,0.339,3863,-0.2
+AGP-0713,Energy,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.84,5576,-0.99
+AGP-0714,Government,Assistant,CrewAI,Production,,0.884,6826,2.0
+AGP-0715,Insurance,Autonomous,LangGraph,Pilot,Security Violation,0.472,4268,1.9
+AGP-0716,Healthcare,Assistant,LangGraph,Pilot,Security Violation,0.833,2651,0.68
+AGP-0717,Manufacturing,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.876,5998,-0.6
+AGP-0718,Finance,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.197,10949,-0.95
+AGP-0719,Technology,Autonomous,LangGraph,Pilot,Security Violation,0.083,2567,0.07
+AGP-0720,Telecom,Autonomous,LangGraph,Abandoned,Loop Error,0.398,5010,-0.84
+AGP-0721,Manufacturing,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.102,6652,-0.17
+AGP-0722,Retail,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.355,5264,0.38
+AGP-0723,Finance,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.343,5139,0.11
+AGP-0724,Telecom,Assistant,AutoGPT 3.0,Abandoned,Schema Drift,0.539,7239,-1.17
+AGP-0725,Finance,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.498,7082,-0.08
+AGP-0726,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.464,16634,0.67
+AGP-0727,Healthcare,Assistant,CrewAI,Abandoned,Schema Drift,0.689,3739,-0.37
+AGP-0728,Finance,Autonomous,LangGraph,Pilot,Cost Overrun,0.018,3207,0.41
+AGP-0729,Retail,Assistant,AutoGPT 3.0,Abandoned,Security Violation,0.756,5817,-0.44
+AGP-0730,Manufacturing,Assistant,LangGraph,Production,,0.928,4262,1.94
+AGP-0731,Legal,Assistant,LangGraph,Pilot,Loop Error,0.512,5071,-0.25
+AGP-0732,Finance,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.172,7049,-0.85
+AGP-0733,Finance,Assistant,CrewAI,Abandoned,Schema Drift,0.799,4575,-0.99
+AGP-0734,Retail,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.294,500,-0.67
+AGP-0735,Finance,Autonomous,LangGraph,Abandoned,Security Violation,0.086,4165,-0.33
+AGP-0736,Technology,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.238,8064,-1.77
+AGP-0737,Healthcare,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.85,5247,-1.14
+AGP-0738,Legal,Autonomous,CrewAI,Production,,0.587,3604,3.82
+AGP-0739,Retail,Assistant,AutoGPT 3.0,Production,,0.896,7590,2.81
+AGP-0740,Retail,Autonomous,LangGraph,Pilot,Loop Error,0.331,5729,-0.58
+AGP-0741,Finance,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.337,5827,0.09
+AGP-0742,Finance,Assistant,CrewAI,Abandoned,Loop Error,0.467,2917,-0.36
+AGP-0743,Government,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Security Violation,0.754,13670,-1.59
+AGP-0744,Finance,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.209,10349,1.22
+AGP-0745,Manufacturing,Autonomous,CrewAI,Abandoned,Cost Overrun,0.083,5920,-0.78
+AGP-0746,Retail,Assistant,LangGraph,Pilot,Cost Overrun,0.856,4355,1.35
+AGP-0747,Legal,Autonomous,LangGraph,Pilot,Security Violation,0.041,4647,0.28
+AGP-0748,Retail,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.161,4344,1.04
+AGP-0749,Insurance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.416,14934,-0.19
+AGP-0750,Energy,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.755,5872,0.78
+AGP-0751,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.598,1975,0.86
+AGP-0752,Legal,Assistant,LangGraph,Pilot,Security Violation,0.679,2733,-0.35
+AGP-0753,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.14,6801,-0.06
+AGP-0754,Retail,Assistant,AutoGPT 3.0,Abandoned,Cost Overrun,0.387,9042,-0.38
+AGP-0755,Technology,Autonomous,LangGraph,Abandoned,Cost Overrun,0.163,3681,-0.26
+AGP-0756,Healthcare,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.605,7089,0.91
+AGP-0757,Legal,Autonomous,LangGraph,Abandoned,Loop Error,0.387,3695,-1.09
+AGP-0758,Government,Autonomous,CrewAI,Pilot,Cost Overrun,0.01,5500,1.02
+AGP-0759,Finance,Assistant,LangGraph,Abandoned,Cost Overrun,0.483,6082,-1.25
+AGP-0760,Retail,Autonomous,LangGraph,Production,,0.123,5705,3.6
+AGP-0761,Technology,Autonomous,LangGraph,Pilot,Schema Drift,0.047,5701,1.07
+AGP-0762,Finance,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.658,6213,1.6
+AGP-0763,Finance,Autonomous,CrewAI,Abandoned,Security Violation,0.494,1368,-0.28
+AGP-0764,Finance,Assistant,AutoGPT 3.0,Abandoned,Security Violation,0.664,5299,-0.02
+AGP-0765,Government,Autonomous,CrewAI,Abandoned,Schema Drift,0.18,4261,-0.77
+AGP-0766,Finance,Autonomous,LangGraph,Abandoned,Loop Error,0.183,4343,-0.35
+AGP-0767,Healthcare,Autonomous,LangGraph,Abandoned,Cost Overrun,0.122,5133,-0.45
+AGP-0768,Finance,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.38,4530,1.09
+AGP-0769,Finance,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.611,6658,-0.53
+AGP-0770,Technology,Autonomous,CrewAI,Pilot,Schema Drift,0.695,1837,0.31
+AGP-0771,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.413,9818,-0.21
+AGP-0772,Manufacturing,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.59,6454,0.61
+AGP-0773,Technology,Assistant,LangGraph,Abandoned,Cost Overrun,0.711,4126,-0.49
+AGP-0774,Energy,Assistant,CrewAI,Production,,0.861,4655,3.12
+AGP-0775,Finance,Assistant,LangGraph,Pilot,Security Violation,0.547,6927,0.63
+AGP-0776,Energy,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.408,5750,0.92
+AGP-0777,Technology,Assistant,CrewAI,Pilot,Loop Error,0.757,4854,-0.3
+AGP-0778,Healthcare,Assistant,CrewAI,Abandoned,Cost Overrun,0.725,5062,0.43
+AGP-0779,Insurance,Autonomous,CrewAI,Abandoned,Loop Error,0.057,3155,-0.64
+AGP-0780,Energy,Autonomous,LangGraph,Pilot,Schema Drift,0.207,5351,0.96
+AGP-0781,Healthcare,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.886,7025,-0.14
+AGP-0782,Government,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.05,10455,-1.34
+AGP-0783,Retail,Autonomous,CrewAI,Pilot,Loop Error,0.118,3311,1.53
+AGP-0784,Technology,Autonomous,AutoGPT 3.0,Production,,0.318,10133,2.25
+AGP-0785,Telecom,Autonomous,LangGraph,Pilot,Security Violation,0.263,3558,0.69
+AGP-0786,Legal,Assistant,CrewAI,Pilot,Loop Error,0.807,4717,0.39
+AGP-0787,Energy,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.672,3204,-1.14
+AGP-0788,Legal,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.83,10740,-0.44
+AGP-0789,Insurance,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.275,8938,0.97
+AGP-0790,Technology,Assistant,CrewAI,Pilot,Security Violation,0.842,2831,1.83
+AGP-0791,Healthcare,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.92,6494,-0.68
+AGP-0792,Retail,Assistant,CrewAI,Abandoned,Security Violation,0.735,6940,-0.41
+AGP-0793,Legal,Assistant,LangGraph,Pilot,Security Violation,0.875,6804,0.4
+AGP-0794,Finance,Assistant,LangGraph,Pilot,Loop Error,0.439,5769,0.36
+AGP-0795,Finance,Assistant,AutoGPT 3.0,Production,,0.84,5397,3.08
+AGP-0796,Legal,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.626,9699,0.53
+AGP-0797,Finance,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.13,5228,-0.07
+AGP-0798,Healthcare,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.899,5087,1.85
+AGP-0799,Technology,Assistant,CrewAI,Pilot,Schema Drift,0.72,4765,0.33
+AGP-0800,Technology,Autonomous,LangGraph,Pilot,Loop Error,0.277,3252,0.59
+AGP-0801,Insurance,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.255,3818,-0.43
+AGP-0802,Legal,Autonomous,CrewAI,Pilot,Security Violation,0.22,3876,-0.32
+AGP-0803,Government,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.303,6169,0.11
+AGP-0804,Technology,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.314,6321,0.49
+AGP-0805,Finance,Assistant,CrewAI,Abandoned,Cost Overrun,0.794,4228,-0.4
+AGP-0806,Finance,Autonomous,CrewAI,Pilot,Schema Drift,0.12,6294,2.11
+AGP-0807,Technology,Autonomous,CrewAI,Abandoned,Loop Error,0.155,5499,-0.71
+AGP-0808,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.456,11332,-1.15
+AGP-0809,Manufacturing,Assistant,LangGraph,Pilot,Loop Error,0.757,696,1.35
+AGP-0810,Telecom,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.116,8264,-2.0
+AGP-0811,Finance,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.312,5871,-0.72
+AGP-0812,Finance,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.329,6780,0.58
+AGP-0813,Telecom,Assistant,CrewAI,Pilot,Loop Error,0.74,4112,-0.47
+AGP-0814,Technology,Assistant,CrewAI,Pilot,Loop Error,0.743,4659,1.16
+AGP-0815,Finance,Autonomous,CrewAI,Pilot,Cost Overrun,0.01,6787,1.79
+AGP-0816,Government,Autonomous,AutoGPT 3.0,Production,,0.387,5194,1.97
+AGP-0817,Government,Assistant,LangGraph,Abandoned,Cost Overrun,0.838,3413,0.01
+AGP-0818,Manufacturing,Autonomous,LangGraph,Abandoned,Schema Drift,0.262,4581,-0.43
+AGP-0819,Technology,Autonomous,LangGraph,Pilot,Loop Error,0.092,3424,-0.19
+AGP-0820,Healthcare,Autonomous,LangGraph,Pilot,Cost Overrun,0.666,3549,0.73
+AGP-0821,Finance,Autonomous,CrewAI,Pilot,Loop Error,0.286,2274,-0.82
+AGP-0822,Technology,Assistant,AutoGPT 3.0,Production,,0.932,5215,3.77
+AGP-0823,Legal,Assistant,CrewAI,Pilot,Loop Error,0.392,4967,-0.13
+AGP-0824,Technology,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.311,5867,-1.04
+AGP-0825,Energy,Assistant,LangGraph,Abandoned,Loop Error,0.729,3568,0.09
+AGP-0826,Finance,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.512,7054,-0.38
+AGP-0827,Technology,Assistant,CrewAI,Production,,0.901,3241,4.35
+AGP-0828,Healthcare,Multi-agent Swarm,LangGraph,Production,,0.768,5798,1.93
+AGP-0829,Government,Assistant,CrewAI,Abandoned,Schema Drift,0.964,6049,-0.59
+AGP-0830,Healthcare,Autonomous,AutoGPT 3.0,Production,,0.247,4641,4.43
+AGP-0831,Technology,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.817,8505,-1.53
+AGP-0832,Manufacturing,Autonomous,LangGraph,Abandoned,Schema Drift,0.051,4984,-0.25
+AGP-0833,Retail,Autonomous,LangGraph,Pilot,Security Violation,0.223,4671,0.84
+AGP-0834,Technology,Autonomous,CrewAI,Production,,0.481,3178,2.44
+AGP-0835,Technology,Assistant,CrewAI,Pilot,Security Violation,0.97,4281,0.63
+AGP-0836,Manufacturing,Assistant,LangGraph,Production,,0.841,3052,2.54
+AGP-0837,Insurance,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.68,9818,-0.6
+AGP-0838,Telecom,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.866,9162,-0.28
+AGP-0839,Retail,Autonomous,CrewAI,Pilot,Loop Error,0.017,3259,1.48
+AGP-0840,Manufacturing,Assistant,LangGraph,Production,,0.689,3447,2.1
+AGP-0841,Finance,Autonomous,LangGraph,Pilot,Security Violation,0.055,4144,0.98
+AGP-0842,Insurance,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.083,7351,0.07
+AGP-0843,Manufacturing,Autonomous,LangGraph,Abandoned,Schema Drift,0.247,7156,-0.75
+AGP-0844,Retail,Autonomous,CrewAI,Pilot,Loop Error,0.285,3024,0.86
+AGP-0845,Finance,Assistant,CrewAI,Abandoned,Security Violation,0.397,2379,-0.75
+AGP-0846,Government,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.756,5745,1.55
+AGP-0847,Retail,Multi-agent Swarm,AutoGPT 3.0,Production,,0.215,11648,1.33
+AGP-0848,Technology,Assistant,LangGraph,Pilot,Cost Overrun,0.764,3587,1.62
+AGP-0849,Finance,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.182,5622,-0.58
+AGP-0850,Telecom,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.725,5422,1.87
+AGP-0851,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.217,6072,-0.65
+AGP-0852,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.179,6971,-0.61
+AGP-0853,Energy,Autonomous,LangGraph,Abandoned,Security Violation,0.164,3003,-0.48
+AGP-0854,Government,Autonomous,LangGraph,Pilot,Security Violation,0.218,5032,0.62
+AGP-0855,Healthcare,Assistant,LangGraph,Pilot,Schema Drift,0.814,1932,0.11
+AGP-0856,Retail,Assistant,AutoGPT 3.0,Abandoned,Security Violation,0.846,9238,-1.65
+AGP-0857,Insurance,Assistant,CrewAI,Production,,0.759,4159,4.37
+AGP-0858,Government,Assistant,CrewAI,Pilot,Loop Error,0.644,4245,0.42
+AGP-0859,Retail,Assistant,CrewAI,Abandoned,Cost Overrun,0.228,5551,-1.3
+AGP-0860,Manufacturing,Assistant,LangGraph,Pilot,Cost Overrun,0.641,3783,0.45
+AGP-0861,Insurance,Autonomous,CrewAI,Pilot,Loop Error,0.064,2745,-0.17
+AGP-0862,Insurance,Autonomous,LangGraph,Abandoned,Cost Overrun,0.162,3740,-0.56
+AGP-0863,Insurance,Assistant,CrewAI,Pilot,Schema Drift,0.715,4905,-0.75
+AGP-0864,Manufacturing,Assistant,CrewAI,Pilot,Cost Overrun,0.737,5258,1.29
+AGP-0865,Finance,Autonomous,CrewAI,Abandoned,Schema Drift,0.518,6658,-0.47
+AGP-0866,Government,Autonomous,LangGraph,Abandoned,Loop Error,0.32,3672,-0.3
+AGP-0867,Government,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.701,4489,0.57
+AGP-0868,Insurance,Assistant,CrewAI,Abandoned,Loop Error,0.698,5862,0.21
+AGP-0869,Finance,Autonomous,LangGraph,Pilot,Loop Error,0.057,3513,0.21
+AGP-0870,Healthcare,Assistant,LangGraph,Pilot,Security Violation,0.895,3825,1.34
+AGP-0871,Insurance,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.334,6264,-0.44
+AGP-0872,Finance,Autonomous,LangGraph,Production,,0.561,1311,2.96
+AGP-0873,Telecom,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.361,7131,0.93
+AGP-0874,Retail,Autonomous,LangGraph,Pilot,Security Violation,0.174,3512,0.85
+AGP-0875,Technology,Assistant,LangGraph,Production,,0.628,4164,3.94
+AGP-0876,Government,Assistant,CrewAI,Production,,0.782,7680,2.04
+AGP-0877,Retail,Autonomous,CrewAI,Abandoned,Schema Drift,0.196,3919,-0.0
+AGP-0878,Legal,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.291,6591,-0.29
+AGP-0879,Technology,Assistant,CrewAI,Pilot,Schema Drift,0.958,1673,1.06
+AGP-0880,Technology,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.515,2487,-0.39
+AGP-0881,Retail,Autonomous,LangGraph,Production,,0.146,2607,2.97
+AGP-0882,Technology,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.837,2563,0.11
+AGP-0883,Government,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.182,20155,-0.63
+AGP-0884,Retail,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.665,3326,0.64
+AGP-0885,Healthcare,Autonomous,CrewAI,Pilot,Cost Overrun,0.208,4193,-0.39
+AGP-0886,Retail,Assistant,LangGraph,Pilot,Security Violation,0.68,3306,0.28
+AGP-0887,Retail,Assistant,LangGraph,Abandoned,Security Violation,0.701,5159,0.25
+AGP-0888,Finance,Multi-agent Swarm,LangGraph,Production,,0.878,7277,3.02
+AGP-0889,Healthcare,Assistant,AutoGPT 3.0,Pilot,Schema Drift,0.92,6818,2.18
+AGP-0890,Technology,Autonomous,LangGraph,Production,,0.215,4270,2.04
+AGP-0891,Legal,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.133,7237,-1.12
+AGP-0892,Telecom,Assistant,CrewAI,Pilot,Cost Overrun,0.698,4769,1.33
+AGP-0893,Healthcare,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.42,12268,-0.67
+AGP-0894,Finance,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.124,5227,0.3
+AGP-0895,Insurance,Assistant,LangGraph,Pilot,Cost Overrun,0.873,4763,0.73
+AGP-0896,Government,Multi-agent Swarm,AutoGPT 3.0,Pilot,Security Violation,0.182,8042,-0.36
+AGP-0897,Healthcare,Autonomous,LangGraph,Production,,0.408,1781,3.76
+AGP-0898,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.081,7571,-0.8
+AGP-0899,Healthcare,Assistant,CrewAI,Abandoned,Loop Error,0.808,3212,0.59
+AGP-0900,Manufacturing,Assistant,LangGraph,Abandoned,Cost Overrun,0.67,3254,-0.89
+AGP-0901,Retail,Autonomous,AutoGPT 3.0,Production,,0.337,7671,2.18
+AGP-0902,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.197,5605,0.37
+AGP-0903,Finance,Assistant,LangGraph,Production,,0.513,2594,2.21
+AGP-0904,Retail,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.795,10430,-1.22
+AGP-0905,Telecom,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.315,7528,-0.98
+AGP-0906,Technology,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.173,4418,-0.83
+AGP-0907,Manufacturing,Assistant,CrewAI,Pilot,Security Violation,0.823,4847,0.74
+AGP-0908,Finance,Autonomous,CrewAI,Abandoned,Security Violation,0.461,3372,-1.53
+AGP-0909,Healthcare,Assistant,LangGraph,Abandoned,Loop Error,0.55,3957,0.22
+AGP-0910,Legal,Autonomous,LangGraph,Abandoned,Schema Drift,0.045,2994,-0.22
+AGP-0911,Insurance,Assistant,AutoGPT 3.0,Production,,0.883,9836,2.08
+AGP-0912,Government,Autonomous,LangGraph,Production,,0.447,2535,2.83
+AGP-0913,Government,Assistant,CrewAI,Production,,0.967,4930,0.47
+AGP-0914,Telecom,Autonomous,LangGraph,Pilot,Schema Drift,0.465,2795,1.04
+AGP-0915,Telecom,Autonomous,LangGraph,Pilot,Schema Drift,0.447,3809,1.57
+AGP-0916,Telecom,Autonomous,CrewAI,Abandoned,Security Violation,0.166,1650,-0.38
+AGP-0917,Finance,Assistant,AutoGPT 3.0,Abandoned,Security Violation,0.926,8627,-1.03
+AGP-0918,Finance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.252,14175,-2.0
+AGP-0919,Legal,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.246,4047,0.3
+AGP-0920,Manufacturing,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.674,8657,0.54
+AGP-0921,Finance,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.802,5035,0.9
+AGP-0922,Energy,Autonomous,LangGraph,Abandoned,Cost Overrun,0.425,3057,-0.16
+AGP-0923,Technology,Assistant,CrewAI,Production,,0.653,1048,1.45
+AGP-0924,Manufacturing,Assistant,LangGraph,Abandoned,Cost Overrun,0.773,3511,-0.52
+AGP-0925,Healthcare,Autonomous,CrewAI,Pilot,Security Violation,0.419,3313,1.35
+AGP-0926,Healthcare,Assistant,LangGraph,Production,,0.856,2831,1.97
+AGP-0927,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.221,4168,-1.04
+AGP-0928,Energy,Multi-agent Swarm,AutoGPT 3.0,Pilot,Schema Drift,0.557,4218,0.8
+AGP-0929,Technology,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.51,7214,-1.6
+AGP-0930,Insurance,Multi-agent Swarm,LangGraph,Production,,0.449,9989,4.22
+AGP-0931,Legal,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.756,8154,-0.08
+AGP-0932,Retail,Assistant,LangGraph,Pilot,Schema Drift,0.844,3353,1.38
+AGP-0933,Retail,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.39,6344,-0.33
+AGP-0934,Insurance,Autonomous,LangGraph,Abandoned,Loop Error,0.503,3155,0.19
+AGP-0935,Insurance,Autonomous,LangGraph,Abandoned,Cost Overrun,0.395,2898,-0.03
+AGP-0936,Healthcare,Assistant,CrewAI,Abandoned,Schema Drift,0.717,2548,-0.54
+AGP-0937,Telecom,Autonomous,LangGraph,Pilot,Cost Overrun,0.458,4563,1.71
+AGP-0938,Finance,Autonomous,LangGraph,Abandoned,Security Violation,0.121,3916,-0.2
+AGP-0939,Government,Autonomous,CrewAI,Abandoned,Cost Overrun,0.091,6591,-1.2
+AGP-0940,Finance,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.686,6873,0.52
+AGP-0941,Healthcare,Autonomous,CrewAI,Abandoned,Cost Overrun,0.329,500,-0.54
+AGP-0942,Energy,Autonomous,CrewAI,Pilot,Loop Error,0.039,6849,-0.39
+AGP-0943,Healthcare,Autonomous,LangGraph,Pilot,Schema Drift,0.08,3665,0.5
+AGP-0944,Retail,Assistant,AutoGPT 3.0,Pilot,Schema Drift,0.605,6054,0.32
+AGP-0945,Retail,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.273,2397,-0.38
+AGP-0946,Healthcare,Autonomous,LangGraph,Pilot,Loop Error,0.208,4726,0.65
+AGP-0947,Technology,Assistant,LangGraph,Pilot,Cost Overrun,0.83,4522,-0.6
+AGP-0948,Energy,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.339,7184,-0.66
+AGP-0949,Government,Autonomous,LangGraph,Pilot,Security Violation,0.226,4953,1.1
+AGP-0950,Legal,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.532,8379,-0.61
+AGP-0951,Manufacturing,Assistant,LangGraph,Abandoned,Schema Drift,0.26,4510,-0.62
+AGP-0952,Healthcare,Assistant,CrewAI,Pilot,Cost Overrun,0.641,5077,1.23
+AGP-0953,Healthcare,Autonomous,CrewAI,Pilot,Cost Overrun,0.25,4162,1.65
+AGP-0954,Healthcare,Autonomous,LangGraph,Abandoned,Loop Error,0.112,5768,-0.55
+AGP-0955,Telecom,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.627,8069,0.07
+AGP-0956,Government,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.295,6057,0.99
+AGP-0957,Insurance,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.604,10081,-0.38
+AGP-0958,Manufacturing,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.502,4161,-1.65
+AGP-0959,Manufacturing,Autonomous,CrewAI,Abandoned,Loop Error,0.054,4967,-0.94
+AGP-0960,Manufacturing,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.611,9095,0.1
+AGP-0961,Manufacturing,Assistant,LangGraph,Abandoned,Cost Overrun,0.741,3389,-0.62
+AGP-0962,Retail,Multi-agent Swarm,LangGraph,Production,,0.657,5679,1.77
+AGP-0963,Finance,Autonomous,CrewAI,Abandoned,Loop Error,0.189,3750,-1.18
+AGP-0964,Finance,Autonomous,LangGraph,Abandoned,Cost Overrun,0.194,2064,-0.34
+AGP-0965,Telecom,Multi-agent Swarm,CrewAI,Production,,0.486,4477,2.35
+AGP-0966,Retail,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.926,2980,0.52
+AGP-0967,Telecom,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.587,4718,0.57
+AGP-0968,Healthcare,Autonomous,LangGraph,Production,,0.063,3089,4.6
+AGP-0969,Manufacturing,Autonomous,CrewAI,Production,,0.251,2959,3.69
+AGP-0970,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.545,10740,0.07
+AGP-0971,Healthcare,Assistant,LangGraph,Pilot,Schema Drift,0.653,2978,0.69
+AGP-0972,Finance,Assistant,LangGraph,Abandoned,Loop Error,0.946,2160,-0.48
+AGP-0973,Finance,Assistant,CrewAI,Pilot,Loop Error,0.844,2626,1.13
+AGP-0974,Government,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.816,5491,0.07
+AGP-0975,Legal,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.711,5249,0.17
+AGP-0976,Technology,Assistant,LangGraph,Pilot,Security Violation,0.842,4493,0.47
+AGP-0977,Retail,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.302,11103,-0.99
+AGP-0978,Retail,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.639,3832,-0.34
+AGP-0979,Manufacturing,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.412,3454,1.58
+AGP-0980,Healthcare,Assistant,CrewAI,Abandoned,Schema Drift,0.438,4411,0.01
+AGP-0981,Telecom,Assistant,CrewAI,Pilot,Loop Error,0.765,6075,-0.59
+AGP-0982,Energy,Assistant,CrewAI,Pilot,Cost Overrun,0.376,3742,-0.53
+AGP-0983,Insurance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.368,4777,-0.43
+AGP-0984,Retail,Assistant,LangGraph,Production,,0.543,3668,3.83
+AGP-0985,Finance,Assistant,CrewAI,Abandoned,Cost Overrun,0.787,2841,-0.79
+AGP-0986,Government,Assistant,LangGraph,Abandoned,Loop Error,0.738,4805,-1.45
+AGP-0987,Legal,Assistant,LangGraph,Abandoned,Loop Error,0.535,4471,0.16
+AGP-0988,Finance,Assistant,LangGraph,Pilot,Security Violation,0.598,2736,0.63
+AGP-0989,Legal,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.605,4346,-1.14
+AGP-0990,Insurance,Assistant,CrewAI,Production,,0.757,4426,3.07
+AGP-0991,Technology,Assistant,LangGraph,Pilot,Loop Error,0.865,3674,0.51
+AGP-0992,Insurance,Autonomous,CrewAI,Abandoned,Loop Error,0.237,1146,-0.88
+AGP-0993,Insurance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.191,16537,1.36
+AGP-0994,Healthcare,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.922,6473,-0.81
+AGP-0995,Government,Autonomous,CrewAI,Abandoned,Cost Overrun,0.12,2629,-0.62
+AGP-0996,Retail,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.211,4093,0.2
+AGP-0997,Technology,Assistant,CrewAI,Pilot,Cost Overrun,0.742,6620,0.26
+AGP-0998,Finance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.524,3394,-1.11
+AGP-0999,Telecom,Assistant,AutoGPT 3.0,Production,,0.295,9766,2.62
+AGP-1000,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.295,9692,-1.09
+AGP-1001,Finance,Assistant,CrewAI,Pilot,Schema Drift,0.458,3349,2.09
+AGP-1002,Retail,Assistant,LangGraph,Abandoned,Schema Drift,0.606,1495,-0.24
+AGP-1003,Finance,Autonomous,CrewAI,Pilot,Schema Drift,0.121,4456,-1.21
+AGP-1004,Finance,Assistant,LangGraph,Production,,0.631,2947,2.09
+AGP-1005,Technology,Assistant,LangGraph,Production,,0.557,2806,3.67
+AGP-1006,Retail,Assistant,CrewAI,Pilot,Loop Error,0.556,1070,0.0
+AGP-1007,Government,Assistant,CrewAI,Production,,0.99,4744,3.18
+AGP-1008,Legal,Multi-agent Swarm,AutoGPT 3.0,Pilot,Security Violation,0.147,14278,-1.29
+AGP-1009,Technology,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.446,6398,-0.38
+AGP-1010,Retail,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.646,930,-0.42
+AGP-1011,Technology,Multi-agent Swarm,AutoGPT 3.0,Pilot,Security Violation,0.641,13019,0.67
+AGP-1012,Technology,Assistant,CrewAI,Production,,0.742,4517,2.24
+AGP-1013,Retail,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.421,6218,0.75
+AGP-1014,Telecom,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.403,7711,-0.57
+AGP-1015,Legal,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.737,3456,0.3
+AGP-1016,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.751,6492,2.3
+AGP-1017,Technology,Assistant,LangGraph,Abandoned,Cost Overrun,0.804,3176,-0.26
+AGP-1018,Energy,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.078,7099,0.85
+AGP-1019,Finance,Assistant,CrewAI,Production,,0.628,3664,1.73
+AGP-1020,Retail,Multi-agent Swarm,AutoGPT 3.0,Pilot,Security Violation,0.382,16327,-0.51
+AGP-1021,Government,Assistant,AutoGPT 3.0,Production,,0.99,3527,2.12
+AGP-1022,Insurance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Schema Drift,0.44,4545,1.42
+AGP-1023,Telecom,Autonomous,LangGraph,Abandoned,Security Violation,0.329,2387,-0.38
+AGP-1024,Manufacturing,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.822,3767,0.91
+AGP-1025,Technology,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.816,4073,-0.11
+AGP-1026,Legal,Assistant,AutoGPT 3.0,Abandoned,Security Violation,0.681,6497,-0.42
+AGP-1027,Telecom,Autonomous,LangGraph,Abandoned,Cost Overrun,0.308,2615,-0.12
+AGP-1028,Legal,Autonomous,LangGraph,Abandoned,Loop Error,0.154,4030,-0.45
+AGP-1029,Insurance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Security Violation,0.417,8870,-0.79
+AGP-1030,Retail,Assistant,LangGraph,Pilot,Cost Overrun,0.904,4916,1.57
+AGP-1031,Manufacturing,Autonomous,LangGraph,Abandoned,Schema Drift,0.71,4466,0.13
+AGP-1032,Technology,Autonomous,CrewAI,Pilot,Cost Overrun,0.499,4947,0.05
+AGP-1033,Manufacturing,Assistant,LangGraph,Pilot,Cost Overrun,0.775,3551,-0.05
+AGP-1034,Government,Autonomous,LangGraph,Abandoned,Security Violation,0.015,2860,-0.27
+AGP-1035,Retail,Assistant,AutoGPT 3.0,Production,,0.99,500,2.15
+AGP-1036,Technology,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.346,6855,1.18
+AGP-1037,Legal,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.394,6656,0.76
+AGP-1038,Retail,Assistant,LangGraph,Abandoned,Security Violation,0.667,5231,-0.6
+AGP-1039,Retail,Autonomous,LangGraph,Pilot,Cost Overrun,0.282,4072,0.09
+AGP-1040,Finance,Autonomous,CrewAI,Pilot,Loop Error,0.101,5366,0.63
+AGP-1041,Finance,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.44,10034,-0.08
+AGP-1042,Technology,Assistant,LangGraph,Pilot,Schema Drift,0.774,1565,-0.26
+AGP-1043,Technology,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.454,6128,0.87
+AGP-1044,Technology,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.092,7539,-0.92
+AGP-1045,Finance,Autonomous,CrewAI,Pilot,Cost Overrun,0.106,4280,-0.4
+AGP-1046,Legal,Assistant,LangGraph,Pilot,Cost Overrun,0.769,3849,0.51
+AGP-1047,Healthcare,Assistant,LangGraph,Abandoned,Cost Overrun,0.82,2871,-0.79
+AGP-1048,Insurance,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.369,6217,-0.62
+AGP-1049,Government,Autonomous,LangGraph,Abandoned,Loop Error,0.466,3754,-0.6
+AGP-1050,Healthcare,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.274,11725,-2.0
+AGP-1051,Technology,Multi-agent Swarm,CrewAI,Production,,0.229,4467,3.36
+AGP-1052,Finance,Assistant,CrewAI,Production,,0.737,1424,1.84
+AGP-1053,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.126,6825,-1.15
+AGP-1054,Finance,Assistant,LangGraph,Abandoned,Security Violation,0.879,5900,0.6
+AGP-1055,Healthcare,Autonomous,LangGraph,Abandoned,Loop Error,0.059,1203,-0.46
+AGP-1056,Technology,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.598,6129,0.85
+AGP-1057,Government,Assistant,LangGraph,Production,,0.949,5039,2.67
+AGP-1058,Healthcare,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.232,5772,-0.12
+AGP-1059,Manufacturing,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.498,11023,-0.22
+AGP-1060,Technology,Assistant,AutoGPT 3.0,Abandoned,Security Violation,0.767,5735,-0.79
+AGP-1061,Telecom,Assistant,CrewAI,Pilot,Security Violation,0.913,6811,0.21
+AGP-1062,Technology,Assistant,LangGraph,Pilot,Cost Overrun,0.852,6459,-0.93
+AGP-1063,Healthcare,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.517,5219,-0.51
+AGP-1064,Technology,Autonomous,LangGraph,Pilot,Security Violation,0.037,6041,1.53
+AGP-1065,Legal,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.574,9724,-0.41
+AGP-1066,Telecom,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.551,14528,-0.58
+AGP-1067,Retail,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.164,6364,-1.1
+AGP-1068,Technology,Assistant,LangGraph,Pilot,Loop Error,0.839,3530,0.12
+AGP-1069,Finance,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.519,10336,-0.77
+AGP-1070,Retail,Autonomous,LangGraph,Abandoned,Cost Overrun,0.039,4887,-0.12
+AGP-1071,Government,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.542,13640,-0.99
+AGP-1072,Technology,Autonomous,LangGraph,Abandoned,Loop Error,0.19,5244,0.31
+AGP-1073,Retail,Autonomous,LangGraph,Abandoned,Security Violation,0.01,4069,-0.48
+AGP-1074,Government,Assistant,LangGraph,Pilot,Security Violation,0.842,2940,0.19
+AGP-1075,Energy,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.558,7796,-1.46
+AGP-1076,Legal,Assistant,CrewAI,Pilot,Schema Drift,0.788,3894,0.96
+AGP-1077,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.499,1814,0.94
+AGP-1078,Retail,Autonomous,LangGraph,Pilot,Loop Error,0.06,4412,0.83
+AGP-1079,Technology,Assistant,LangGraph,Production,,0.829,1868,3.54
+AGP-1080,Legal,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.272,9449,0.23
+AGP-1081,Healthcare,Multi-agent Swarm,LangGraph,Production,,0.464,3283,3.16
+AGP-1082,Government,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.571,5781,1.51
+AGP-1083,Government,Assistant,CrewAI,Production,,0.839,4546,2.5
+AGP-1084,Energy,Assistant,LangGraph,Pilot,Schema Drift,0.311,3535,0.05
+AGP-1085,Telecom,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.605,6670,-1.17
+AGP-1086,Insurance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.403,9086,-0.23
+AGP-1087,Insurance,Assistant,CrewAI,Pilot,Cost Overrun,0.408,2025,1.3
+AGP-1088,Insurance,Assistant,LangGraph,Pilot,Security Violation,0.752,2765,1.71
+AGP-1089,Retail,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.536,8307,1.06
+AGP-1090,Retail,Autonomous,CrewAI,Abandoned,Security Violation,0.597,2057,-1.22
+AGP-1091,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.231,6375,1.16
+AGP-1092,Technology,Autonomous,LangGraph,Pilot,Loop Error,0.078,5705,0.39
+AGP-1093,Healthcare,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.268,4043,0.59
+AGP-1094,Healthcare,Autonomous,CrewAI,Pilot,Security Violation,0.077,5935,0.8
+AGP-1095,Technology,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.041,3571,0.61
+AGP-1096,Retail,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.541,4931,-0.39
+AGP-1097,Healthcare,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.615,2858,-0.59
+AGP-1098,Energy,Multi-agent Swarm,CrewAI,Production,,0.643,4115,3.17
+AGP-1099,Government,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.389,9257,0.18
+AGP-1100,Healthcare,Assistant,LangGraph,Pilot,Cost Overrun,0.847,5662,0.31
+AGP-1101,Finance,Autonomous,CrewAI,Production,,0.118,4117,2.11
+AGP-1102,Legal,Autonomous,LangGraph,Pilot,Security Violation,0.313,2013,-0.84
+AGP-1103,Insurance,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.769,11196,1.3
+AGP-1104,Energy,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.636,8013,-0.81
+AGP-1105,Finance,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.477,5363,-1.26
+AGP-1106,Insurance,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.154,5849,2.11
+AGP-1107,Finance,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.125,9251,0.71
+AGP-1108,Retail,Autonomous,LangGraph,Abandoned,Loop Error,0.108,4265,-1.1
+AGP-1109,Telecom,Autonomous,LangGraph,Pilot,Loop Error,0.272,4408,0.28
+AGP-1110,Healthcare,Autonomous,CrewAI,Pilot,Security Violation,0.288,4134,1.02
+AGP-1111,Finance,Assistant,LangGraph,Pilot,Cost Overrun,0.822,4772,-0.41
+AGP-1112,Retail,Autonomous,LangGraph,Abandoned,Cost Overrun,0.351,6385,-0.66
+AGP-1113,Technology,Assistant,LangGraph,Production,,0.736,4376,4.09
+AGP-1114,Government,Multi-agent Swarm,AutoGPT 3.0,Pilot,Security Violation,0.75,6063,0.41
+AGP-1115,Telecom,Assistant,LangGraph,Pilot,Loop Error,0.691,2603,0.63
+AGP-1116,Finance,Assistant,AutoGPT 3.0,Production,,0.617,4582,1.79
+AGP-1117,Finance,Assistant,LangGraph,Production,,0.89,6191,3.15
+AGP-1118,Insurance,Autonomous,LangGraph,Abandoned,Loop Error,0.079,2403,-0.23
+AGP-1119,Healthcare,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.191,3165,0.35
+AGP-1120,Government,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.507,7870,-1.46
+AGP-1121,Technology,Assistant,LangGraph,Abandoned,Security Violation,0.5,3864,-0.7
+AGP-1122,Finance,Autonomous,LangGraph,Abandoned,Loop Error,0.107,4059,-0.39
+AGP-1123,Energy,Assistant,CrewAI,Pilot,Cost Overrun,0.446,2593,-0.46
+AGP-1124,Healthcare,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.407,8155,-1.9
+AGP-1125,Retail,Assistant,LangGraph,Pilot,Security Violation,0.904,5665,0.7
+AGP-1126,Manufacturing,Assistant,LangGraph,Pilot,Security Violation,0.28,5221,0.26
+AGP-1127,Manufacturing,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.653,5789,0.28
+AGP-1128,Technology,Assistant,LangGraph,Abandoned,Loop Error,0.776,4331,-0.46
+AGP-1129,Technology,Assistant,CrewAI,Pilot,Schema Drift,0.816,5000,0.59
+AGP-1130,Telecom,Autonomous,LangGraph,Abandoned,Cost Overrun,0.216,3701,-0.63
+AGP-1131,Telecom,Autonomous,LangGraph,Production,,0.431,6324,3.03
+AGP-1132,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.83,9026,0.23
+AGP-1133,Finance,Assistant,CrewAI,Pilot,Cost Overrun,0.764,961,1.28
+AGP-1134,Technology,Assistant,LangGraph,Production,,0.908,3758,2.75
+AGP-1135,Telecom,Assistant,LangGraph,Pilot,Loop Error,0.695,2977,1.22
+AGP-1136,Legal,Autonomous,LangGraph,Production,,0.151,4172,3.15
+AGP-1137,Retail,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.572,9797,-0.9
+AGP-1138,Retail,Autonomous,LangGraph,Pilot,Cost Overrun,0.554,3428,-0.86
+AGP-1139,Finance,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.374,5778,2.3
+AGP-1140,Technology,Assistant,CrewAI,Pilot,Schema Drift,0.447,5014,-0.06
+AGP-1141,Legal,Autonomous,LangGraph,Pilot,Loop Error,0.027,2096,1.06
+AGP-1142,Insurance,Autonomous,LangGraph,Abandoned,Cost Overrun,0.064,2643,0.27
+AGP-1143,Energy,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.328,8987,-0.54
+AGP-1144,Energy,Autonomous,CrewAI,Pilot,Security Violation,0.112,5898,0.45
+AGP-1145,Retail,Autonomous,CrewAI,Pilot,Schema Drift,0.122,7013,0.29
+AGP-1146,Legal,Multi-agent Swarm,CrewAI,Pilot,Security Violation,0.704,6895,1.15
+AGP-1147,Insurance,Assistant,AutoGPT 3.0,Production,,0.877,4328,2.74
+AGP-1148,Energy,Assistant,LangGraph,Pilot,Loop Error,0.646,1208,-0.25
+AGP-1149,Manufacturing,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.157,5960,-0.24
+AGP-1150,Government,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.246,6600,-0.92
+AGP-1151,Finance,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.093,3818,1.29
+AGP-1152,Government,Autonomous,CrewAI,Abandoned,Loop Error,0.258,4265,-0.26
+AGP-1153,Finance,Autonomous,LangGraph,Abandoned,Security Violation,0.222,4240,-0.18
+AGP-1154,Finance,Autonomous,LangGraph,Pilot,Cost Overrun,0.111,2486,0.69
+AGP-1155,Manufacturing,Autonomous,CrewAI,Pilot,Loop Error,0.02,6609,0.35
+AGP-1156,Finance,Autonomous,LangGraph,Pilot,Loop Error,0.106,2806,0.45
+AGP-1157,Finance,Autonomous,CrewAI,Pilot,Security Violation,0.076,2313,1.64
+AGP-1158,Finance,Assistant,LangGraph,Pilot,Security Violation,0.564,4917,0.55
+AGP-1159,Retail,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.585,6182,1.46
+AGP-1160,Insurance,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.126,7943,-0.34
+AGP-1161,Finance,Autonomous,CrewAI,Pilot,Security Violation,0.099,2958,1.33
+AGP-1162,Technology,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.35,3713,1.23
+AGP-1163,Energy,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.227,3965,0.53
+AGP-1164,Healthcare,Assistant,CrewAI,Abandoned,Loop Error,0.796,4121,-0.28
+AGP-1165,Finance,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.108,6682,0.14
+AGP-1166,Government,Assistant,CrewAI,Production,,0.947,3085,3.01
+AGP-1167,Energy,Autonomous,CrewAI,Pilot,Cost Overrun,0.093,4644,0.79
+AGP-1168,Manufacturing,Autonomous,CrewAI,Abandoned,Security Violation,0.055,3192,-0.04
+AGP-1169,Energy,Assistant,LangGraph,Production,,0.683,4065,1.16
+AGP-1170,Finance,Assistant,CrewAI,Abandoned,Loop Error,0.394,4376,-0.38
+AGP-1171,Retail,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.945,9240,0.24
+AGP-1172,Insurance,Assistant,CrewAI,Pilot,Loop Error,0.214,5220,0.55
+AGP-1173,Healthcare,Autonomous,LangGraph,Abandoned,Cost Overrun,0.55,2484,-1.24
+AGP-1174,Insurance,Autonomous,CrewAI,Pilot,Security Violation,0.164,4152,0.59
+AGP-1175,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.72,4145,1.58
+AGP-1176,Insurance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.567,15825,-1.65
+AGP-1177,Retail,Autonomous,CrewAI,Abandoned,Cost Overrun,0.316,3304,-1.07
+AGP-1178,Legal,Assistant,LangGraph,Production,,0.92,6611,3.59
+AGP-1179,Healthcare,Autonomous,LangGraph,Abandoned,Schema Drift,0.38,4582,-0.91
+AGP-1180,Healthcare,Autonomous,CrewAI,Abandoned,Loop Error,0.139,4707,-1.46
+AGP-1181,Insurance,Assistant,LangGraph,Pilot,Cost Overrun,0.43,5698,0.66
+AGP-1182,Finance,Autonomous,CrewAI,Abandoned,Security Violation,0.172,5253,-0.37
+AGP-1183,Finance,Assistant,AutoGPT 3.0,Abandoned,Security Violation,0.771,4901,-0.54
+AGP-1184,Healthcare,Assistant,CrewAI,Abandoned,Loop Error,0.847,1596,-0.2
+AGP-1185,Healthcare,Autonomous,LangGraph,Pilot,Cost Overrun,0.318,4639,1.03
+AGP-1186,Energy,Autonomous,CrewAI,Pilot,Loop Error,0.327,3730,-0.5
+AGP-1187,Retail,Autonomous,CrewAI,Abandoned,Schema Drift,0.038,8070,-1.33
+AGP-1188,Telecom,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.546,6858,1.5
+AGP-1189,Finance,Assistant,CrewAI,Pilot,Cost Overrun,0.894,4513,1.54
+AGP-1190,Technology,Assistant,CrewAI,Abandoned,Security Violation,0.359,2799,0.07
+AGP-1191,Retail,Autonomous,AutoGPT 3.0,Production,,0.558,4980,4.4
+AGP-1192,Retail,Assistant,LangGraph,Pilot,Cost Overrun,0.793,1428,0.78
+AGP-1193,Government,Autonomous,LangGraph,Pilot,Cost Overrun,0.19,4909,1.85
+AGP-1194,Telecom,Assistant,CrewAI,Pilot,Security Violation,0.528,4220,0.76
+AGP-1195,Government,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.431,4973,-0.37
+AGP-1196,Healthcare,Assistant,LangGraph,Pilot,Security Violation,0.591,3033,0.02
+AGP-1197,Healthcare,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.404,7955,-0.82
+AGP-1198,Technology,Autonomous,LangGraph,Pilot,Loop Error,0.249,3577,-0.78
+AGP-1199,Healthcare,Autonomous,CrewAI,Pilot,Cost Overrun,0.333,3457,-0.03
+AGP-1200,Insurance,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.847,3931,0.28
+AGP-1201,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.355,8923,-0.27
+AGP-1202,Manufacturing,Autonomous,CrewAI,Production,,0.362,3171,3.12
+AGP-1203,Energy,Assistant,CrewAI,Pilot,Security Violation,0.498,3700,0.41
+AGP-1204,Technology,Assistant,LangGraph,Pilot,Cost Overrun,0.769,4653,0.36
+AGP-1205,Finance,Autonomous,LangGraph,Production,,0.332,5013,3.19
+AGP-1206,Finance,Autonomous,CrewAI,Pilot,Loop Error,0.452,6116,0.0
+AGP-1207,Technology,Autonomous,LangGraph,Pilot,Cost Overrun,0.06,4604,1.56
+AGP-1208,Retail,Assistant,LangGraph,Pilot,Loop Error,0.833,3818,1.26
+AGP-1209,Healthcare,Assistant,LangGraph,Pilot,Security Violation,0.938,3442,1.1
+AGP-1210,Retail,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.713,4006,1.43
+AGP-1211,Insurance,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.444,4483,-0.95
+AGP-1212,Energy,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.479,5801,1.01
+AGP-1213,Manufacturing,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.259,6506,-0.27
+AGP-1214,Retail,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.629,6025,-0.04
+AGP-1215,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.572,6133,0.37
+AGP-1216,Manufacturing,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.112,6814,1.05
+AGP-1217,Legal,Assistant,CrewAI,Pilot,Cost Overrun,0.754,3901,-0.54
+AGP-1218,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.332,3463,0.89
+AGP-1219,Technology,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.829,5132,0.62
+AGP-1220,Finance,Assistant,CrewAI,Pilot,Schema Drift,0.819,4062,-0.04
+AGP-1221,Finance,Assistant,CrewAI,Abandoned,Schema Drift,0.551,6372,-0.91
+AGP-1222,Healthcare,Assistant,LangGraph,Pilot,Security Violation,0.68,1696,1.63
+AGP-1223,Government,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.329,8376,-0.87
+AGP-1224,Technology,Assistant,LangGraph,Production,,0.726,3283,3.51
+AGP-1225,Healthcare,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.518,10289,0.15
+AGP-1226,Government,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.394,6823,-0.72
+AGP-1227,Retail,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.593,5964,-0.34
+AGP-1228,Retail,Autonomous,LangGraph,Pilot,Cost Overrun,0.155,3580,-0.73
+AGP-1229,Government,Assistant,CrewAI,Pilot,Schema Drift,0.897,3193,0.36
+AGP-1230,Finance,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.611,9054,0.58
+AGP-1231,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Pilot,Security Violation,0.368,16149,0.12
+AGP-1232,Technology,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.771,7341,0.13
+AGP-1233,Healthcare,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.565,6329,0.35
+AGP-1234,Technology,Assistant,LangGraph,Pilot,Cost Overrun,0.619,3562,1.03
+AGP-1235,Healthcare,Autonomous,LangGraph,Abandoned,Security Violation,0.013,2756,-1.06
+AGP-1236,Finance,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.458,5272,0.8
+AGP-1237,Healthcare,Autonomous,CrewAI,Production,,0.152,5570,4.09
+AGP-1238,Retail,Assistant,CrewAI,Pilot,Security Violation,0.84,5450,-0.09
+AGP-1239,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.453,14717,-1.01
+AGP-1240,Finance,Assistant,CrewAI,Production,,0.838,5844,1.31
+AGP-1241,Government,Autonomous,CrewAI,Pilot,Security Violation,0.41,5651,1.11
+AGP-1242,Legal,Autonomous,LangGraph,Abandoned,Cost Overrun,0.276,2266,-0.56
+AGP-1243,Legal,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.688,3249,0.4
+AGP-1244,Finance,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.395,7356,-1.68
+AGP-1245,Legal,Autonomous,LangGraph,Abandoned,Cost Overrun,0.306,5422,-1.16
+AGP-1246,Healthcare,Assistant,LangGraph,Pilot,Security Violation,0.713,5152,-0.26
+AGP-1247,Technology,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.055,8303,-1.05
+AGP-1248,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.309,11183,-0.35
+AGP-1249,Government,Autonomous,CrewAI,Abandoned,Schema Drift,0.273,4343,-1.03
+AGP-1250,Government,Autonomous,LangGraph,Production,,0.336,5154,1.49
+AGP-1251,Finance,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.019,6815,-1.12
+AGP-1252,Finance,Assistant,LangGraph,Pilot,Cost Overrun,0.747,2206,-0.72
+AGP-1253,Finance,Assistant,CrewAI,Abandoned,Security Violation,0.693,5608,-0.15
+AGP-1254,Technology,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.556,9465,-1.01
+AGP-1255,Finance,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.768,13031,-0.6
+AGP-1256,Energy,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.361,7584,-0.41
+AGP-1257,Insurance,Autonomous,CrewAI,Pilot,Loop Error,0.237,2620,1.05
+AGP-1258,Energy,Autonomous,LangGraph,Pilot,Loop Error,0.129,960,0.76
+AGP-1259,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.728,8426,1.66
+AGP-1260,Telecom,Autonomous,LangGraph,Pilot,Loop Error,0.633,4297,1.47
+AGP-1261,Finance,Multi-agent Swarm,AutoGPT 3.0,Production,,0.147,13405,1.89
+AGP-1262,Retail,Autonomous,LangGraph,Pilot,Cost Overrun,0.132,2889,-0.31
+AGP-1263,Legal,Autonomous,LangGraph,Pilot,Schema Drift,0.471,5429,0.72
+AGP-1264,Telecom,Autonomous,CrewAI,Abandoned,Loop Error,0.099,3046,-0.56
+AGP-1265,Manufacturing,Autonomous,CrewAI,Pilot,Schema Drift,0.206,6736,1.07
+AGP-1266,Energy,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.244,13272,1.63
+AGP-1267,Healthcare,Assistant,LangGraph,Abandoned,Schema Drift,0.392,5606,-0.53
+AGP-1268,Telecom,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.238,2961,-0.72
+AGP-1269,Manufacturing,Assistant,LangGraph,Production,,0.661,5014,3.72
+AGP-1270,Manufacturing,Assistant,LangGraph,Pilot,Security Violation,0.795,3623,1.05
+AGP-1271,Telecom,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.429,6845,1.23
+AGP-1272,Retail,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.401,7442,-0.69
+AGP-1273,Retail,Assistant,CrewAI,Production,,0.495,4710,2.6
+AGP-1274,Technology,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.54,5031,-1.33
+AGP-1275,Finance,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.345,6399,0.01
+AGP-1276,Legal,Assistant,CrewAI,Pilot,Schema Drift,0.554,2794,0.7
+AGP-1277,Healthcare,Assistant,LangGraph,Pilot,Security Violation,0.575,5014,1.53
+AGP-1278,Finance,Autonomous,CrewAI,Abandoned,Cost Overrun,0.464,2157,-0.64
+AGP-1279,Government,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.383,6353,-0.0
+AGP-1280,Technology,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.603,5886,0.37
+AGP-1281,Legal,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.138,10727,-0.53
+AGP-1282,Retail,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.551,6603,0.41
+AGP-1283,Retail,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.405,3272,-1.09
+AGP-1284,Technology,Autonomous,LangGraph,Pilot,Cost Overrun,0.138,3597,0.07
+AGP-1285,Government,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.791,10294,-1.52
+AGP-1286,Government,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.592,5409,1.78
+AGP-1287,Retail,Multi-agent Swarm,CrewAI,Production,,0.916,6016,2.35
+AGP-1288,Legal,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.199,6426,-0.44
+AGP-1289,Retail,Autonomous,LangGraph,Pilot,Cost Overrun,0.102,1786,2.12
+AGP-1290,Manufacturing,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.556,9475,-1.4
+AGP-1291,Retail,Autonomous,CrewAI,Abandoned,Loop Error,0.111,4661,-0.66
+AGP-1292,Technology,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.017,7127,-0.16
+AGP-1293,Manufacturing,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.144,6631,0.16
+AGP-1294,Legal,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.295,3026,0.05
+AGP-1295,Legal,Assistant,LangGraph,Production,,0.952,4922,2.64
+AGP-1296,Retail,Assistant,AutoGPT 3.0,Production,,0.919,10010,0.95
+AGP-1297,Finance,Assistant,AutoGPT 3.0,Pilot,Schema Drift,0.711,9291,0.56
+AGP-1298,Healthcare,Multi-agent Swarm,CrewAI,Production,,0.324,2220,3.76
+AGP-1299,Technology,Assistant,LangGraph,Pilot,Security Violation,0.711,5557,1.22
+AGP-1300,Retail,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.046,6416,1.7
+AGP-1301,Healthcare,Autonomous,LangGraph,Pilot,Cost Overrun,0.089,2508,-0.59
+AGP-1302,Manufacturing,Autonomous,CrewAI,Pilot,Schema Drift,0.364,4805,0.48
+AGP-1303,Insurance,Autonomous,CrewAI,Pilot,Schema Drift,0.117,3738,-0.23
+AGP-1304,Healthcare,Autonomous,LangGraph,Pilot,Security Violation,0.189,3409,-0.02
+AGP-1305,Energy,Autonomous,CrewAI,Abandoned,Schema Drift,0.052,4315,-0.35
+AGP-1306,Government,Autonomous,LangGraph,Production,,0.383,5024,2.95
+AGP-1307,Technology,Assistant,CrewAI,Pilot,Schema Drift,0.949,4177,1.03
+AGP-1308,Technology,Assistant,AutoGPT 3.0,Abandoned,Cost Overrun,0.787,3324,-0.71
+AGP-1309,Finance,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.117,5224,0.18
+AGP-1310,Telecom,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.509,4211,0.07
+AGP-1311,Retail,Assistant,LangGraph,Abandoned,Security Violation,0.527,4453,-0.68
+AGP-1312,Government,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.235,3531,0.54
+AGP-1313,Manufacturing,Assistant,AutoGPT 3.0,Production,,0.752,6408,4.04
+AGP-1314,Finance,Autonomous,LangGraph,Abandoned,Security Violation,0.168,5220,0.26
+AGP-1315,Finance,Assistant,CrewAI,Abandoned,Cost Overrun,0.708,4592,-0.14
+AGP-1316,Technology,Assistant,CrewAI,Pilot,Schema Drift,0.756,6527,0.34
+AGP-1317,Manufacturing,Assistant,CrewAI,Abandoned,Cost Overrun,0.513,5277,-1.08
+AGP-1318,Finance,Autonomous,CrewAI,Abandoned,Cost Overrun,0.244,4310,-0.45
+AGP-1319,Insurance,Assistant,CrewAI,Abandoned,Loop Error,0.989,2683,-0.8
+AGP-1320,Energy,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.079,7732,-1.7
+AGP-1321,Manufacturing,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.287,3390,1.1
+AGP-1322,Retail,Assistant,LangGraph,Pilot,Loop Error,0.556,4609,0.67
+AGP-1323,Finance,Assistant,AutoGPT 3.0,Production,,0.697,7780,3.24
+AGP-1324,Insurance,Autonomous,LangGraph,Abandoned,Schema Drift,0.223,3261,-0.93
+AGP-1325,Legal,Assistant,CrewAI,Abandoned,Schema Drift,0.741,2451,-1.27
+AGP-1326,Government,Assistant,LangGraph,Abandoned,Schema Drift,0.81,3964,-0.52
+AGP-1327,Retail,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.06,7092,-1.76
+AGP-1328,Manufacturing,Autonomous,CrewAI,Abandoned,Schema Drift,0.151,3265,0.12
+AGP-1329,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.443,8023,-0.03
+AGP-1330,Healthcare,Assistant,LangGraph,Abandoned,Cost Overrun,0.588,2189,-1.09
+AGP-1331,Insurance,Assistant,CrewAI,Pilot,Loop Error,0.826,6151,1.08
+AGP-1332,Manufacturing,Assistant,AutoGPT 3.0,Production,,0.916,5156,1.98
+AGP-1333,Manufacturing,Assistant,CrewAI,Pilot,Schema Drift,0.55,2086,1.04
+AGP-1334,Telecom,Assistant,CrewAI,Production,,0.734,3577,2.29
+AGP-1335,Telecom,Autonomous,CrewAI,Pilot,Schema Drift,0.425,3628,0.15
+AGP-1336,Energy,Assistant,LangGraph,Pilot,Security Violation,0.981,3464,0.19
+AGP-1337,Healthcare,Assistant,CrewAI,Production,,0.636,3568,3.25
+AGP-1338,Technology,Autonomous,LangGraph,Abandoned,Security Violation,0.483,4947,-0.42
+AGP-1339,Government,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.374,4682,0.49
+AGP-1340,Retail,Autonomous,CrewAI,Abandoned,Schema Drift,0.044,6483,-0.64
+AGP-1341,Finance,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.731,5621,-0.15
+AGP-1342,Energy,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.622,7962,-0.25
+AGP-1343,Retail,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.861,6378,0.07
+AGP-1344,Manufacturing,Assistant,CrewAI,Production,,0.763,4071,2.29
+AGP-1345,Telecom,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.729,7643,-1.94
+AGP-1346,Technology,Assistant,CrewAI,Production,,0.806,2854,2.97
+AGP-1347,Retail,Assistant,AutoGPT 3.0,Abandoned,Security Violation,0.904,5239,-0.03
+AGP-1348,Legal,Assistant,CrewAI,Production,,0.745,3753,3.05
+AGP-1349,Retail,Autonomous,CrewAI,Abandoned,Loop Error,0.183,5290,-0.14
+AGP-1350,Finance,Autonomous,CrewAI,Abandoned,Schema Drift,0.112,6513,-0.51
+AGP-1351,Insurance,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.888,6832,1.05
+AGP-1352,Energy,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.435,6520,1.01
+AGP-1353,Healthcare,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.554,7125,0.92
+AGP-1354,Legal,Assistant,CrewAI,Production,,0.445,918,2.23
+AGP-1355,Government,Assistant,LangGraph,Production,,0.511,3341,2.11
+AGP-1356,Finance,Autonomous,CrewAI,Pilot,Schema Drift,0.273,4902,-0.12
+AGP-1357,Manufacturing,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.436,4863,-0.94
+AGP-1358,Retail,Assistant,AutoGPT 3.0,Abandoned,Security Violation,0.668,5518,-0.49
+AGP-1359,Technology,Assistant,CrewAI,Pilot,Security Violation,0.722,4264,-0.51
+AGP-1360,Healthcare,Autonomous,CrewAI,Pilot,Loop Error,0.179,3671,0.28
+AGP-1361,Technology,Assistant,LangGraph,Pilot,Loop Error,0.317,3097,-0.1
+AGP-1362,Retail,Autonomous,CrewAI,Pilot,Cost Overrun,0.023,2858,0.01
+AGP-1363,Technology,Assistant,CrewAI,Abandoned,Loop Error,0.864,7288,-0.36
+AGP-1364,Finance,Autonomous,LangGraph,Abandoned,Security Violation,0.032,5071,-0.34
+AGP-1365,Retail,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.227,10589,-0.04
+AGP-1366,Manufacturing,Autonomous,LangGraph,Pilot,Cost Overrun,0.304,2863,0.04
+AGP-1367,Healthcare,Assistant,CrewAI,Pilot,Schema Drift,0.668,5347,1.05
+AGP-1368,Finance,Autonomous,LangGraph,Pilot,Loop Error,0.294,1938,1.79
+AGP-1369,Healthcare,Assistant,CrewAI,Pilot,Security Violation,0.796,3747,0.52
+AGP-1370,Legal,Assistant,CrewAI,Production,,0.98,2987,2.6
+AGP-1371,Finance,Assistant,AutoGPT 3.0,Production,,0.99,7569,2.67
+AGP-1372,Telecom,Autonomous,LangGraph,Abandoned,Schema Drift,0.1,4888,-0.31
+AGP-1373,Retail,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.301,6618,0.95
+AGP-1374,Energy,Autonomous,CrewAI,Abandoned,Security Violation,0.053,5020,-0.36
+AGP-1375,Telecom,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.437,6429,0.21
+AGP-1376,Finance,Assistant,LangGraph,Pilot,Cost Overrun,0.647,3491,0.69
+AGP-1377,Technology,Autonomous,LangGraph,Abandoned,Cost Overrun,0.154,3517,-0.95
+AGP-1378,Government,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.609,9566,-1.41
+AGP-1379,Technology,Autonomous,LangGraph,Pilot,Schema Drift,0.071,5565,0.8
+AGP-1380,Retail,Assistant,CrewAI,Pilot,Loop Error,0.93,2106,1.34
+AGP-1381,Retail,Assistant,CrewAI,Production,,0.83,2681,1.28
+AGP-1382,Finance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.77,8316,-1.33
+AGP-1383,Manufacturing,Assistant,CrewAI,Production,,0.99,4125,3.35
+AGP-1384,Telecom,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.911,5351,1.15
+AGP-1385,Telecom,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.311,3004,2.13
+AGP-1386,Finance,Autonomous,AutoGPT 3.0,Pilot,Schema Drift,0.163,8451,0.0
+AGP-1387,Technology,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.229,2691,1.01
+AGP-1388,Legal,Multi-agent Swarm,LangGraph,Production,,0.46,7445,2.75
+AGP-1389,Government,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.661,11347,-1.87
+AGP-1390,Finance,Autonomous,LangGraph,Pilot,Schema Drift,0.413,3031,0.48
+AGP-1391,Government,Autonomous,LangGraph,Abandoned,Loop Error,0.016,4044,-0.52
+AGP-1392,Energy,Assistant,CrewAI,Production,,0.669,4871,2.97
+AGP-1393,Finance,Assistant,LangGraph,Abandoned,Schema Drift,0.793,5578,-0.97
+AGP-1394,Finance,Assistant,LangGraph,Pilot,Loop Error,0.631,4862,0.5
+AGP-1395,Energy,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.473,4845,0.59
+AGP-1396,Finance,Assistant,AutoGPT 3.0,Pilot,Schema Drift,0.961,5944,-0.67
+AGP-1397,Manufacturing,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.039,5734,0.93
+AGP-1398,Government,Assistant,LangGraph,Pilot,Loop Error,0.401,3152,0.57
+AGP-1399,Manufacturing,Autonomous,CrewAI,Pilot,Loop Error,0.188,5837,0.96
+AGP-1400,Retail,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.304,2996,0.5
+AGP-1401,Retail,Autonomous,LangGraph,Pilot,Schema Drift,0.263,4286,0.67
+AGP-1402,Finance,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.284,5155,0.27
+AGP-1403,Telecom,Assistant,LangGraph,Abandoned,Security Violation,0.399,4622,-1.56
+AGP-1404,Legal,Assistant,CrewAI,Pilot,Cost Overrun,0.561,3758,1.03
+AGP-1405,Healthcare,Assistant,LangGraph,Abandoned,Schema Drift,0.582,3501,-0.14
+AGP-1406,Healthcare,Assistant,CrewAI,Pilot,Schema Drift,0.723,1576,0.92
+AGP-1407,Telecom,Multi-agent Swarm,AutoGPT 3.0,Pilot,Schema Drift,0.245,2756,1.02
+AGP-1408,Finance,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.607,5515,-0.37
+AGP-1409,Government,Assistant,CrewAI,Pilot,Cost Overrun,0.668,1974,1.04
+AGP-1410,Technology,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.637,2917,0.62
+AGP-1411,Energy,Assistant,LangGraph,Pilot,Security Violation,0.891,4950,0.03
+AGP-1412,Telecom,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.785,3541,0.14
+AGP-1413,Energy,Multi-agent Swarm,CrewAI,Production,,0.553,4867,4.97
+AGP-1414,Telecom,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.646,6448,-0.24
+AGP-1415,Finance,Assistant,CrewAI,Pilot,Schema Drift,0.601,5275,1.38
+AGP-1416,Insurance,Autonomous,LangGraph,Pilot,Loop Error,0.097,1276,0.69
+AGP-1417,Manufacturing,Assistant,CrewAI,Production,,0.712,6458,3.1
+AGP-1418,Manufacturing,Assistant,LangGraph,Pilot,Schema Drift,0.968,2688,0.38
+AGP-1419,Government,Assistant,AutoGPT 3.0,Abandoned,Cost Overrun,0.629,4180,-0.15
+AGP-1420,Telecom,Assistant,CrewAI,Abandoned,Schema Drift,0.601,5648,-0.82
+AGP-1421,Technology,Autonomous,LangGraph,Pilot,Loop Error,0.315,3696,1.1
+AGP-1422,Retail,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.985,5967,-0.96
+AGP-1423,Retail,Autonomous,CrewAI,Pilot,Loop Error,0.295,4643,0.94
+AGP-1424,Retail,Multi-agent Swarm,AutoGPT 3.0,Pilot,Schema Drift,0.645,13930,-0.9
+AGP-1425,Legal,Autonomous,LangGraph,Pilot,Security Violation,0.052,2924,1.02
+AGP-1426,Retail,Assistant,LangGraph,Pilot,Schema Drift,0.459,4079,1.88
+AGP-1427,Finance,Assistant,LangGraph,Abandoned,Security Violation,0.847,3792,-0.27
+AGP-1428,Finance,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.183,5880,-1.12
+AGP-1429,Insurance,Autonomous,CrewAI,Pilot,Loop Error,0.069,3011,0.43
+AGP-1430,Retail,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.685,4196,0.79
+AGP-1431,Government,Assistant,LangGraph,Production,,0.92,3132,1.64
+AGP-1432,Technology,Assistant,CrewAI,Pilot,Loop Error,0.378,6268,0.59
+AGP-1433,Finance,Assistant,LangGraph,Pilot,Loop Error,0.895,4379,0.47
+AGP-1434,Finance,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.405,5358,-0.74
+AGP-1435,Healthcare,Assistant,CrewAI,Abandoned,Loop Error,0.968,2709,-0.25
+AGP-1436,Telecom,Autonomous,LangGraph,Abandoned,Schema Drift,0.416,2109,-0.11
+AGP-1437,Healthcare,Autonomous,CrewAI,Pilot,Loop Error,0.459,5339,2.0
+AGP-1438,Manufacturing,Assistant,LangGraph,Pilot,Loop Error,0.94,3647,0.93
+AGP-1439,Government,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.613,5350,-0.05
+AGP-1440,Telecom,Autonomous,CrewAI,Abandoned,Cost Overrun,0.01,3729,-0.61
+AGP-1441,Healthcare,Autonomous,CrewAI,Pilot,Schema Drift,0.341,5233,0.31
+AGP-1442,Finance,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.137,8468,0.75
+AGP-1443,Finance,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.576,7642,0.22
+AGP-1444,Finance,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.86,7449,-0.66
+AGP-1445,Healthcare,Autonomous,LangGraph,Abandoned,Loop Error,0.135,4444,0.21
+AGP-1446,Manufacturing,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.06,1816,-0.86
+AGP-1447,Government,Autonomous,CrewAI,Pilot,Schema Drift,0.564,5026,1.09
+AGP-1448,Manufacturing,Autonomous,CrewAI,Abandoned,Schema Drift,0.194,5589,-1.32
+AGP-1449,Technology,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.134,3490,-0.2
+AGP-1450,Healthcare,Autonomous,AutoGPT 3.0,Pilot,Schema Drift,0.161,10536,-0.52
+AGP-1451,Energy,Assistant,LangGraph,Pilot,Cost Overrun,0.823,2795,0.61
+AGP-1452,Technology,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.259,8173,-1.42
+AGP-1453,Government,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.522,6003,0.06
+AGP-1454,Telecom,Assistant,LangGraph,Abandoned,Cost Overrun,0.476,3746,-0.57
+AGP-1455,Legal,Autonomous,CrewAI,Production,,0.137,2993,2.68
+AGP-1456,Finance,Assistant,CrewAI,Pilot,Loop Error,0.835,6110,0.94
+AGP-1457,Healthcare,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.516,5624,-0.33
+AGP-1458,Retail,Multi-agent Swarm,CrewAI,Production,,0.379,4794,3.1
+AGP-1459,Telecom,Autonomous,CrewAI,Pilot,Loop Error,0.069,3068,0.97
+AGP-1460,Retail,Assistant,CrewAI,Production,,0.815,5731,5.0
+AGP-1461,Insurance,Autonomous,LangGraph,Pilot,Cost Overrun,0.203,2995,-0.05
+AGP-1462,Manufacturing,Autonomous,CrewAI,Pilot,Schema Drift,0.151,3261,0.31
+AGP-1463,Healthcare,Assistant,CrewAI,Abandoned,Schema Drift,0.516,1745,0.01
+AGP-1464,Legal,Autonomous,LangGraph,Abandoned,Loop Error,0.3,4612,-0.69
+AGP-1465,Technology,Autonomous,CrewAI,Pilot,Loop Error,0.337,5127,0.08
+AGP-1466,Technology,Autonomous,AutoGPT 3.0,Pilot,Schema Drift,0.225,12919,0.0
+AGP-1467,Retail,Assistant,LangGraph,Pilot,Schema Drift,0.424,4850,1.35
+AGP-1468,Healthcare,Autonomous,CrewAI,Pilot,Cost Overrun,0.035,3275,-0.13
+AGP-1469,Technology,Assistant,AutoGPT 3.0,Abandoned,Cost Overrun,0.616,9994,-0.5
+AGP-1470,Healthcare,Autonomous,AutoGPT 3.0,Production,,0.568,5953,3.22
+AGP-1471,Government,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.692,5959,-0.06
+AGP-1472,Healthcare,Autonomous,CrewAI,Pilot,Schema Drift,0.204,4409,1.0
+AGP-1473,Finance,Assistant,AutoGPT 3.0,Abandoned,Schema Drift,0.848,6270,-1.33
+AGP-1474,Manufacturing,Autonomous,CrewAI,Pilot,Cost Overrun,0.291,3845,-0.38
+AGP-1475,Manufacturing,Autonomous,LangGraph,Pilot,Schema Drift,0.085,2865,2.02
+AGP-1476,Manufacturing,Autonomous,LangGraph,Pilot,Schema Drift,0.218,5316,1.93
+AGP-1477,Retail,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.028,8658,0.42
+AGP-1478,Telecom,Autonomous,CrewAI,Abandoned,Cost Overrun,0.526,3186,0.16
+AGP-1479,Retail,Assistant,LangGraph,Production,,0.875,4435,1.77
+AGP-1480,Retail,Assistant,LangGraph,Production,,0.965,2848,4.17
+AGP-1481,Retail,Autonomous,AutoGPT 3.0,Production,,0.239,8470,-0.13
+AGP-1482,Finance,Assistant,CrewAI,Production,,0.436,4590,3.14
+AGP-1483,Technology,Assistant,AutoGPT 3.0,Production,,0.518,4199,2.27
+AGP-1484,Healthcare,Autonomous,CrewAI,Abandoned,Schema Drift,0.302,5255,0.15
+AGP-1485,Technology,Assistant,AutoGPT 3.0,Production,,0.943,8828,2.75
+AGP-1486,Finance,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.327,5376,0.17
+AGP-1487,Telecom,Autonomous,LangGraph,Pilot,Loop Error,0.399,2862,0.91
+AGP-1488,Retail,Assistant,CrewAI,Abandoned,Schema Drift,0.678,4251,-0.88
+AGP-1489,Government,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.358,6706,-0.35
+AGP-1490,Retail,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.535,18153,0.13
+AGP-1491,Finance,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.38,6602,0.33
+AGP-1492,Energy,Assistant,CrewAI,Pilot,Security Violation,0.924,3510,0.31
+AGP-1493,Technology,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.06,11992,0.43
+AGP-1494,Insurance,Autonomous,LangGraph,Pilot,Cost Overrun,0.042,4138,-0.79
+AGP-1495,Retail,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.062,6836,-0.34
+AGP-1496,Technology,Autonomous,LangGraph,Abandoned,Cost Overrun,0.12,2819,0.25
+AGP-1497,Energy,Autonomous,CrewAI,Abandoned,Schema Drift,0.22,3078,-0.34
+AGP-1498,Technology,Assistant,CrewAI,Pilot,Loop Error,0.863,3044,-0.46
+AGP-1499,Legal,Autonomous,LangGraph,Abandoned,Loop Error,0.266,4592,-0.58
+AGP-1500,Technology,Autonomous,CrewAI,Abandoned,Loop Error,0.051,3430,-0.89
+AGP-1501,Technology,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.684,5811,-0.03
+AGP-1502,Telecom,Assistant,LangGraph,Pilot,Security Violation,0.973,2699,0.38
+AGP-1503,Retail,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.425,8310,-0.06
+AGP-1504,Retail,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.136,3295,1.31
+AGP-1505,Energy,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.802,5536,-0.44
+AGP-1506,Manufacturing,Autonomous,LangGraph,Abandoned,Security Violation,0.028,3700,-1.18
+AGP-1507,Insurance,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.799,3828,0.69
+AGP-1508,Retail,Autonomous,LangGraph,Production,,0.315,3434,4.01
+AGP-1509,Healthcare,Autonomous,CrewAI,Abandoned,Loop Error,0.029,3800,-0.63
+AGP-1510,Insurance,Assistant,CrewAI,Pilot,Loop Error,0.609,5729,0.84
+AGP-1511,Finance,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.199,500,1.76
+AGP-1512,Healthcare,Autonomous,LangGraph,Abandoned,Cost Overrun,0.252,2733,-0.79
+AGP-1513,Technology,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.432,6769,-0.19
+AGP-1514,Insurance,Autonomous,AutoGPT 3.0,Pilot,Schema Drift,0.099,10048,0.88
+AGP-1515,Government,Assistant,LangGraph,Abandoned,Cost Overrun,0.315,3296,-1.75
+AGP-1516,Healthcare,Assistant,CrewAI,Abandoned,Cost Overrun,0.838,2759,-0.97
+AGP-1517,Finance,Autonomous,CrewAI,Abandoned,Loop Error,0.264,2409,-1.23
+AGP-1518,Telecom,Assistant,CrewAI,Pilot,Loop Error,0.492,2225,0.87
+AGP-1519,Finance,Autonomous,LangGraph,Abandoned,Schema Drift,0.252,4131,-0.25
+AGP-1520,Healthcare,Assistant,LangGraph,Abandoned,Schema Drift,0.878,4246,0.25
+AGP-1521,Legal,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.375,3315,0.02
+AGP-1522,Manufacturing,Autonomous,CrewAI,Abandoned,Cost Overrun,0.066,5855,-0.46
+AGP-1523,Government,Autonomous,LangGraph,Abandoned,Schema Drift,0.108,3369,-0.55
+AGP-1524,Insurance,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.423,5951,1.18
+AGP-1525,Technology,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.148,4956,-0.04
+AGP-1526,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.592,5413,-0.09
+AGP-1527,Legal,Assistant,LangGraph,Abandoned,Cost Overrun,0.697,4072,-0.72
+AGP-1528,Retail,Assistant,LangGraph,Abandoned,Loop Error,0.737,2552,-0.45
+AGP-1529,Finance,Assistant,CrewAI,Pilot,Security Violation,0.748,776,1.77
+AGP-1530,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.145,5546,0.04
+AGP-1531,Legal,Assistant,LangGraph,Pilot,Cost Overrun,0.784,3770,0.52
+AGP-1532,Finance,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.884,7145,-0.74
+AGP-1533,Manufacturing,Assistant,CrewAI,Pilot,Schema Drift,0.762,5094,0.2
+AGP-1534,Technology,Assistant,LangGraph,Abandoned,Security Violation,0.845,4371,-0.77
+AGP-1535,Finance,Autonomous,CrewAI,Pilot,Security Violation,0.475,2057,0.58
+AGP-1536,Retail,Assistant,LangGraph,Pilot,Loop Error,0.709,3791,0.51
+AGP-1537,Insurance,Autonomous,LangGraph,Abandoned,Security Violation,0.01,6759,-0.36
+AGP-1538,Insurance,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.47,5889,0.91
+AGP-1539,Energy,Assistant,CrewAI,Pilot,Cost Overrun,0.865,6372,0.44
+AGP-1540,Retail,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.705,6062,1.22
+AGP-1541,Energy,Assistant,AutoGPT 3.0,Pilot,Schema Drift,0.819,9047,-0.11
+AGP-1542,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.379,3175,0.08
+AGP-1543,Legal,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.352,7557,-0.79
+AGP-1544,Healthcare,Multi-agent Swarm,CrewAI,Production,,0.407,6917,2.75
+AGP-1545,Retail,Assistant,LangGraph,Pilot,Loop Error,0.508,1960,0.38
+AGP-1546,Retail,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.371,4145,1.46
+AGP-1547,Healthcare,Autonomous,LangGraph,Pilot,Loop Error,0.366,4018,0.18
+AGP-1548,Insurance,Autonomous,CrewAI,Pilot,Schema Drift,0.16,1062,0.67
+AGP-1549,Legal,Assistant,CrewAI,Abandoned,Cost Overrun,0.743,5985,-0.77
+AGP-1550,Healthcare,Assistant,LangGraph,Pilot,Schema Drift,0.865,5874,0.76
+AGP-1551,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.412,3696,-0.23
+AGP-1552,Retail,Assistant,LangGraph,Production,,0.7,3208,3.36
+AGP-1553,Legal,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.925,6478,-0.45
+AGP-1554,Legal,Assistant,LangGraph,Abandoned,Loop Error,0.393,5077,-0.49
+AGP-1555,Healthcare,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.444,6900,-0.65
+AGP-1556,Insurance,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.519,7555,-1.31
+AGP-1557,Government,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.165,4944,-0.6
+AGP-1558,Manufacturing,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.517,5937,0.05
+AGP-1559,Technology,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.956,4080,-0.09
+AGP-1560,Government,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.607,6502,0.3
+AGP-1561,Telecom,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.54,5563,-0.31
+AGP-1562,Technology,Assistant,LangGraph,Abandoned,Cost Overrun,0.725,5323,-0.67
+AGP-1563,Government,Autonomous,LangGraph,Production,,0.508,3900,1.85
+AGP-1564,Government,Assistant,AutoGPT 3.0,Abandoned,Cost Overrun,0.698,6422,-1.24
+AGP-1565,Insurance,Autonomous,CrewAI,Pilot,Loop Error,0.544,4855,-0.14
+AGP-1566,Retail,Multi-agent Swarm,CrewAI,Production,,0.761,4638,3.84
+AGP-1567,Finance,Autonomous,CrewAI,Pilot,Security Violation,0.147,4825,-1.08
+AGP-1568,Finance,Assistant,CrewAI,Production,,0.674,5079,2.51
+AGP-1569,Retail,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.606,5348,0.16
+AGP-1570,Manufacturing,Autonomous,AutoGPT 3.0,Pilot,Schema Drift,0.177,7030,0.05
+AGP-1571,Retail,Assistant,CrewAI,Pilot,Loop Error,0.718,5044,0.12
+AGP-1572,Manufacturing,Assistant,CrewAI,Pilot,Cost Overrun,0.723,3867,0.19
+AGP-1573,Manufacturing,Assistant,CrewAI,Production,,0.756,4504,2.41
+AGP-1574,Energy,Autonomous,CrewAI,Abandoned,Security Violation,0.369,5371,-1.11
+AGP-1575,Finance,Autonomous,CrewAI,Abandoned,Cost Overrun,0.232,4068,0.05
+AGP-1576,Healthcare,Assistant,CrewAI,Pilot,Loop Error,0.964,6413,-0.07
+AGP-1577,Insurance,Assistant,CrewAI,Abandoned,Security Violation,0.982,5277,-0.44
+AGP-1578,Energy,Assistant,AutoGPT 3.0,Production,,0.873,5658,2.47
+AGP-1579,Telecom,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.207,3857,-0.67
+AGP-1580,Government,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.855,5106,-0.42
+AGP-1581,Government,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.681,5408,1.23
+AGP-1582,Legal,Autonomous,CrewAI,Pilot,Loop Error,0.115,3417,1.44
+AGP-1583,Retail,Assistant,CrewAI,Pilot,Schema Drift,0.376,3882,0.53
+AGP-1584,Healthcare,Autonomous,LangGraph,Pilot,Cost Overrun,0.265,3015,0.19
+AGP-1585,Technology,Assistant,CrewAI,Pilot,Schema Drift,0.81,4535,1.96
+AGP-1586,Government,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.61,5296,1.27
+AGP-1587,Legal,Assistant,LangGraph,Pilot,Schema Drift,0.664,4961,0.4
+AGP-1588,Manufacturing,Assistant,AutoGPT 3.0,Abandoned,Schema Drift,0.342,9938,-2.0
+AGP-1589,Legal,Autonomous,AutoGPT 3.0,Production,,0.271,5710,3.05
+AGP-1590,Healthcare,Autonomous,CrewAI,Pilot,Security Violation,0.146,5269,1.8
+AGP-1591,Healthcare,Autonomous,LangGraph,Abandoned,Cost Overrun,0.445,5068,-1.64
+AGP-1592,Finance,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.581,7882,-0.12
+AGP-1593,Telecom,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.457,6536,0.58
+AGP-1594,Retail,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.074,10269,-0.35
+AGP-1595,Energy,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.283,3430,-0.15
+AGP-1596,Technology,Autonomous,LangGraph,Production,,0.168,4965,3.46
+AGP-1597,Healthcare,Assistant,LangGraph,Pilot,Cost Overrun,0.712,6043,0.69
+AGP-1598,Healthcare,Assistant,LangGraph,Pilot,Loop Error,0.578,3162,1.06
+AGP-1599,Energy,Assistant,LangGraph,Production,,0.88,2532,3.97
+AGP-1600,Healthcare,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.815,5890,-0.9
+AGP-1601,Government,Autonomous,LangGraph,Pilot,Cost Overrun,0.065,3837,0.66
+AGP-1602,Finance,Assistant,LangGraph,Pilot,Schema Drift,0.671,5198,-0.6
+AGP-1603,Technology,Assistant,LangGraph,Pilot,Loop Error,0.619,2541,0.09
+AGP-1604,Energy,Autonomous,LangGraph,Abandoned,Schema Drift,0.325,3461,-0.12
+AGP-1605,Healthcare,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.728,6671,0.09
+AGP-1606,Healthcare,Autonomous,LangGraph,Abandoned,Cost Overrun,0.175,4152,-0.59
+AGP-1607,Telecom,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.786,7500,0.78
+AGP-1608,Healthcare,Assistant,LangGraph,Pilot,Loop Error,0.863,4653,0.3
+AGP-1609,Retail,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.618,7452,-0.63
+AGP-1610,Retail,Assistant,LangGraph,Pilot,Security Violation,0.816,4827,-0.9
+AGP-1611,Healthcare,Autonomous,CrewAI,Abandoned,Loop Error,0.621,1912,-0.31
+AGP-1612,Insurance,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.252,6089,1.4
+AGP-1613,Insurance,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.436,4088,0.31
+AGP-1614,Retail,Assistant,LangGraph,Pilot,Schema Drift,0.689,3104,0.73
+AGP-1615,Energy,Multi-agent Swarm,AutoGPT 3.0,Pilot,Security Violation,0.326,11251,0.12
+AGP-1616,Healthcare,Autonomous,LangGraph,Abandoned,Security Violation,0.121,3565,-0.4
+AGP-1617,Finance,Assistant,LangGraph,Pilot,Loop Error,0.664,5281,-0.32
+AGP-1618,Manufacturing,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.644,3646,0.23
+AGP-1619,Telecom,Autonomous,LangGraph,Abandoned,Schema Drift,0.46,4367,-0.28
+AGP-1620,Finance,Assistant,LangGraph,Abandoned,Loop Error,0.536,3385,-1.07
+AGP-1621,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Production,,0.477,10533,1.77
+AGP-1622,Manufacturing,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.291,6497,-0.32
+AGP-1623,Energy,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.395,8544,-0.33
+AGP-1624,Finance,Assistant,CrewAI,Pilot,Cost Overrun,0.786,5201,0.57
+AGP-1625,Retail,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.264,6727,-0.35
+AGP-1626,Insurance,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.387,9145,-1.04
+AGP-1627,Retail,Assistant,CrewAI,Pilot,Schema Drift,0.956,2314,0.44
+AGP-1628,Healthcare,Assistant,CrewAI,Production,,0.752,3814,3.27
+AGP-1629,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.676,3792,1.39
+AGP-1630,Retail,Multi-agent Swarm,CrewAI,Production,,0.265,10145,1.72
+AGP-1631,Retail,Assistant,CrewAI,Pilot,Loop Error,0.779,4766,1.44
+AGP-1632,Government,Assistant,LangGraph,Abandoned,Loop Error,0.886,3659,-0.54
+AGP-1633,Technology,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.72,4736,0.17
+AGP-1634,Technology,Assistant,CrewAI,Production,,0.967,4249,3.24
+AGP-1635,Telecom,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.566,9418,0.8
+AGP-1636,Retail,Autonomous,LangGraph,Abandoned,Loop Error,0.662,4343,-0.46
+AGP-1637,Retail,Assistant,LangGraph,Pilot,Loop Error,0.687,5278,0.75
+AGP-1638,Government,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.326,7036,-0.17
+AGP-1639,Healthcare,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.724,4570,1.23
+AGP-1640,Technology,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.366,7218,0.76
+AGP-1641,Insurance,Assistant,LangGraph,Pilot,Schema Drift,0.734,3927,0.04
+AGP-1642,Finance,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.745,10478,-0.41
+AGP-1643,Retail,Autonomous,LangGraph,Pilot,Schema Drift,0.25,3375,1.91
+AGP-1644,Healthcare,Assistant,LangGraph,Production,,0.99,2537,2.34
+AGP-1645,Healthcare,Assistant,CrewAI,Pilot,Schema Drift,0.709,3298,0.4
+AGP-1646,Retail,Autonomous,LangGraph,Abandoned,Loop Error,0.256,4798,-1.02
+AGP-1647,Healthcare,Autonomous,LangGraph,Pilot,Security Violation,0.633,4229,0.51
+AGP-1648,Insurance,Assistant,LangGraph,Pilot,Schema Drift,0.826,3023,0.96
+AGP-1649,Government,Assistant,AutoGPT 3.0,Pilot,Schema Drift,0.866,8090,0.4
+AGP-1650,Energy,Assistant,LangGraph,Pilot,Security Violation,0.59,500,1.23
+AGP-1651,Healthcare,Autonomous,CrewAI,Pilot,Schema Drift,0.12,4304,0.97
+AGP-1652,Healthcare,Assistant,AutoGPT 3.0,Pilot,Schema Drift,0.625,5123,0.5
+AGP-1653,Healthcare,Assistant,CrewAI,Pilot,Loop Error,0.583,4305,0.78
+AGP-1654,Finance,Assistant,CrewAI,Abandoned,Loop Error,0.962,4367,-0.16
+AGP-1655,Telecom,Assistant,CrewAI,Pilot,Cost Overrun,0.613,4622,-0.14
+AGP-1656,Retail,Autonomous,LangGraph,Abandoned,Loop Error,0.177,6051,0.57
+AGP-1657,Healthcare,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.458,4379,0.4
+AGP-1658,Energy,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.13,8662,0.82
+AGP-1659,Retail,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.622,2385,1.83
+AGP-1660,Finance,Autonomous,CrewAI,Pilot,Loop Error,0.104,3910,-0.09
+AGP-1661,Healthcare,Assistant,LangGraph,Pilot,Cost Overrun,0.924,2249,0.23
+AGP-1662,Technology,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.2,5863,-0.49
+AGP-1663,Insurance,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.436,5105,-0.66
+AGP-1664,Healthcare,Assistant,AutoGPT 3.0,Production,,0.669,7994,3.34
+AGP-1665,Government,Assistant,LangGraph,Pilot,Schema Drift,0.978,4801,0.59
+AGP-1666,Energy,Autonomous,CrewAI,Pilot,Cost Overrun,0.126,1943,0.53
+AGP-1667,Energy,Autonomous,AutoGPT 3.0,Abandoned,Schema Drift,0.365,6518,-0.49
+AGP-1668,Healthcare,Assistant,CrewAI,Pilot,Loop Error,0.747,5942,-0.95
+AGP-1669,Finance,Assistant,LangGraph,Pilot,Cost Overrun,0.716,2893,1.26
+AGP-1670,Government,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.641,4324,0.91
+AGP-1671,Legal,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.645,5900,0.3
+AGP-1672,Technology,Assistant,LangGraph,Production,,0.769,3036,2.19
+AGP-1673,Insurance,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.433,8727,0.72
+AGP-1674,Finance,Autonomous,CrewAI,Pilot,Security Violation,0.317,3928,-0.64
+AGP-1675,Insurance,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.394,7564,-1.23
+AGP-1676,Government,Assistant,LangGraph,Abandoned,Schema Drift,0.927,2279,-0.25
+AGP-1677,Technology,Assistant,CrewAI,Pilot,Loop Error,0.77,4679,0.25
+AGP-1678,Retail,Multi-agent Swarm,AutoGPT 3.0,Pilot,Schema Drift,0.365,7400,0.45
+AGP-1679,Government,Assistant,LangGraph,Abandoned,Cost Overrun,0.678,4235,-1.11
+AGP-1680,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.403,6887,0.45
+AGP-1681,Insurance,Assistant,CrewAI,Pilot,Security Violation,0.845,4871,0.59
+AGP-1682,Energy,Autonomous,AutoGPT 3.0,Pilot,Schema Drift,0.044,1941,0.87
+AGP-1683,Insurance,Assistant,CrewAI,Pilot,Cost Overrun,0.681,4273,-0.2
+AGP-1684,Healthcare,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.842,5823,-1.22
+AGP-1685,Finance,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.419,7235,-0.57
+AGP-1686,Healthcare,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.311,4831,-0.8
+AGP-1687,Manufacturing,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.205,7538,-1.71
+AGP-1688,Manufacturing,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.017,4624,-0.83
+AGP-1689,Technology,Autonomous,CrewAI,Abandoned,Cost Overrun,0.082,5559,-0.41
+AGP-1690,Retail,Assistant,CrewAI,Production,,0.654,5327,3.29
+AGP-1691,Insurance,Autonomous,CrewAI,Pilot,Cost Overrun,0.181,3986,1.03
+AGP-1692,Government,Assistant,LangGraph,Pilot,Security Violation,0.899,4413,-0.18
+AGP-1693,Healthcare,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.681,6677,0.54
+AGP-1694,Insurance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.708,19312,-0.1
+AGP-1695,Technology,Autonomous,CrewAI,Production,,0.25,4410,1.83
+AGP-1696,Manufacturing,Assistant,LangGraph,Pilot,Cost Overrun,0.823,3479,1.11
+AGP-1697,Healthcare,Autonomous,LangGraph,Abandoned,Schema Drift,0.146,2112,-0.35
+AGP-1698,Insurance,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.509,5204,0.6
+AGP-1699,Telecom,Autonomous,CrewAI,Pilot,Schema Drift,0.094,4492,0.16
+AGP-1700,Technology,Autonomous,CrewAI,Production,,0.104,6365,3.61
+AGP-1701,Government,Autonomous,LangGraph,Pilot,Schema Drift,0.143,5813,0.94
+AGP-1702,Telecom,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.218,7256,-1.74
+AGP-1703,Legal,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.075,8538,1.78
+AGP-1704,Technology,Assistant,LangGraph,Pilot,Security Violation,0.811,4748,-0.29
+AGP-1705,Retail,Assistant,CrewAI,Pilot,Loop Error,0.79,6140,1.45
+AGP-1706,Telecom,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.322,3037,0.11
+AGP-1707,Finance,Autonomous,LangGraph,Abandoned,Loop Error,0.17,5114,-0.63
+AGP-1708,Retail,Autonomous,CrewAI,Pilot,Schema Drift,0.051,4720,1.14
+AGP-1709,Government,Assistant,CrewAI,Pilot,Loop Error,0.7,3068,-0.04
+AGP-1710,Healthcare,Autonomous,LangGraph,Abandoned,Cost Overrun,0.093,2945,0.03
+AGP-1711,Insurance,Assistant,LangGraph,Abandoned,Loop Error,0.542,5474,-0.97
+AGP-1712,Retail,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.793,5763,0.74
+AGP-1713,Telecom,Assistant,LangGraph,Pilot,Security Violation,0.773,2471,1.71
+AGP-1714,Government,Autonomous,CrewAI,Pilot,Schema Drift,0.269,5280,1.23
+AGP-1715,Legal,Assistant,CrewAI,Pilot,Loop Error,0.851,4578,0.66
+AGP-1716,Insurance,Autonomous,AutoGPT 3.0,Abandoned,Schema Drift,0.439,8572,-1.3
+AGP-1717,Legal,Assistant,CrewAI,Abandoned,Schema Drift,0.679,1630,0.42
+AGP-1718,Technology,Autonomous,AutoGPT 3.0,Abandoned,Schema Drift,0.267,7312,-1.22
+AGP-1719,Technology,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.402,4086,-0.2
+AGP-1720,Energy,Assistant,CrewAI,Pilot,Loop Error,0.537,3314,1.5
+AGP-1721,Finance,Autonomous,LangGraph,Abandoned,Cost Overrun,0.383,4248,-0.66
+AGP-1722,Healthcare,Autonomous,LangGraph,Pilot,Schema Drift,0.022,4412,1.83
+AGP-1723,Technology,Autonomous,LangGraph,Pilot,Security Violation,0.07,5145,-0.01
+AGP-1724,Manufacturing,Autonomous,LangGraph,Abandoned,Loop Error,0.314,4416,-0.81
+AGP-1725,Manufacturing,Autonomous,CrewAI,Pilot,Cost Overrun,0.655,5114,0.04
+AGP-1726,Finance,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.699,5629,-0.77
+AGP-1727,Legal,Assistant,LangGraph,Abandoned,Loop Error,0.642,3351,-0.26
+AGP-1728,Government,Autonomous,LangGraph,Abandoned,Loop Error,0.119,3396,-0.57
+AGP-1729,Finance,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.748,8122,-1.0
+AGP-1730,Retail,Autonomous,CrewAI,Pilot,Security Violation,0.166,6101,1.89
+AGP-1731,Telecom,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.109,6969,0.89
+AGP-1732,Finance,Autonomous,CrewAI,Abandoned,Cost Overrun,0.541,2851,0.03
+AGP-1733,Insurance,Assistant,AutoGPT 3.0,Production,,0.643,7371,2.78
+AGP-1734,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Schema Drift,0.255,9326,-0.71
+AGP-1735,Government,Autonomous,LangGraph,Pilot,Security Violation,0.116,3617,0.53
+AGP-1736,Insurance,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.24,7174,0.49
+AGP-1737,Government,Assistant,LangGraph,Pilot,Cost Overrun,0.832,4177,0.73
+AGP-1738,Healthcare,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.22,5644,0.1
+AGP-1739,Manufacturing,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.731,7099,-0.52
+AGP-1740,Insurance,Assistant,LangGraph,Abandoned,Schema Drift,0.705,4863,-1.23
+AGP-1741,Healthcare,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.411,5233,-0.55
+AGP-1742,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.303,7649,-0.24
+AGP-1743,Finance,Assistant,LangGraph,Pilot,Security Violation,0.675,4277,0.2
+AGP-1744,Telecom,Assistant,LangGraph,Pilot,Cost Overrun,0.683,1887,0.87
+AGP-1745,Technology,Assistant,LangGraph,Pilot,Cost Overrun,0.715,3050,0.73
+AGP-1746,Technology,Autonomous,LangGraph,Production,,0.23,4465,2.79
+AGP-1747,Insurance,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.181,7245,1.23
+AGP-1748,Manufacturing,Autonomous,CrewAI,Pilot,Cost Overrun,0.045,4176,1.02
+AGP-1749,Retail,Autonomous,CrewAI,Abandoned,Schema Drift,0.076,5171,-0.66
+AGP-1750,Retail,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.618,8852,-0.9
+AGP-1751,Technology,Autonomous,LangGraph,Pilot,Schema Drift,0.24,5460,1.28
+AGP-1752,Healthcare,Autonomous,LangGraph,Pilot,Security Violation,0.022,3705,1.57
+AGP-1753,Government,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.01,7925,-0.9
+AGP-1754,Energy,Assistant,AutoGPT 3.0,Abandoned,Schema Drift,0.763,6769,-0.76
+AGP-1755,Legal,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.169,4857,0.02
+AGP-1756,Manufacturing,Autonomous,LangGraph,Pilot,Loop Error,0.664,4107,-0.21
+AGP-1757,Finance,Autonomous,AutoGPT 3.0,Production,,0.212,7581,0.65
+AGP-1758,Telecom,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.954,8891,-1.23
+AGP-1759,Government,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.803,5564,1.63
+AGP-1760,Government,Autonomous,LangGraph,Pilot,Schema Drift,0.321,3024,1.2
+AGP-1761,Legal,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.623,4309,-0.38
+AGP-1762,Healthcare,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.548,4667,0.46
+AGP-1763,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Schema Drift,0.418,3789,0.13
+AGP-1764,Finance,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.269,4865,-1.2
+AGP-1765,Finance,Assistant,LangGraph,Pilot,Cost Overrun,0.653,3761,0.81
+AGP-1766,Finance,Assistant,CrewAI,Abandoned,Schema Drift,0.851,2761,-0.28
+AGP-1767,Telecom,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.693,6468,0.02
+AGP-1768,Finance,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.395,6790,-0.95
+AGP-1769,Finance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Security Violation,0.533,11400,-1.29
+AGP-1770,Energy,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.238,2451,-0.31
+AGP-1771,Technology,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.404,6486,1.97
+AGP-1772,Insurance,Assistant,CrewAI,Abandoned,Loop Error,0.374,5318,0.34
+AGP-1773,Technology,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.537,6443,-0.44
+AGP-1774,Government,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.314,11702,-0.62
+AGP-1775,Technology,Autonomous,CrewAI,Production,,0.408,5460,2.81
+AGP-1776,Manufacturing,Autonomous,LangGraph,Pilot,Loop Error,0.139,2068,1.41
+AGP-1777,Technology,Assistant,LangGraph,Abandoned,Cost Overrun,0.745,3690,0.17
+AGP-1778,Retail,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.638,8177,-0.17
+AGP-1779,Legal,Autonomous,LangGraph,Pilot,Loop Error,0.681,2800,0.66
+AGP-1780,Retail,Assistant,CrewAI,Abandoned,Schema Drift,0.961,981,-0.66
+AGP-1781,Healthcare,Autonomous,LangGraph,Abandoned,Security Violation,0.437,2805,-0.41
+AGP-1782,Insurance,Assistant,LangGraph,Abandoned,Loop Error,0.688,5762,-0.4
+AGP-1783,Healthcare,Assistant,CrewAI,Pilot,Schema Drift,0.748,4241,1.05
+AGP-1784,Finance,Autonomous,LangGraph,Pilot,Loop Error,0.16,4007,0.35
+AGP-1785,Healthcare,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.739,7394,-0.45
+AGP-1786,Energy,Autonomous,CrewAI,Pilot,Schema Drift,0.195,4132,-0.08
+AGP-1787,Legal,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.278,9628,-0.38
+AGP-1788,Technology,Autonomous,CrewAI,Production,,0.549,3184,1.57
+AGP-1789,Energy,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.585,11087,1.1
+AGP-1790,Finance,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.789,5265,2.1
+AGP-1791,Insurance,Autonomous,LangGraph,Pilot,Security Violation,0.136,2658,-0.0
+AGP-1792,Legal,Autonomous,LangGraph,Abandoned,Loop Error,0.134,3646,-0.66
+AGP-1793,Healthcare,Autonomous,CrewAI,Abandoned,Cost Overrun,0.23,3549,-0.29
+AGP-1794,Technology,Assistant,CrewAI,Pilot,Schema Drift,0.774,4149,0.89
+AGP-1795,Government,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.762,8532,-0.29
+AGP-1796,Legal,Assistant,CrewAI,Pilot,Cost Overrun,0.371,1065,-0.39
+AGP-1797,Manufacturing,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.697,9065,-0.91
+AGP-1798,Healthcare,Assistant,LangGraph,Abandoned,Loop Error,0.734,3899,-0.58
+AGP-1799,Manufacturing,Assistant,CrewAI,Production,,0.85,5810,3.05
+AGP-1800,Technology,Assistant,LangGraph,Pilot,Cost Overrun,0.952,3351,-1.13
+AGP-1801,Technology,Assistant,LangGraph,Abandoned,Loop Error,0.681,3850,-0.44
+AGP-1802,Technology,Assistant,CrewAI,Pilot,Loop Error,0.676,3495,1.79
+AGP-1803,Finance,Multi-agent Swarm,CrewAI,Pilot,Security Violation,0.472,6620,0.59
+AGP-1804,Technology,Assistant,LangGraph,Production,,0.882,4767,2.76
+AGP-1805,Technology,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.259,4247,0.36
+AGP-1806,Technology,Autonomous,AutoGPT 3.0,Production,,0.31,10350,2.24
+AGP-1807,Finance,Assistant,CrewAI,Abandoned,Security Violation,0.873,1643,-0.37
+AGP-1808,Retail,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.477,10725,0.13
+AGP-1809,Retail,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.778,3810,1.4
+AGP-1810,Finance,Assistant,AutoGPT 3.0,Production,,0.556,9056,3.43
+AGP-1811,Healthcare,Assistant,LangGraph,Pilot,Cost Overrun,0.645,4947,0.36
+AGP-1812,Retail,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.63,9426,0.28
+AGP-1813,Insurance,Autonomous,LangGraph,Pilot,Loop Error,0.17,4444,0.22
+AGP-1814,Healthcare,Multi-agent Swarm,LangGraph,Production,,0.809,7178,1.39
+AGP-1815,Energy,Autonomous,CrewAI,Pilot,Loop Error,0.623,4859,0.15
+AGP-1816,Manufacturing,Assistant,LangGraph,Abandoned,Cost Overrun,0.624,2730,-0.7
+AGP-1817,Insurance,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.33,9660,-1.56
+AGP-1818,Retail,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.419,7408,-1.19
+AGP-1819,Manufacturing,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.515,6224,0.67
+AGP-1820,Technology,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.574,7038,1.46
+AGP-1821,Government,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.677,6166,-0.36
+AGP-1822,Manufacturing,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.776,9548,-0.29
+AGP-1823,Manufacturing,Assistant,CrewAI,Pilot,Schema Drift,0.827,4143,0.6
+AGP-1824,Technology,Autonomous,LangGraph,Abandoned,Schema Drift,0.419,3833,-0.3
+AGP-1825,Insurance,Autonomous,CrewAI,Pilot,Schema Drift,0.262,5469,1.65
+AGP-1826,Finance,Assistant,CrewAI,Production,,0.755,8858,1.74
+AGP-1827,Manufacturing,Autonomous,LangGraph,Production,,0.506,5159,2.01
+AGP-1828,Retail,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.938,8838,-0.19
+AGP-1829,Government,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.188,6973,0.33
+AGP-1830,Manufacturing,Multi-agent Swarm,CrewAI,Production,,0.561,8044,1.89
+AGP-1831,Retail,Autonomous,CrewAI,Abandoned,Security Violation,0.183,3408,-0.22
+AGP-1832,Telecom,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.592,10140,-0.36
+AGP-1833,Retail,Autonomous,LangGraph,Pilot,Cost Overrun,0.411,4450,0.07
+AGP-1834,Healthcare,Assistant,AutoGPT 3.0,Production,,0.869,6018,3.32
+AGP-1835,Healthcare,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.141,5328,-0.39
+AGP-1836,Finance,Autonomous,LangGraph,Abandoned,Cost Overrun,0.047,2534,-0.82
+AGP-1837,Finance,Autonomous,LangGraph,Pilot,Loop Error,0.049,4445,1.28
+AGP-1838,Retail,Autonomous,CrewAI,Production,,0.205,3419,1.91
+AGP-1839,Insurance,Assistant,AutoGPT 3.0,Production,,0.829,5997,2.08
+AGP-1840,Insurance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.537,17280,-0.26
+AGP-1841,Finance,Autonomous,CrewAI,Pilot,Schema Drift,0.02,1548,-0.33
+AGP-1842,Manufacturing,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.132,3805,-0.88
+AGP-1843,Finance,Assistant,CrewAI,Abandoned,Schema Drift,0.779,3152,-0.99
+AGP-1844,Telecom,Autonomous,LangGraph,Pilot,Cost Overrun,0.454,4647,0.0
+AGP-1845,Healthcare,Assistant,CrewAI,Production,,0.86,5209,3.7
+AGP-1846,Technology,Multi-agent Swarm,LangGraph,Production,,0.307,5918,3.67
+AGP-1847,Legal,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.332,7270,0.8
+AGP-1848,Technology,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.619,2928,-0.29
+AGP-1849,Retail,Assistant,LangGraph,Production,,0.724,4677,1.95
+AGP-1850,Insurance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Schema Drift,0.821,9982,-0.01
+AGP-1851,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.199,5570,-0.02
+AGP-1852,Government,Autonomous,LangGraph,Production,,0.199,3265,1.69
+AGP-1853,Manufacturing,Assistant,CrewAI,Pilot,Cost Overrun,0.573,3173,0.21
+AGP-1854,Insurance,Autonomous,LangGraph,Abandoned,Schema Drift,0.259,3859,-2.0
+AGP-1855,Energy,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.327,8901,-1.7
+AGP-1856,Telecom,Assistant,LangGraph,Pilot,Schema Drift,0.559,4400,-0.65
+AGP-1857,Healthcare,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.185,6404,-0.27
+AGP-1858,Healthcare,Autonomous,LangGraph,Abandoned,Cost Overrun,0.158,4318,0.91
+AGP-1859,Healthcare,Assistant,LangGraph,Production,,0.938,3421,3.22
+AGP-1860,Healthcare,Assistant,LangGraph,Pilot,Security Violation,0.167,2601,0.77
+AGP-1861,Technology,Autonomous,LangGraph,Pilot,Security Violation,0.141,3300,1.38
+AGP-1862,Telecom,Assistant,AutoGPT 3.0,Pilot,Schema Drift,0.779,4578,0.09
+AGP-1863,Telecom,Assistant,LangGraph,Production,,0.848,5366,2.24
+AGP-1864,Manufacturing,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.245,6629,0.07
+AGP-1865,Technology,Assistant,CrewAI,Abandoned,Schema Drift,0.571,4895,-0.19
+AGP-1866,Energy,Autonomous,LangGraph,Pilot,Cost Overrun,0.023,1846,1.17
+AGP-1867,Government,Assistant,CrewAI,Abandoned,Schema Drift,0.682,6108,-1.15
+AGP-1868,Healthcare,Assistant,LangGraph,Abandoned,Security Violation,0.818,3287,-0.88
+AGP-1869,Manufacturing,Autonomous,CrewAI,Abandoned,Cost Overrun,0.073,5822,0.01
+AGP-1870,Energy,Assistant,CrewAI,Abandoned,Cost Overrun,0.74,4340,-1.28
+AGP-1871,Legal,Autonomous,CrewAI,Abandoned,Loop Error,0.092,3871,-0.42
+AGP-1872,Retail,Autonomous,CrewAI,Pilot,Loop Error,0.058,4381,1.54
+AGP-1873,Telecom,Assistant,CrewAI,Production,,0.573,6588,3.03
+AGP-1874,Telecom,Autonomous,LangGraph,Abandoned,Cost Overrun,0.071,1963,-0.24
+AGP-1875,Government,Assistant,LangGraph,Production,,0.804,5622,3.16
+AGP-1876,Insurance,Autonomous,CrewAI,Pilot,Schema Drift,0.396,3220,1.48
+AGP-1877,Healthcare,Assistant,LangGraph,Abandoned,Security Violation,0.56,2272,-0.93
+AGP-1878,Legal,Autonomous,LangGraph,Pilot,Cost Overrun,0.465,3657,0.72
+AGP-1879,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.656,9264,-0.27
+AGP-1880,Manufacturing,Autonomous,LangGraph,Pilot,Loop Error,0.42,2093,1.15
+AGP-1881,Manufacturing,Assistant,LangGraph,Pilot,Loop Error,0.371,3272,0.84
+AGP-1882,Technology,Autonomous,CrewAI,Pilot,Schema Drift,0.672,4760,0.58
+AGP-1883,Retail,Autonomous,LangGraph,Production,,0.069,3156,2.38
+AGP-1884,Insurance,Assistant,AutoGPT 3.0,Abandoned,Schema Drift,0.854,5499,-0.62
+AGP-1885,Legal,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.351,800,1.33
+AGP-1886,Legal,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.521,14643,-0.61
+AGP-1887,Finance,Autonomous,CrewAI,Abandoned,Loop Error,0.076,2523,-0.63
+AGP-1888,Healthcare,Autonomous,LangGraph,Abandoned,Loop Error,0.196,4385,-0.86
+AGP-1889,Energy,Assistant,CrewAI,Pilot,Security Violation,0.651,1566,0.08
+AGP-1890,Retail,Assistant,CrewAI,Pilot,Security Violation,0.766,6397,0.12
+AGP-1891,Healthcare,Autonomous,CrewAI,Abandoned,Loop Error,0.47,4128,-0.82
+AGP-1892,Insurance,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.297,3906,-0.58
+AGP-1893,Manufacturing,Assistant,LangGraph,Production,,0.742,5030,3.56
+AGP-1894,Finance,Assistant,LangGraph,Pilot,Cost Overrun,0.618,5437,0.65
+AGP-1895,Legal,Assistant,LangGraph,Abandoned,Loop Error,0.898,2819,0.08
+AGP-1896,Healthcare,Assistant,LangGraph,Production,,0.266,6437,2.87
+AGP-1897,Technology,Autonomous,AutoGPT 3.0,Production,,0.413,9105,2.14
+AGP-1898,Healthcare,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.531,9822,-1.45
+AGP-1899,Finance,Autonomous,CrewAI,Abandoned,Schema Drift,0.035,4762,0.11
+AGP-1900,Finance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.485,9217,-1.46
+AGP-1901,Technology,Multi-agent Swarm,LangGraph,Production,,0.534,6023,1.47
+AGP-1902,Finance,Assistant,CrewAI,Production,,0.751,2000,3.41
+AGP-1903,Energy,Autonomous,CrewAI,Production,,0.147,3921,3.26
+AGP-1904,Finance,Autonomous,LangGraph,Pilot,Cost Overrun,0.419,2700,0.08
+AGP-1905,Technology,Assistant,CrewAI,Production,,0.935,3592,3.79
+AGP-1906,Retail,Assistant,AutoGPT 3.0,Production,,0.765,6887,3.87
+AGP-1907,Retail,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.1,8307,0.65
+AGP-1908,Finance,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.636,6898,0.63
+AGP-1909,Energy,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.405,4487,-0.29
+AGP-1910,Government,Autonomous,LangGraph,Abandoned,Loop Error,0.071,2543,-0.43
+AGP-1911,Finance,Assistant,CrewAI,Pilot,Loop Error,0.74,4373,1.11
+AGP-1912,Healthcare,Autonomous,CrewAI,Pilot,Loop Error,0.13,4764,1.37
+AGP-1913,Government,Assistant,CrewAI,Pilot,Schema Drift,0.869,4077,0.85
+AGP-1914,Manufacturing,Autonomous,CrewAI,Abandoned,Loop Error,0.1,3260,-1.0
+AGP-1915,Finance,Autonomous,CrewAI,Abandoned,Cost Overrun,0.188,4023,-0.54
+AGP-1916,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.497,5542,0.44
+AGP-1917,Technology,Assistant,LangGraph,Pilot,Schema Drift,0.616,3177,0.75
+AGP-1918,Technology,Autonomous,CrewAI,Abandoned,Security Violation,0.087,3531,-0.95
+AGP-1919,Technology,Autonomous,LangGraph,Production,,0.058,4648,2.12
+AGP-1920,Telecom,Assistant,CrewAI,Abandoned,Loop Error,0.442,4639,-0.84
+AGP-1921,Manufacturing,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.214,4974,2.64
+AGP-1922,Legal,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.268,7804,0.41
+AGP-1923,Retail,Assistant,CrewAI,Production,,0.592,4254,2.85
+AGP-1924,Legal,Autonomous,CrewAI,Pilot,Cost Overrun,0.385,5848,-0.57
+AGP-1925,Healthcare,Assistant,LangGraph,Production,,0.843,3786,2.87
+AGP-1926,Finance,Assistant,LangGraph,Abandoned,Loop Error,0.677,4288,-0.61
+AGP-1927,Legal,Autonomous,LangGraph,Pilot,Loop Error,0.174,4521,0.95
+AGP-1928,Technology,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.08,7012,-0.02
+AGP-1929,Finance,Autonomous,LangGraph,Abandoned,Security Violation,0.059,3683,-0.02
+AGP-1930,Retail,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.193,7079,-1.12
+AGP-1931,Technology,Autonomous,LangGraph,Production,,0.07,3158,4.18
+AGP-1932,Technology,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.363,7726,1.18
+AGP-1933,Insurance,Multi-agent Swarm,CrewAI,Production,,0.159,7534,2.59
+AGP-1934,Energy,Assistant,CrewAI,Pilot,Cost Overrun,0.799,6713,-0.77
+AGP-1935,Technology,Assistant,CrewAI,Abandoned,Loop Error,0.695,3873,-0.18
+AGP-1936,Finance,Assistant,CrewAI,Production,,0.99,6195,3.55
+AGP-1937,Retail,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.402,10451,-0.84
+AGP-1938,Technology,Autonomous,CrewAI,Abandoned,Loop Error,0.081,2951,-0.58
+AGP-1939,Healthcare,Autonomous,LangGraph,Production,,0.218,4017,1.31
+AGP-1940,Finance,Autonomous,LangGraph,Pilot,Schema Drift,0.282,2308,0.33
+AGP-1941,Healthcare,Autonomous,CrewAI,Abandoned,Schema Drift,0.405,2651,-0.36
+AGP-1942,Retail,Autonomous,CrewAI,Abandoned,Cost Overrun,0.182,4451,-1.35
+AGP-1943,Retail,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.657,9714,-0.73
+AGP-1944,Healthcare,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.785,8460,-0.47
+AGP-1945,Energy,Autonomous,LangGraph,Abandoned,Cost Overrun,0.139,3595,-0.35
+AGP-1946,Government,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.849,7946,0.5
+AGP-1947,Healthcare,Assistant,CrewAI,Production,,0.827,4507,2.88
+AGP-1948,Government,Assistant,CrewAI,Pilot,Cost Overrun,0.71,2990,0.28
+AGP-1949,Finance,Assistant,CrewAI,Pilot,Security Violation,0.709,1273,-0.04
+AGP-1950,Government,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.351,10591,1.7
+AGP-1951,Telecom,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.397,4602,-0.98
+AGP-1952,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Security Violation,0.285,5293,-0.24
+AGP-1953,Insurance,Assistant,LangGraph,Abandoned,Schema Drift,0.744,3551,-0.01
+AGP-1954,Telecom,Assistant,CrewAI,Production,,0.969,2295,3.03
+AGP-1955,Government,Assistant,CrewAI,Production,,0.794,3237,1.83
+AGP-1956,Telecom,Autonomous,CrewAI,Pilot,Cost Overrun,0.252,1484,1.64
+AGP-1957,Manufacturing,Autonomous,LangGraph,Pilot,Loop Error,0.01,4149,0.87
+AGP-1958,Finance,Assistant,CrewAI,Pilot,Loop Error,0.865,3741,1.82
+AGP-1959,Energy,Autonomous,LangGraph,Production,,0.151,5501,3.08
+AGP-1960,Technology,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.421,7853,-1.93
+AGP-1961,Technology,Assistant,LangGraph,Abandoned,Loop Error,0.597,5405,-0.53
+AGP-1962,Retail,Assistant,LangGraph,Pilot,Schema Drift,0.582,4109,0.23
+AGP-1963,Manufacturing,Autonomous,CrewAI,Pilot,Schema Drift,0.5,3907,1.47
+AGP-1964,Finance,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.312,7531,-0.89
+AGP-1965,Insurance,Autonomous,LangGraph,Abandoned,Security Violation,0.166,4382,-0.71
+AGP-1966,Finance,Autonomous,CrewAI,Pilot,Loop Error,0.223,4801,-0.22
+AGP-1967,Technology,Autonomous,CrewAI,Pilot,Loop Error,0.398,5050,0.35
+AGP-1968,Energy,Assistant,LangGraph,Production,,0.99,2802,3.36
+AGP-1969,Retail,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.567,2463,0.27
+AGP-1970,Manufacturing,Autonomous,CrewAI,Pilot,Loop Error,0.268,1688,0.63
+AGP-1971,Legal,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.473,7185,-1.22
+AGP-1972,Telecom,Autonomous,LangGraph,Pilot,Security Violation,0.14,3126,0.11
+AGP-1973,Insurance,Assistant,LangGraph,Pilot,Cost Overrun,0.718,4407,0.78
+AGP-1974,Legal,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.388,10074,-0.39
+AGP-1975,Healthcare,Assistant,CrewAI,Pilot,Schema Drift,0.398,1344,0.05
+AGP-1976,Healthcare,Assistant,LangGraph,Abandoned,Cost Overrun,0.852,3499,0.8
+AGP-1977,Retail,Assistant,AutoGPT 3.0,Production,,0.806,3950,1.0
+AGP-1978,Telecom,Autonomous,LangGraph,Abandoned,Loop Error,0.223,2335,0.03
+AGP-1979,Insurance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Schema Drift,0.526,5497,0.96
+AGP-1980,Healthcare,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.432,6018,-0.6
+AGP-1981,Energy,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.469,8315,-1.14
+AGP-1982,Retail,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.525,11882,0.55
+AGP-1983,Energy,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.102,525,-0.52
+AGP-1984,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Schema Drift,0.44,8773,-1.38
+AGP-1985,Technology,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.275,6615,-1.44
+AGP-1986,Government,Autonomous,CrewAI,Pilot,Loop Error,0.146,4190,0.82
+AGP-1987,Healthcare,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.19,7427,-0.84
+AGP-1988,Technology,Autonomous,LangGraph,Production,,0.319,3529,2.98
+AGP-1989,Telecom,Autonomous,LangGraph,Abandoned,Cost Overrun,0.268,2448,-1.5
+AGP-1990,Finance,Assistant,LangGraph,Abandoned,Loop Error,0.56,4149,0.56
+AGP-1991,Finance,Assistant,LangGraph,Pilot,Loop Error,0.653,3309,-0.11
+AGP-1992,Technology,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.434,5769,0.22
+AGP-1993,Legal,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Schema Drift,0.545,18037,-0.43
+AGP-1994,Finance,Autonomous,CrewAI,Abandoned,Loop Error,0.445,4521,-0.12
+AGP-1995,Retail,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.478,7491,-0.77
+AGP-1996,Insurance,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.767,4056,0.2
+AGP-1997,Healthcare,Assistant,CrewAI,Pilot,Schema Drift,0.716,4830,1.12
+AGP-1998,Legal,Assistant,LangGraph,Pilot,Schema Drift,0.397,4972,-0.48
+AGP-1999,Energy,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.343,9840,-0.42
+AGP-2000,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.177,4986,-0.51
+AGP-2001,Energy,Autonomous,CrewAI,Abandoned,Loop Error,0.164,4428,-0.34
+AGP-2002,Retail,Assistant,AutoGPT 3.0,Production,,0.816,6547,2.3
+AGP-2003,Telecom,Assistant,CrewAI,Production,,0.939,6149,2.76
+AGP-2004,Technology,Assistant,CrewAI,Pilot,Schema Drift,0.304,2655,0.41
+AGP-2005,Finance,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.17,4485,-0.02
+AGP-2006,Government,Assistant,CrewAI,Production,,0.701,4349,3.6
+AGP-2007,Retail,Assistant,AutoGPT 3.0,Production,,0.787,2798,3.23
+AGP-2008,Finance,Autonomous,LangGraph,Pilot,Cost Overrun,0.054,4187,0.82
+AGP-2009,Finance,Multi-agent Swarm,LangGraph,Abandoned,Security Violation,0.196,4215,-0.53
+AGP-2010,Technology,Autonomous,CrewAI,Pilot,Schema Drift,0.436,4699,0.76
+AGP-2011,Finance,Assistant,LangGraph,Production,,0.87,3619,2.08
+AGP-2012,Healthcare,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.82,7343,-0.22
+AGP-2013,Finance,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.21,3526,-0.17
+AGP-2014,Retail,Autonomous,CrewAI,Abandoned,Loop Error,0.216,3381,-0.52
+AGP-2015,Retail,Autonomous,LangGraph,Pilot,Security Violation,0.074,3613,0.57
+AGP-2016,Manufacturing,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.314,7650,-1.51
+AGP-2017,Healthcare,Assistant,LangGraph,Abandoned,Loop Error,0.636,5505,-1.04
+AGP-2018,Finance,Autonomous,LangGraph,Pilot,Loop Error,0.373,2754,0.99
+AGP-2019,Technology,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.519,6359,1.2
+AGP-2020,Retail,Autonomous,CrewAI,Pilot,Security Violation,0.223,4412,-0.61
+AGP-2021,Technology,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.428,12044,-0.44
+AGP-2022,Finance,Assistant,AutoGPT 3.0,Production,,0.804,6019,2.05
+AGP-2023,Finance,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.849,3803,-0.27
+AGP-2024,Healthcare,Multi-agent Swarm,CrewAI,Pilot,Security Violation,0.237,8235,-0.32
+AGP-2025,Retail,Assistant,LangGraph,Pilot,Cost Overrun,0.71,4269,1.88
+AGP-2026,Retail,Assistant,CrewAI,Production,,0.535,3499,2.26
+AGP-2027,Energy,Assistant,CrewAI,Pilot,Schema Drift,0.493,5882,0.36
+AGP-2028,Retail,Assistant,LangGraph,Pilot,Cost Overrun,0.639,3742,0.31
+AGP-2029,Manufacturing,Autonomous,CrewAI,Abandoned,Loop Error,0.679,2779,-1.04
+AGP-2030,Technology,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.761,4977,0.42
+AGP-2031,Finance,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.375,8519,-0.27
+AGP-2032,Manufacturing,Autonomous,LangGraph,Abandoned,Loop Error,0.177,4412,-0.74
+AGP-2033,Legal,Assistant,LangGraph,Abandoned,Loop Error,0.653,3639,-0.23
+AGP-2034,Retail,Assistant,LangGraph,Pilot,Loop Error,0.739,3689,0.18
+AGP-2035,Finance,Assistant,LangGraph,Abandoned,Loop Error,0.975,3223,-0.6
+AGP-2036,Insurance,Autonomous,CrewAI,Pilot,Security Violation,0.49,757,0.81
+AGP-2037,Telecom,Assistant,LangGraph,Abandoned,Cost Overrun,0.661,3366,-0.49
+AGP-2038,Finance,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.509,13826,0.74
+AGP-2039,Technology,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.458,4882,-0.8
+AGP-2040,Insurance,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.393,3901,-0.12
+AGP-2041,Healthcare,Autonomous,CrewAI,Abandoned,Cost Overrun,0.131,3393,-0.46
+AGP-2042,Insurance,Autonomous,LangGraph,Abandoned,Schema Drift,0.13,2829,-1.31
+AGP-2043,Technology,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.362,4340,-0.17
+AGP-2044,Government,Assistant,LangGraph,Pilot,Security Violation,0.727,3081,0.51
+AGP-2045,Telecom,Assistant,AutoGPT 3.0,Production,,0.632,5420,3.11
+AGP-2046,Finance,Autonomous,AutoGPT 3.0,Pilot,Schema Drift,0.378,3459,0.02
+AGP-2047,Retail,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.482,3114,-0.58
+AGP-2048,Manufacturing,Autonomous,LangGraph,Abandoned,Loop Error,0.136,5947,-1.6
+AGP-2049,Finance,Assistant,CrewAI,Pilot,Schema Drift,0.496,7925,0.71
+AGP-2050,Legal,Autonomous,LangGraph,Pilot,Cost Overrun,0.07,3255,-0.24
+AGP-2051,Telecom,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.052,3410,-0.22
+AGP-2052,Finance,Assistant,LangGraph,Pilot,Loop Error,0.4,2033,0.8
+AGP-2053,Retail,Autonomous,LangGraph,Abandoned,Cost Overrun,0.22,4202,-0.4
+AGP-2054,Energy,Assistant,CrewAI,Pilot,Loop Error,0.733,5365,0.35
+AGP-2055,Legal,Autonomous,LangGraph,Pilot,Cost Overrun,0.404,2944,0.11
+AGP-2056,Retail,Assistant,LangGraph,Pilot,Schema Drift,0.771,4103,2.05
+AGP-2057,Telecom,Multi-agent Swarm,AutoGPT 3.0,Pilot,Schema Drift,0.529,11357,-0.71
+AGP-2058,Retail,Assistant,LangGraph,Production,,0.754,4367,2.92
+AGP-2059,Finance,Autonomous,CrewAI,Production,,0.36,4156,2.98
+AGP-2060,Finance,Assistant,LangGraph,Production,,0.73,3001,3.22
+AGP-2061,Telecom,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.68,4153,-0.46
+AGP-2062,Healthcare,Autonomous,LangGraph,Pilot,Cost Overrun,0.248,3837,-0.09
+AGP-2063,Manufacturing,Autonomous,LangGraph,Pilot,Security Violation,0.287,3902,0.08
+AGP-2064,Finance,Multi-agent Swarm,LangGraph,Abandoned,Schema Drift,0.639,6762,-0.24
+AGP-2065,Retail,Autonomous,LangGraph,Abandoned,Loop Error,0.198,4127,-0.55
+AGP-2066,Government,Assistant,AutoGPT 3.0,Production,,0.794,8691,0.65
+AGP-2067,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.529,6068,1.17
+AGP-2068,Telecom,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.025,7605,-2.0
+AGP-2069,Healthcare,Assistant,CrewAI,Pilot,Loop Error,0.56,6389,0.17
+AGP-2070,Manufacturing,Assistant,CrewAI,Production,,0.826,5321,2.56
+AGP-2071,Energy,Autonomous,CrewAI,Pilot,Schema Drift,0.256,5172,1.22
+AGP-2072,Retail,Multi-agent Swarm,LangGraph,Production,,0.482,8718,2.0
+AGP-2073,Healthcare,Autonomous,LangGraph,Pilot,Loop Error,0.614,2989,0.07
+AGP-2074,Energy,Assistant,CrewAI,Production,,0.661,5413,2.72
+AGP-2075,Retail,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.311,3247,-0.34
+AGP-2076,Manufacturing,Autonomous,CrewAI,Production,,0.21,3338,5.0
+AGP-2077,Telecom,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.539,5693,0.04
+AGP-2078,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.333,3236,-0.38
+AGP-2079,Legal,Assistant,LangGraph,Pilot,Loop Error,0.654,3908,1.5
+AGP-2080,Finance,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.034,6424,1.04
+AGP-2081,Retail,Assistant,AutoGPT 3.0,Production,,0.596,4456,2.66
+AGP-2082,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.881,9448,1.09
+AGP-2083,Technology,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.365,4025,1.02
+AGP-2084,Healthcare,Multi-agent Swarm,LangGraph,Abandoned,Loop Error,0.276,4295,-0.16
+AGP-2085,Technology,Assistant,CrewAI,Abandoned,Loop Error,0.731,4395,-0.85
+AGP-2086,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.514,5105,-0.04
+AGP-2087,Legal,Assistant,CrewAI,Pilot,Cost Overrun,0.864,4176,0.59
+AGP-2088,Legal,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.672,9377,1.21
+AGP-2089,Technology,Assistant,LangGraph,Abandoned,Cost Overrun,0.707,3927,-0.19
+AGP-2090,Retail,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.368,7649,-0.67
+AGP-2091,Legal,Autonomous,CrewAI,Abandoned,Cost Overrun,0.076,500,-0.26
+AGP-2092,Energy,Assistant,CrewAI,Pilot,Loop Error,0.689,2279,0.69
+AGP-2093,Manufacturing,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.871,8814,-0.34
+AGP-2094,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.124,6186,-0.01
+AGP-2095,Government,Autonomous,CrewAI,Production,,0.242,2628,2.67
+AGP-2096,Legal,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.716,5404,0.98
+AGP-2097,Finance,Assistant,CrewAI,Pilot,Loop Error,0.541,3990,-0.0
+AGP-2098,Manufacturing,Autonomous,LangGraph,Pilot,Loop Error,0.169,2450,1.11
+AGP-2099,Finance,Autonomous,LangGraph,Abandoned,Cost Overrun,0.453,2981,-0.05
+AGP-2100,Healthcare,Assistant,LangGraph,Production,,0.612,4451,1.48
+AGP-2101,Insurance,Assistant,LangGraph,Production,,0.879,3164,3.81
+AGP-2102,Finance,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.572,4772,-0.11
+AGP-2103,Energy,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.193,8190,-0.11
+AGP-2104,Government,Assistant,LangGraph,Pilot,Cost Overrun,0.799,2822,0.44
+AGP-2105,Technology,Assistant,LangGraph,Pilot,Security Violation,0.642,2224,1.09
+AGP-2106,Technology,Autonomous,LangGraph,Abandoned,Security Violation,0.542,3514,-1.37
+AGP-2107,Technology,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.798,5809,0.62
+AGP-2108,Telecom,Autonomous,CrewAI,Production,,0.511,3413,2.49
+AGP-2109,Legal,Autonomous,LangGraph,Abandoned,Loop Error,0.239,4379,-0.36
+AGP-2110,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.281,7327,1.88
+AGP-2111,Manufacturing,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.167,8493,-1.9
+AGP-2112,Manufacturing,Autonomous,CrewAI,Abandoned,Schema Drift,0.102,2744,-0.55
+AGP-2113,Healthcare,Assistant,CrewAI,Production,,0.886,3310,3.99
+AGP-2114,Technology,Assistant,CrewAI,Pilot,Cost Overrun,0.772,5071,-0.32
+AGP-2115,Finance,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.692,9342,-0.4
+AGP-2116,Government,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.074,7436,0.15
+AGP-2117,Healthcare,Autonomous,LangGraph,Pilot,Security Violation,0.134,4103,0.1
+AGP-2118,Finance,Assistant,CrewAI,Pilot,Loop Error,0.842,2616,1.34
+AGP-2119,Finance,Assistant,LangGraph,Production,,0.917,5351,3.89
+AGP-2120,Healthcare,Assistant,CrewAI,Abandoned,Loop Error,0.895,6189,-1.02
+AGP-2121,Healthcare,Autonomous,LangGraph,Pilot,Cost Overrun,0.365,3554,0.62
+AGP-2122,Finance,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.291,9278,-1.7
+AGP-2123,Healthcare,Assistant,AutoGPT 3.0,Abandoned,Cost Overrun,0.761,6631,-0.09
+AGP-2124,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.634,10701,-0.52
+AGP-2125,Retail,Autonomous,LangGraph,Abandoned,Schema Drift,0.213,3159,-0.5
+AGP-2126,Retail,Assistant,AutoGPT 3.0,Production,,0.453,10423,1.39
+AGP-2127,Legal,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.336,6224,0.78
+AGP-2128,Legal,Autonomous,CrewAI,Pilot,Schema Drift,0.187,1650,0.77
+AGP-2129,Finance,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.258,8009,-1.16
+AGP-2130,Finance,Autonomous,LangGraph,Abandoned,Cost Overrun,0.221,4769,-0.03
+AGP-2131,Healthcare,Autonomous,CrewAI,Abandoned,Schema Drift,0.234,6025,-0.64
+AGP-2132,Insurance,Assistant,CrewAI,Abandoned,Security Violation,0.982,3733,-0.37
+AGP-2133,Telecom,Autonomous,LangGraph,Pilot,Loop Error,0.079,3180,0.36
+AGP-2134,Government,Autonomous,CrewAI,Pilot,Security Violation,0.073,5157,0.43
+AGP-2135,Manufacturing,Assistant,LangGraph,Production,,0.661,6797,2.96
+AGP-2136,Manufacturing,Autonomous,CrewAI,Pilot,Loop Error,0.173,6581,1.29
+AGP-2137,Legal,Autonomous,LangGraph,Abandoned,Schema Drift,0.144,3873,-0.39
+AGP-2138,Insurance,Assistant,LangGraph,Abandoned,Security Violation,0.434,627,-0.58
+AGP-2139,Insurance,Autonomous,CrewAI,Abandoned,Loop Error,0.638,5151,-1.38
+AGP-2140,Energy,Autonomous,LangGraph,Pilot,Loop Error,0.049,5680,0.07
+AGP-2141,Government,Autonomous,CrewAI,Abandoned,Loop Error,0.252,4468,-0.63
+AGP-2142,Retail,Autonomous,CrewAI,Pilot,Cost Overrun,0.197,2499,0.49
+AGP-2143,Insurance,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.507,5810,-1.69
+AGP-2144,Energy,Autonomous,LangGraph,Pilot,Loop Error,0.057,3232,0.22
+AGP-2145,Legal,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.198,7643,-0.71
+AGP-2146,Government,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.263,6322,-0.31
+AGP-2147,Finance,Multi-agent Swarm,LangGraph,Pilot,Schema Drift,0.338,6291,0.84
+AGP-2148,Telecom,Autonomous,AutoGPT 3.0,Production,,0.668,6578,4.34
+AGP-2149,Insurance,Autonomous,CrewAI,Pilot,Schema Drift,0.543,5256,1.55
+AGP-2150,Finance,Assistant,CrewAI,Pilot,Schema Drift,0.638,3708,-0.14
+AGP-2151,Technology,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.534,6302,-0.06
+AGP-2152,Finance,Multi-agent Swarm,CrewAI,Abandoned,Security Violation,0.59,3848,-0.3
+AGP-2153,Insurance,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.508,8574,0.77
+AGP-2154,Insurance,Autonomous,CrewAI,Abandoned,Cost Overrun,0.228,4032,-0.7
+AGP-2155,Technology,Assistant,AutoGPT 3.0,Abandoned,Cost Overrun,0.519,7312,-1.51
+AGP-2156,Energy,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.495,4911,-0.13
+AGP-2157,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.172,7082,-0.1
+AGP-2158,Healthcare,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.412,6740,1.02
+AGP-2159,Retail,Assistant,LangGraph,Abandoned,Security Violation,0.935,1857,-0.41
+AGP-2160,Finance,Autonomous,LangGraph,Pilot,Security Violation,0.285,5450,0.74
+AGP-2161,Retail,Assistant,CrewAI,Pilot,Loop Error,0.606,3119,0.29
+AGP-2162,Healthcare,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.671,6160,-0.67
+AGP-2163,Retail,Assistant,CrewAI,Pilot,Cost Overrun,0.602,2823,1.07
+AGP-2164,Retail,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.085,8538,-0.71
+AGP-2165,Government,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.906,4200,0.41
+AGP-2166,Healthcare,Assistant,LangGraph,Abandoned,Security Violation,0.952,4080,-0.13
+AGP-2167,Government,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.343,7776,-0.06
+AGP-2168,Retail,Autonomous,LangGraph,Abandoned,Cost Overrun,0.156,4177,-1.08
+AGP-2169,Legal,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.473,6882,0.64
+AGP-2170,Manufacturing,Autonomous,LangGraph,Abandoned,Loop Error,0.147,5311,-1.18
+AGP-2171,Retail,Autonomous,CrewAI,Pilot,Loop Error,0.076,6466,0.84
+AGP-2172,Healthcare,Autonomous,CrewAI,Abandoned,Schema Drift,0.295,5566,-0.39
+AGP-2173,Manufacturing,Autonomous,CrewAI,Abandoned,Loop Error,0.241,4156,-0.4
+AGP-2174,Finance,Autonomous,CrewAI,Production,,0.331,2142,3.07
+AGP-2175,Legal,Assistant,LangGraph,Pilot,Cost Overrun,0.732,4985,0.66
+AGP-2176,Manufacturing,Autonomous,LangGraph,Pilot,Security Violation,0.143,4328,-0.13
+AGP-2177,Retail,Autonomous,LangGraph,Production,,0.119,4180,2.25
+AGP-2178,Energy,Autonomous,AutoGPT 3.0,Abandoned,Schema Drift,0.457,7343,-1.09
+AGP-2179,Healthcare,Autonomous,AutoGPT 3.0,Pilot,Schema Drift,0.238,2780,0.73
+AGP-2180,Telecom,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.947,4418,1.79
+AGP-2181,Insurance,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.4,5652,-0.03
+AGP-2182,Telecom,Autonomous,CrewAI,Pilot,Loop Error,0.366,5566,-0.03
+AGP-2183,Energy,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.299,6280,-1.1
+AGP-2184,Finance,Assistant,LangGraph,Pilot,Security Violation,0.517,3489,-0.54
+AGP-2185,Manufacturing,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.608,4688,0.58
+AGP-2186,Healthcare,Autonomous,LangGraph,Pilot,Cost Overrun,0.217,2787,-0.26
+AGP-2187,Energy,Autonomous,LangGraph,Abandoned,Security Violation,0.231,3411,-0.39
+AGP-2188,Technology,Assistant,LangGraph,Abandoned,Schema Drift,0.415,7671,-1.76
+AGP-2189,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.154,8773,-1.47
+AGP-2190,Government,Assistant,CrewAI,Pilot,Schema Drift,0.799,3059,0.86
+AGP-2191,Finance,Assistant,CrewAI,Pilot,Cost Overrun,0.647,4560,0.32
+AGP-2192,Manufacturing,Autonomous,LangGraph,Pilot,Schema Drift,0.154,2644,1.56
+AGP-2193,Technology,Assistant,CrewAI,Production,,0.891,3323,1.39
+AGP-2194,Finance,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.191,5835,1.52
+AGP-2195,Technology,Assistant,AutoGPT 3.0,Production,,0.623,5028,2.34
+AGP-2196,Energy,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.761,6503,0.68
+AGP-2197,Finance,Assistant,LangGraph,Pilot,Schema Drift,0.831,4071,0.46
+AGP-2198,Manufacturing,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.871,5523,0.43
+AGP-2199,Healthcare,Assistant,CrewAI,Pilot,Cost Overrun,0.906,3309,0.94
+AGP-2200,Technology,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.421,3604,-0.63
+AGP-2201,Finance,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.205,4450,0.97
+AGP-2202,Government,Assistant,LangGraph,Pilot,Security Violation,0.938,4820,1.24
+AGP-2203,Government,Autonomous,LangGraph,Abandoned,Schema Drift,0.242,2681,0.17
+AGP-2204,Healthcare,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.693,8372,1.4
+AGP-2205,Legal,Autonomous,CrewAI,Pilot,Cost Overrun,0.172,6098,-0.06
+AGP-2206,Technology,Autonomous,LangGraph,Pilot,Cost Overrun,0.428,4355,-0.59
+AGP-2207,Technology,Autonomous,CrewAI,Abandoned,Cost Overrun,0.502,4108,0.2
+AGP-2208,Retail,Assistant,LangGraph,Abandoned,Loop Error,0.677,2736,-0.4
+AGP-2209,Finance,Autonomous,LangGraph,Abandoned,Loop Error,0.163,3394,0.32
+AGP-2210,Finance,Autonomous,CrewAI,Abandoned,Loop Error,0.016,6959,-0.03
+AGP-2211,Telecom,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.452,6436,-1.1
+AGP-2212,Retail,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.27,8332,0.79
+AGP-2213,Government,Assistant,CrewAI,Abandoned,Security Violation,0.806,3710,-0.22
+AGP-2214,Retail,Multi-agent Swarm,CrewAI,Abandoned,Loop Error,0.34,8977,-1.0
+AGP-2215,Government,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.845,5500,-0.95
+AGP-2216,Finance,Autonomous,LangGraph,Production,,0.313,4193,2.02
+AGP-2217,Finance,Autonomous,CrewAI,Pilot,Cost Overrun,0.577,5786,1.64
+AGP-2218,Government,Assistant,CrewAI,Pilot,Security Violation,0.821,2958,-0.57
+AGP-2219,Telecom,Assistant,LangGraph,Abandoned,Security Violation,0.796,4487,-0.38
+AGP-2220,Legal,Autonomous,LangGraph,Pilot,Security Violation,0.064,5164,0.33
+AGP-2221,Legal,Assistant,LangGraph,Abandoned,Loop Error,0.969,5762,-0.91
+AGP-2222,Retail,Assistant,LangGraph,Abandoned,Security Violation,0.892,3708,-0.92
+AGP-2223,Retail,Autonomous,CrewAI,Production,,0.073,5299,3.78
+AGP-2224,Healthcare,Assistant,LangGraph,Pilot,Cost Overrun,0.481,4639,1.77
+AGP-2225,Government,Autonomous,CrewAI,Abandoned,Loop Error,0.044,3348,-0.75
+AGP-2226,Healthcare,Autonomous,LangGraph,Abandoned,Loop Error,0.14,5141,-0.8
+AGP-2227,Technology,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.124,8012,0.05
+AGP-2228,Finance,Autonomous,LangGraph,Pilot,Loop Error,0.443,4827,0.96
+AGP-2229,Finance,Assistant,LangGraph,Production,,0.935,3357,2.89
+AGP-2230,Technology,Assistant,AutoGPT 3.0,Abandoned,Cost Overrun,0.566,4899,-1.16
+AGP-2231,Legal,Autonomous,LangGraph,Pilot,Cost Overrun,0.054,3131,-0.62
+AGP-2232,Technology,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.252,6818,-0.25
+AGP-2233,Finance,Autonomous,LangGraph,Abandoned,Loop Error,0.218,3678,-0.86
+AGP-2234,Telecom,Autonomous,LangGraph,Pilot,Loop Error,0.213,5147,-0.11
+AGP-2235,Insurance,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.918,4601,-0.12
+AGP-2236,Government,Assistant,AutoGPT 3.0,Production,,0.792,6383,3.81
+AGP-2237,Finance,Assistant,LangGraph,Pilot,Security Violation,0.771,3240,0.73
+AGP-2238,Legal,Autonomous,CrewAI,Pilot,Loop Error,0.177,6325,0.65
+AGP-2239,Legal,Autonomous,CrewAI,Abandoned,Schema Drift,0.337,1873,-0.85
+AGP-2240,Manufacturing,Assistant,AutoGPT 3.0,Production,,0.99,4787,3.15
+AGP-2241,Legal,Autonomous,CrewAI,Production,,0.309,4131,1.33
+AGP-2242,Finance,Autonomous,LangGraph,Pilot,Loop Error,0.39,3943,2.38
+AGP-2243,Legal,Multi-agent Swarm,CrewAI,Production,,0.527,7509,2.61
+AGP-2244,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.023,4827,-0.87
+AGP-2245,Retail,Autonomous,CrewAI,Abandoned,Loop Error,0.045,3448,-1.35
+AGP-2246,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.46,5764,-1.26
+AGP-2247,Healthcare,Assistant,AutoGPT 3.0,Production,,0.757,8804,1.62
+AGP-2248,Technology,Assistant,LangGraph,Abandoned,Security Violation,0.633,2800,-1.35
+AGP-2249,Retail,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.227,8336,-1.55
+AGP-2250,Legal,Autonomous,CrewAI,Pilot,Loop Error,0.235,3653,0.39
+AGP-2251,Manufacturing,Autonomous,CrewAI,Abandoned,Loop Error,0.679,6784,-0.62
+AGP-2252,Insurance,Assistant,CrewAI,Abandoned,Cost Overrun,0.343,1927,-0.12
+AGP-2253,Retail,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.586,9392,-0.71
+AGP-2254,Technology,Assistant,CrewAI,Pilot,Schema Drift,0.405,2283,1.27
+AGP-2255,Telecom,Multi-agent Swarm,CrewAI,Production,,0.644,6330,5.0
+AGP-2256,Manufacturing,Assistant,LangGraph,Pilot,Schema Drift,0.709,4992,1.25
+AGP-2257,Government,Assistant,CrewAI,Abandoned,Loop Error,0.644,5901,-0.87
+AGP-2258,Insurance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.625,12234,0.72
+AGP-2259,Finance,Autonomous,CrewAI,Pilot,Cost Overrun,0.157,5185,0.41
+AGP-2260,Retail,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.451,4663,0.25
+AGP-2261,Technology,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.95,4301,0.04
+AGP-2262,Telecom,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.76,8392,0.38
+AGP-2263,Retail,Multi-agent Swarm,CrewAI,Abandoned,Cost Overrun,0.327,8896,-1.06
+AGP-2264,Finance,Assistant,LangGraph,Pilot,Schema Drift,0.928,2854,1.95
+AGP-2265,Manufacturing,Assistant,CrewAI,Pilot,Security Violation,0.391,3714,0.11
+AGP-2266,Finance,Autonomous,LangGraph,Production,,0.143,4339,1.99
+AGP-2267,Insurance,Assistant,LangGraph,Pilot,Security Violation,0.911,2991,0.74
+AGP-2268,Manufacturing,Assistant,CrewAI,Production,,0.808,3395,4.5
+AGP-2269,Technology,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.225,6558,-0.66
+AGP-2270,Government,Assistant,LangGraph,Pilot,Security Violation,0.725,2776,1.23
+AGP-2271,Technology,Assistant,AutoGPT 3.0,Pilot,Schema Drift,0.685,8433,-0.68
+AGP-2272,Technology,Assistant,AutoGPT 3.0,Production,,0.899,8185,3.95
+AGP-2273,Insurance,Autonomous,LangGraph,Abandoned,Loop Error,0.101,3657,-0.0
+AGP-2274,Energy,Assistant,LangGraph,Production,,0.893,4564,5.0
+AGP-2275,Government,Autonomous,CrewAI,Abandoned,Schema Drift,0.14,5787,-0.72
+AGP-2276,Finance,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.414,3504,1.0
+AGP-2277,Manufacturing,Assistant,LangGraph,Pilot,Schema Drift,0.598,4705,1.38
+AGP-2278,Healthcare,Autonomous,CrewAI,Abandoned,Loop Error,0.383,2637,-0.61
+AGP-2279,Government,Autonomous,CrewAI,Abandoned,Schema Drift,0.325,500,-0.65
+AGP-2280,Technology,Assistant,CrewAI,Abandoned,Schema Drift,0.734,2552,-0.72
+AGP-2281,Retail,Autonomous,CrewAI,Pilot,Schema Drift,0.359,3048,1.31
+AGP-2282,Healthcare,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.245,2450,2.33
+AGP-2283,Legal,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.163,7845,-1.12
+AGP-2284,Technology,Assistant,LangGraph,Pilot,Loop Error,0.835,3342,1.79
+AGP-2285,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.795,10789,0.74
+AGP-2286,Finance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Security Violation,0.783,7690,0.25
+AGP-2287,Government,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.271,3777,1.97
+AGP-2288,Insurance,Assistant,LangGraph,Pilot,Security Violation,0.622,3278,0.77
+AGP-2289,Healthcare,Autonomous,CrewAI,Pilot,Cost Overrun,0.499,3067,2.48
+AGP-2290,Legal,Assistant,LangGraph,Abandoned,Schema Drift,0.644,5333,-0.62
+AGP-2291,Telecom,Assistant,LangGraph,Pilot,Cost Overrun,0.46,5642,0.96
+AGP-2292,Technology,Autonomous,LangGraph,Pilot,Schema Drift,0.356,3409,0.46
+AGP-2293,Technology,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.174,7384,0.24
+AGP-2294,Legal,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.653,3445,0.1
+AGP-2295,Legal,Autonomous,CrewAI,Pilot,Security Violation,0.014,3462,1.79
+AGP-2296,Finance,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.104,5951,-0.09
+AGP-2297,Technology,Autonomous,CrewAI,Pilot,Schema Drift,0.227,5135,0.71
+AGP-2298,Finance,Assistant,LangGraph,Pilot,Cost Overrun,0.832,2484,-0.12
+AGP-2299,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.297,11564,0.79
+AGP-2300,Technology,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.718,6642,1.1
+AGP-2301,Telecom,Assistant,CrewAI,Pilot,Cost Overrun,0.746,1197,0.11
+AGP-2302,Insurance,Autonomous,CrewAI,Abandoned,Schema Drift,0.174,3247,-0.59
+AGP-2303,Retail,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.039,6372,-1.2
+AGP-2304,Retail,Assistant,CrewAI,Production,,0.666,6920,2.44
+AGP-2305,Retail,Multi-agent Swarm,CrewAI,Pilot,Security Violation,0.248,6231,0.22
+AGP-2306,Legal,Assistant,CrewAI,Abandoned,Loop Error,0.48,4474,-1.19
+AGP-2307,Manufacturing,Assistant,LangGraph,Production,,0.78,3689,3.47
+AGP-2308,Retail,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.524,7666,0.87
+AGP-2309,Technology,Assistant,LangGraph,Pilot,Cost Overrun,0.555,2590,0.97
+AGP-2310,Government,Assistant,LangGraph,Abandoned,Security Violation,0.714,6247,0.03
+AGP-2311,Telecom,Assistant,LangGraph,Pilot,Cost Overrun,0.581,944,0.52
+AGP-2312,Finance,Assistant,LangGraph,Pilot,Schema Drift,0.699,2784,-0.21
+AGP-2313,Retail,Assistant,LangGraph,Production,,0.729,4966,2.89
+AGP-2314,Healthcare,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.387,5073,1.14
+AGP-2315,Legal,Assistant,LangGraph,Abandoned,Schema Drift,0.863,4943,-0.89
+AGP-2316,Healthcare,Autonomous,LangGraph,Pilot,Cost Overrun,0.392,5971,0.37
+AGP-2317,Healthcare,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.038,6731,0.04
+AGP-2318,Insurance,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.769,6529,-0.14
+AGP-2319,Manufacturing,Assistant,CrewAI,Pilot,Cost Overrun,0.811,1689,0.25
+AGP-2320,Government,Assistant,LangGraph,Abandoned,Cost Overrun,0.495,5214,-1.25
+AGP-2321,Finance,Assistant,LangGraph,Abandoned,Schema Drift,0.608,5235,0.27
+AGP-2322,Finance,Autonomous,LangGraph,Abandoned,Security Violation,0.252,3473,0.17
+AGP-2323,Retail,Assistant,LangGraph,Production,,0.673,5637,3.61
+AGP-2324,Finance,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.883,6883,0.33
+AGP-2325,Healthcare,Assistant,CrewAI,Pilot,Schema Drift,0.723,3397,-0.08
+AGP-2326,Telecom,Assistant,LangGraph,Pilot,Cost Overrun,0.402,2523,1.67
+AGP-2327,Healthcare,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.053,8869,-1.02
+AGP-2328,Healthcare,Assistant,CrewAI,Pilot,Loop Error,0.967,4155,1.15
+AGP-2329,Manufacturing,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.209,6748,0.88
+AGP-2330,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Security Violation,0.827,3455,0.64
+AGP-2331,Technology,Assistant,LangGraph,Abandoned,Schema Drift,0.546,1216,-0.14
+AGP-2332,Retail,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.07,5942,-0.4
+AGP-2333,Energy,Assistant,LangGraph,Production,,0.835,2729,1.55
+AGP-2334,Finance,Assistant,CrewAI,Abandoned,Schema Drift,0.822,4522,-0.21
+AGP-2335,Retail,Autonomous,LangGraph,Abandoned,Cost Overrun,0.423,4106,0.06
+AGP-2336,Technology,Multi-agent Swarm,AutoGPT 3.0,Pilot,Schema Drift,0.22,10550,-1.03
+AGP-2337,Government,Autonomous,CrewAI,Pilot,Security Violation,0.273,5430,0.83
+AGP-2338,Legal,Autonomous,CrewAI,Production,,0.184,3499,2.72
+AGP-2339,Manufacturing,Autonomous,LangGraph,Abandoned,Security Violation,0.314,4513,-1.52
+AGP-2340,Finance,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.038,4999,-0.14
+AGP-2341,Healthcare,Multi-agent Swarm,CrewAI,Production,,0.472,7229,1.64
+AGP-2342,Finance,Assistant,LangGraph,Pilot,Cost Overrun,0.744,4572,1.51
+AGP-2343,Technology,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.249,5785,-0.74
+AGP-2344,Healthcare,Assistant,LangGraph,Production,,0.932,3503,2.04
+AGP-2345,Technology,Assistant,LangGraph,Pilot,Cost Overrun,0.912,2920,1.62
+AGP-2346,Finance,Autonomous,CrewAI,Production,,0.38,5261,4.13
+AGP-2347,Government,Autonomous,LangGraph,Abandoned,Cost Overrun,0.08,3267,-0.38
+AGP-2348,Energy,Assistant,CrewAI,Pilot,Schema Drift,0.629,3726,0.37
+AGP-2349,Finance,Autonomous,LangGraph,Pilot,Loop Error,0.051,3506,0.32
+AGP-2350,Finance,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.284,6230,0.92
+AGP-2351,Finance,Autonomous,LangGraph,Pilot,Security Violation,0.062,4513,1.23
+AGP-2352,Energy,Assistant,LangGraph,Production,,0.725,3608,3.22
+AGP-2353,Healthcare,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.186,11235,-0.11
+AGP-2354,Manufacturing,Autonomous,CrewAI,Pilot,Cost Overrun,0.026,2971,0.65
+AGP-2355,Retail,Autonomous,CrewAI,Pilot,Loop Error,0.417,7978,-0.36
+AGP-2356,Insurance,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.438,5873,0.05
+AGP-2357,Retail,Assistant,CrewAI,Production,,0.384,974,2.12
+AGP-2358,Manufacturing,Assistant,LangGraph,Production,,0.984,3859,3.62
+AGP-2359,Telecom,Autonomous,LangGraph,Production,,0.562,1305,2.0
+AGP-2360,Finance,Autonomous,CrewAI,Production,,0.49,2461,4.2
+AGP-2361,Energy,Assistant,CrewAI,Pilot,Loop Error,0.851,4517,1.22
+AGP-2362,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Security Violation,0.411,12608,-0.32
+AGP-2363,Retail,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.385,2529,0.43
+AGP-2364,Government,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.382,7983,-0.72
+AGP-2365,Technology,Assistant,LangGraph,Pilot,Security Violation,0.808,3664,1.34
+AGP-2366,Technology,Autonomous,LangGraph,Pilot,Loop Error,0.186,3437,0.39
+AGP-2367,Healthcare,Autonomous,LangGraph,Pilot,Loop Error,0.271,2625,1.67
+AGP-2368,Retail,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.101,6167,-0.63
+AGP-2369,Legal,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.694,3396,0.62
+AGP-2370,Manufacturing,Assistant,AutoGPT 3.0,Abandoned,Schema Drift,0.824,5229,-0.54
+AGP-2371,Retail,Assistant,LangGraph,Pilot,Security Violation,0.295,1966,1.21
+AGP-2372,Legal,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.288,6096,-0.22
+AGP-2373,Legal,Assistant,CrewAI,Production,,0.859,3211,2.93
+AGP-2374,Healthcare,Assistant,AutoGPT 3.0,Pilot,Schema Drift,0.559,2903,-0.08
+AGP-2375,Legal,Assistant,CrewAI,Pilot,Schema Drift,0.764,5178,0.3
+AGP-2376,Finance,Assistant,LangGraph,Pilot,Loop Error,0.789,3006,0.64
+AGP-2377,Government,Autonomous,LangGraph,Abandoned,Loop Error,0.135,3899,-0.65
+AGP-2378,Technology,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.443,3762,-0.92
+AGP-2379,Finance,Assistant,CrewAI,Pilot,Cost Overrun,0.635,4048,0.32
+AGP-2380,Technology,Assistant,LangGraph,Pilot,Loop Error,0.84,6048,-0.56
+AGP-2381,Energy,Autonomous,LangGraph,Pilot,Loop Error,0.304,4799,1.44
+AGP-2382,Healthcare,Assistant,LangGraph,Pilot,Schema Drift,0.717,5185,0.46
+AGP-2383,Finance,Assistant,AutoGPT 3.0,Production,,0.804,3892,2.61
+AGP-2384,Finance,Autonomous,LangGraph,Pilot,Schema Drift,0.236,2245,0.43
+AGP-2385,Finance,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.122,6056,1.32
+AGP-2386,Insurance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Security Violation,0.552,11255,-1.08
+AGP-2387,Telecom,Autonomous,CrewAI,Abandoned,Loop Error,0.572,4304,-0.57
+AGP-2388,Finance,Assistant,LangGraph,Abandoned,Cost Overrun,0.702,4678,-0.84
+AGP-2389,Insurance,Assistant,LangGraph,Pilot,Security Violation,0.758,4098,-0.27
+AGP-2390,Finance,Multi-agent Swarm,LangGraph,Abandoned,Cost Overrun,0.429,3468,0.07
+AGP-2391,Technology,Autonomous,LangGraph,Production,,0.3,4159,1.87
+AGP-2392,Insurance,Autonomous,LangGraph,Production,,0.46,3865,4.47
+AGP-2393,Legal,Assistant,LangGraph,Pilot,Loop Error,0.867,2396,0.92
+AGP-2394,Finance,Autonomous,CrewAI,Abandoned,Schema Drift,0.203,3358,-0.83
+AGP-2395,Technology,Assistant,AutoGPT 3.0,Production,,0.75,5588,3.35
+AGP-2396,Telecom,Assistant,AutoGPT 3.0,Abandoned,Loop Error,0.491,7202,-1.27
+AGP-2397,Healthcare,Autonomous,LangGraph,Abandoned,Loop Error,0.036,3385,-0.68
+AGP-2398,Healthcare,Assistant,LangGraph,Abandoned,Security Violation,0.647,6515,-0.91
+AGP-2399,Finance,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Cost Overrun,0.602,10555,-0.85
+AGP-2400,Manufacturing,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.636,12657,-2.0
+AGP-2401,Technology,Assistant,CrewAI,Pilot,Schema Drift,0.809,3628,1.25
+AGP-2402,Insurance,Autonomous,LangGraph,Pilot,Security Violation,0.411,3625,-0.63
+AGP-2403,Insurance,Autonomous,LangGraph,Abandoned,Schema Drift,0.557,3583,-0.79
+AGP-2404,Government,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.514,5229,0.64
+AGP-2405,Energy,Assistant,CrewAI,Production,,0.962,2238,3.66
+AGP-2406,Healthcare,Assistant,LangGraph,Abandoned,Loop Error,0.505,3383,0.17
+AGP-2407,Manufacturing,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.342,13049,-0.07
+AGP-2408,Legal,Autonomous,CrewAI,Abandoned,Cost Overrun,0.229,5116,-1.01
+AGP-2409,Legal,Assistant,CrewAI,Pilot,Schema Drift,0.99,5127,0.96
+AGP-2410,Government,Autonomous,LangGraph,Abandoned,Loop Error,0.314,2963,-0.34
+AGP-2411,Technology,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.412,5664,-0.11
+AGP-2412,Telecom,Assistant,CrewAI,Production,,0.66,4934,1.85
+AGP-2413,Retail,Assistant,LangGraph,Abandoned,Cost Overrun,0.851,4359,-0.24
+AGP-2414,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Security Violation,0.283,7923,-0.23
+AGP-2415,Retail,Autonomous,CrewAI,Pilot,Schema Drift,0.079,4532,0.6
+AGP-2416,Finance,Multi-agent Swarm,AutoGPT 3.0,Pilot,Cost Overrun,0.408,8944,0.18
+AGP-2417,Healthcare,Assistant,LangGraph,Production,,0.833,4058,2.46
+AGP-2418,Manufacturing,Assistant,AutoGPT 3.0,Pilot,Security Violation,0.548,3276,1.83
+AGP-2419,Finance,Multi-agent Swarm,CrewAI,Pilot,Security Violation,0.52,3585,0.97
+AGP-2420,Government,Assistant,LangGraph,Abandoned,Cost Overrun,0.57,4135,1.06
+AGP-2421,Finance,Assistant,LangGraph,Pilot,Loop Error,0.663,4161,0.71
+AGP-2422,Healthcare,Autonomous,LangGraph,Production,,0.508,3020,3.6
+AGP-2423,Insurance,Autonomous,LangGraph,Production,,0.203,1503,0.88
+AGP-2424,Finance,Multi-agent Swarm,CrewAI,Pilot,Security Violation,0.269,5524,1.64
+AGP-2425,Government,Assistant,CrewAI,Pilot,Loop Error,0.937,4803,0.24
+AGP-2426,Technology,Autonomous,LangGraph,Abandoned,Loop Error,0.435,2135,-0.92
+AGP-2427,Finance,Autonomous,AutoGPT 3.0,Abandoned,Cost Overrun,0.13,7157,-1.36
+AGP-2428,Technology,Assistant,LangGraph,Pilot,Schema Drift,0.635,4145,-0.01
+AGP-2429,Technology,Assistant,CrewAI,Abandoned,Loop Error,0.761,4839,-1.09
+AGP-2430,Insurance,Autonomous,AutoGPT 3.0,Production,,0.32,4526,3.04
+AGP-2431,Energy,Multi-agent Swarm,AutoGPT 3.0,Pilot,Loop Error,0.783,5910,-0.05
+AGP-2432,Technology,Assistant,CrewAI,Production,,0.66,2016,2.37
+AGP-2433,Technology,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.727,5893,0.92
+AGP-2434,Legal,Autonomous,LangGraph,Pilot,Cost Overrun,0.399,3505,1.29
+AGP-2435,Technology,Assistant,LangGraph,Abandoned,Cost Overrun,0.628,3189,-0.23
+AGP-2436,Telecom,Autonomous,CrewAI,Pilot,Loop Error,0.031,4211,-0.16
+AGP-2437,Technology,Assistant,LangGraph,Pilot,Cost Overrun,0.78,2721,0.92
+AGP-2438,Technology,Assistant,LangGraph,Pilot,Cost Overrun,0.771,1566,0.18
+AGP-2439,Retail,Assistant,LangGraph,Abandoned,Schema Drift,0.766,4046,-0.05
+AGP-2440,Insurance,Autonomous,AutoGPT 3.0,Abandoned,Security Violation,0.073,9234,-1.12
+AGP-2441,Telecom,Multi-agent Swarm,AutoGPT 3.0,Abandoned,Loop Error,0.335,5666,-0.98
+AGP-2442,Healthcare,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.118,6654,-0.22
+AGP-2443,Healthcare,Assistant,CrewAI,Abandoned,Cost Overrun,0.873,4742,-0.44
+AGP-2444,Manufacturing,Multi-agent Swarm,LangGraph,Pilot,Cost Overrun,0.489,8326,0.62
+AGP-2445,Retail,Assistant,LangGraph,Pilot,Loop Error,0.819,4036,1.23
+AGP-2446,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Loop Error,0.37,6421,-0.07
+AGP-2447,Finance,Assistant,CrewAI,Abandoned,Loop Error,0.887,2506,-0.62
+AGP-2448,Retail,Multi-agent Swarm,LangGraph,Pilot,Loop Error,0.827,5919,-0.1
+AGP-2449,Technology,Assistant,CrewAI,Production,,0.949,4152,1.57
+AGP-2450,Technology,Assistant,CrewAI,Production,,0.909,2793,4.26
+AGP-2451,Technology,Autonomous,LangGraph,Pilot,Schema Drift,0.157,3222,0.31
+AGP-2452,Technology,Assistant,LangGraph,Abandoned,Cost Overrun,0.555,3755,-0.46
+AGP-2453,Technology,Autonomous,LangGraph,Abandoned,Schema Drift,0.329,2306,-0.75
+AGP-2454,Insurance,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.284,7562,-0.84
+AGP-2455,Technology,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.627,6738,-0.79
+AGP-2456,Manufacturing,Autonomous,CrewAI,Pilot,Loop Error,0.591,4524,1.57
+AGP-2457,Technology,Multi-agent Swarm,CrewAI,Abandoned,Schema Drift,0.648,5720,-1.67
+AGP-2458,Finance,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.374,5322,1.93
+AGP-2459,Healthcare,Assistant,LangGraph,Pilot,Cost Overrun,0.671,3129,-0.12
+AGP-2460,Manufacturing,Assistant,CrewAI,Pilot,Cost Overrun,0.665,3405,0.05
+AGP-2461,Government,Autonomous,CrewAI,Pilot,Loop Error,0.156,4180,0.67
+AGP-2462,Technology,Autonomous,CrewAI,Pilot,Schema Drift,0.075,4537,0.65
+AGP-2463,Finance,Assistant,LangGraph,Pilot,Cost Overrun,0.683,5725,0.09
+AGP-2464,Technology,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.255,5591,-0.79
+AGP-2465,Healthcare,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.124,7458,-0.04
+AGP-2466,Insurance,Autonomous,LangGraph,Pilot,Cost Overrun,0.177,3269,0.86
+AGP-2467,Energy,Assistant,LangGraph,Pilot,Security Violation,0.695,2433,-0.25
+AGP-2468,Technology,Autonomous,LangGraph,Abandoned,Security Violation,0.174,4238,-1.06
+AGP-2469,Technology,Autonomous,AutoGPT 3.0,Pilot,Security Violation,0.358,7859,-0.72
+AGP-2470,Legal,Assistant,CrewAI,Production,,0.734,2688,2.82
+AGP-2471,Retail,Assistant,LangGraph,Production,,0.596,2363,0.75
+AGP-2472,Government,Autonomous,AutoGPT 3.0,Pilot,Cost Overrun,0.255,6464,0.16
+AGP-2473,Technology,Autonomous,LangGraph,Abandoned,Loop Error,0.154,3491,-0.78
+AGP-2474,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Schema Drift,0.371,6353,0.71
+AGP-2475,Legal,Assistant,LangGraph,Production,,0.419,4318,2.01
+AGP-2476,Finance,Assistant,CrewAI,Pilot,Security Violation,0.269,2941,0.71
+AGP-2477,Finance,Assistant,CrewAI,Abandoned,Cost Overrun,0.768,2233,-0.09
+AGP-2478,Healthcare,Autonomous,LangGraph,Abandoned,Schema Drift,0.396,3802,0.36
+AGP-2479,Retail,Multi-agent Swarm,CrewAI,Pilot,Cost Overrun,0.232,12193,-0.32
+AGP-2480,Telecom,Multi-agent Swarm,AutoGPT 3.0,Pilot,Security Violation,0.56,15725,-0.07
+AGP-2481,Manufacturing,Multi-agent Swarm,CrewAI,Pilot,Security Violation,0.607,9637,-0.89
+AGP-2482,Healthcare,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.059,5596,0.81
+AGP-2483,Finance,Autonomous,CrewAI,Abandoned,Cost Overrun,0.176,5357,-0.81
+AGP-2484,Legal,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.204,6191,-1.08
+AGP-2485,Energy,Autonomous,LangGraph,Abandoned,Security Violation,0.694,1916,-0.12
+AGP-2486,Retail,Autonomous,AutoGPT 3.0,Abandoned,Loop Error,0.271,8231,-0.69
+AGP-2487,Insurance,Assistant,LangGraph,Abandoned,Cost Overrun,0.505,1809,-1.14
+AGP-2488,Energy,Autonomous,LangGraph,Abandoned,Loop Error,0.434,3615,-0.66
+AGP-2489,Finance,Multi-agent Swarm,LangGraph,Pilot,Security Violation,0.667,4579,-0.29
+AGP-2490,Technology,Autonomous,LangGraph,Pilot,Schema Drift,0.338,3311,0.35
+AGP-2491,Telecom,Autonomous,AutoGPT 3.0,Pilot,Loop Error,0.335,9067,1.36
+AGP-2492,Retail,Multi-agent Swarm,AutoGPT 3.0,Pilot,Schema Drift,0.199,10262,0.22
+AGP-2493,Finance,Assistant,AutoGPT 3.0,Pilot,Loop Error,0.817,4765,0.62
+AGP-2494,Government,Assistant,LangGraph,Pilot,Security Violation,0.918,4339,-0.13
+AGP-2495,Government,Assistant,AutoGPT 3.0,Pilot,Cost Overrun,0.815,6735,1.23
+AGP-2496,Manufacturing,Autonomous,CrewAI,Pilot,Loop Error,0.266,5788,-0.14
+AGP-2497,Manufacturing,Autonomous,LangGraph,Pilot,Schema Drift,0.162,3609,1.73
+AGP-2498,Healthcare,Assistant,CrewAI,Pilot,Security Violation,0.799,3182,0.63
+AGP-2499,Energy,Assistant,CrewAI,Pilot,Loop Error,0.571,5360,-0.28
+AGP-2500,Manufacturing,Assistant,LangGraph,Pilot,Loop Error,0.928,2814,-0.2
