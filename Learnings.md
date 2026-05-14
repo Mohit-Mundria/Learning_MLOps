@@ -177,8 +177,26 @@ A typical .dvc/config file looks like this:
 [core]
     remote = origin
 ['remote "origin"']
-    url = https://dagshub.com/mundriamohit100/Learning_MLOps.dvc
+    url = https://dagshub.com/mundriamohit100/Learning_MLOps.
+    
+Above command should be there in a file named .dvc/config, as this is very important for DVC to know where to push and pull data from.
 
+Always push the folder .dvc to git, not just files, because .dvc folder contains .dvc/config file which is very important for DVC to know where to push and pull data from.
+
+Always push your data using dvc to dagshub or cloud storage before the github action runs because the github action runs on a fresh environment and does not have access to your local data.
+
+Run these commands to modify your remote url:
+dvc remote modify origin --local user YOUR_DAGSHUB_USERNAME
+dvc remote modify origin --local password YOUR_DAGSHUB_TOKEN
+
+
+Once you set those, run dvc push and it will upload your data files to the remote. After that, the GitHub Actions dvc pull step will work correctly.
+
+Also, make sure you have these GitHub repository secrets configured:
+
+DAGSHUB_USERNAME → your DagsHub username
+DAGSHUB_TOKEN → your DagsHub access token
+MLFLOW_TRACKING_URI → https://dagshub.com/mundriamohit100/Learning_MLOps.mlflow
 
 # Pandas Warning
  Pandas "FutureWarning" on Inplace Replacements (src/data_preprocessing.py)
