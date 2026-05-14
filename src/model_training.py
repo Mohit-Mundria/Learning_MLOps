@@ -88,7 +88,7 @@ def create_study(objective, x_train, y_train):
     return [study.best_trial.params, study.best_trial.value]
     
 def mlflow_tracking(model_parameters:dict):
-    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
+    params=read_params("params.yaml")
     dagshub.init(repo_owner='mundriamohit100', repo_name='Learning_MLOps', mlflow=True)
     x_train, y_train=load_training_data(params['preprocessing']['train_data_path'])
     x_test, y_test=load_testing_data(params['preprocessing']['test_data_path'])
@@ -132,7 +132,7 @@ def mlflow_tracking(model_parameters:dict):
 
 
 def main():
-    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
+    params=read_params("params.yaml")
     x_train, y_train=load_training_data(params['preprocessing']['train_data_path'])
     model_parameters, model_score=create_study(objective, x_train, y_train)
     mlflow_tracking(model_parameters)

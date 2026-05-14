@@ -7,7 +7,7 @@ from utility_code.utility_func import read_params
 
 
 def data_load(path:str):
-    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
+    params=read_params("params.yaml")
     dataset=pd.read_csv(path)
     dataset.to_csv(params['preprocessing']['raw_data_path'], index= False)
     return dataset
@@ -25,7 +25,7 @@ def data_load(path:str):
     
     
 def main():
-    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
+    params=read_params("params.yaml")
     data_load(params['preprocessing']['data_path'])
     
     

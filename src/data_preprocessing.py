@@ -31,7 +31,7 @@ def fill_nan(df:pd.DataFrame)->pd.DataFrame:
 
 
 def one_hot_encoding(df:pd.DataFrame)->pd.DataFrame:
-    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
+    params=read_params("params.yaml")
     encoder=OneHotEncoder(sparse_output=False, handle_unknown='ignore')
     one_hot_encoded=encoder.fit_transform(df[params['preprocessing']['one_hot_encode_columns']])
     one_hot_encoded_df=pd.DataFrame(one_hot_encoded, columns=encoder.get_feature_names_out(params['preprocessing']['one_hot_encode_columns']))
@@ -41,14 +41,14 @@ def one_hot_encoding(df:pd.DataFrame)->pd.DataFrame:
 
 
 def train_test_split_data(df:pd.DataFrame):
-    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
+    params=read_params("params.yaml")
     training_data, testing_data=train_test_split(df, test_size=params['model_training']['test_size'], random_state=params['model_training']["random_state"])
     training_data.to_csv(params['preprocessing']["train_data_path"], index=False)
     testing_data.to_csv(params['preprocessing']["test_data_path"], index=False)
 
 def main():
     # params=yaml.safe_load(open("params.yaml"))
-    params=read_params(r"D:\End to end project\Learning_MLOps\params.yaml")
+    params=read_params("params.yaml")
     dataset=load_data(params['preprocessing']['raw_data_path'])
     dataset=drop_col(dataset, params['preprocessing']['drop_columns'])
     dataset=fill_nan(dataset)
