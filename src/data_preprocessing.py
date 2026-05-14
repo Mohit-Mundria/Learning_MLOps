@@ -21,11 +21,11 @@ def drop_col(df:pd.DataFrame, cols:list)->pd.DataFrame:
 def fill_nan(df:pd.DataFrame)->pd.DataFrame:
     for col in df.columns:
         if df[col].name == 'Failure_Reason':
-            df[col].fillna("No failure", inplace=True)
+            df[col] = df[col].fillna("No failure")
         elif df[col].dtype=='object':
-            df[col].fillna(df[col].mode(), inplace= True)
+            df[col] = df[col].fillna(df[col].mode()[0])
         else:
-            df[col].fillna(df[col].mean(), inplace=True)
+            df[col] = df[col].fillna(df[col].mean())
     return df
 
 

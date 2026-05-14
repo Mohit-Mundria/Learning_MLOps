@@ -165,6 +165,29 @@ on:
                                # useful for daily model retraining
 
 
+# What does .dvc/config do?
+Think of .dvc/config as being exactly like your .git/config file, but for your data.
+
+In Git, when you run git push origin main, Git looks in its config file to figure out where origin lives (e.g., https://github.com/your-username/your-repo.git).
+
+Similarly, when you run dvc push or dvc pull, DVC looks inside .dvc/config to figure out where your remote data storage is. Your data storage could be an Amazon S3 bucket, Google Drive, or in your case, Dagshub.
+
+A typical .dvc/config file looks like this:
+
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/mundriamohit100/Learning_MLOps.dvc
+
+
+# Pandas Warning
+ Pandas "FutureWarning" on Inplace Replacements (src/data_preprocessing.py)
+When running your preprocessing script, you are getting this warning:
+
+text
+FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+Reason: You are using df[col].fillna(..., inplace=True). Pandas 3.0 is deprecating inplace=True when used on a sliced column (df[col]) because it creates a chained assignment that behaves unpredictably (it might create a copy and fail to update your original df).
+Fix: Instead of using inplace=True, directly overwrite the column
 
 # 2. ${{ secrets.NAME }} vs ${{ env.NAME }}
 secrets — stored encrypted in GitHub, never visible in logs

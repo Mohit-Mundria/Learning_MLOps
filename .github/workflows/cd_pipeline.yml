@@ -24,6 +24,7 @@ jobs:
 
       - name: Configure DVC remote credentials
         run: |
+          dvc remote add origin https://dagshub.com/mundriamohit100/Learning_MLOps.dvc -f
           dvc remote modify origin --local auth basic
           dvc remote modify origin --local user ${{ secrets.DAGSHUB_USERNAME }}
           dvc remote modify origin --local password ${{ secrets.DAGSHUB_TOKEN }}
