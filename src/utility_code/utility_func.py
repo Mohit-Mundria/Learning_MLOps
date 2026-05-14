@@ -8,7 +8,7 @@ def read_params(config_path:Path):
         return ConfigBox(config_dict)
     
 def main():
-    config_path=Path(r"D:\End to end project\Learning_MLOps\params.yaml")
+    config_path=Path("params.yaml")
     config=read_params(config_path)
     print(config)
 
