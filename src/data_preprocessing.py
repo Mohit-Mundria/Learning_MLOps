@@ -32,7 +32,7 @@ def fill_nan(df:pd.DataFrame)->pd.DataFrame:
 
 def one_hot_encoding(df:pd.DataFrame)->pd.DataFrame:
     params=read_params("params.yaml")
-    encoder=OneHotEncoder(sparse_output=False, handle_unknown='ignore')
+    encoder=OneHotEncoder(sparse_output=False)
     one_hot_encoded=encoder.fit_transform(df[params['preprocessing']['one_hot_encode_columns']])
     one_hot_encoded_df=pd.DataFrame(one_hot_encoded, columns=encoder.get_feature_names_out(params['preprocessing']['one_hot_encode_columns']))
     dataset=pd.concat([df.drop(columns=params['preprocessing']['one_hot_encode_columns']), one_hot_encoded_df], axis=1)
