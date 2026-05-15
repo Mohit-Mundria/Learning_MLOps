@@ -94,7 +94,7 @@ def mlflow_tracking(model_parameters:dict):
     x_test, y_test=load_testing_data(params['preprocessing']['test_data_path'])
     model_name=model_parameters["regressor"]
     model_params={key: value for key, value in model_parameters.items() if key!="regressor"}
-    mlflow.set_experiment("model_selection_and_hyperparameter_tuning_vs2")
+    mlflow.set_experiment("model_selection_and_hyperparameter_tuning_vs1")
     report=[]
     
     # model=model.set_params(**model_params)
