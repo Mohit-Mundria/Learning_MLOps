@@ -15,7 +15,7 @@ import optuna as opt
 import mlflow
 import dagshub 
 
-from utility_code.utility_func import read_params
+from src.utility_code.utility_func import read_params
 
 
 

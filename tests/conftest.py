@@ -20,7 +20,8 @@ def sample_raw_df():
     Mimics the kind of data your ROI project likely has.
     """
     return pd.DataFrame({
-        "Product_ID":   ["AGP-0001", "AGP-0002", "AGP-0003"],
+        "Project_ID":   ["AGP-0001", "AGP-0002", "AGP-0003"],
+        "Region":       ["North", "South", "East"],
         "Industry":         ["Finance", "Retail", "Technology"],
         "Agent_Type":      ["Autonomous", "Multi-agent Swarm", "Autonomous"],
         "Primary_Tool":    ["AutoGPT 3.0", "LangGraph", "CrewAI"],
@@ -40,6 +41,7 @@ def sample_processed_df():
     one-hot encoded, ready for model training.
     """
     return pd.DataFrame({
+        "Region":       ["North", "South", "East"],
         "Industry":         ["Finance", "Retail", "Technology"],
         "Agent_Type":      ["Autonomous", "Multi-agent Swarm", "Autonomous"],
         "Primary_Tool":    ["AutoGPT 3.0", "LangGraph", "CrewAI"],

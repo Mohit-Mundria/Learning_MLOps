@@ -2,7 +2,7 @@ import pandas as pd
 import yaml
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.model_selection import train_test_split
-from utility_code.utility_func import read_params
+from src.utility_code.utility_func import read_params
 
 
 
