@@ -41,15 +41,15 @@ def sample_processed_df():
     one-hot encoded, ready for model training.
     """
     return pd.DataFrame({
-        "Region":       ["North", "South", "East"],
-        "Industry":         ["Finance", "Retail", "Technology"],
-        "Agent_Type":      ["Autonomous", "Multi-agent Swarm", "Autonomous"],
-        "Primary_Tool":    ["AutoGPT 3.0", "LangGraph", "CrewAI"],
-        "Status":          ["Production", "Pilot", None],
-        "Failure_Reason": ["Loop Error", "Supply chain", None],
         "Human_in_the_Loop_Ratio": [0.5, 0.8, 0.3],
         "Tokens_per_Task": [100, 200, 150],
-        "ROI_Score":      [1.2, 3.4, 5.6]
+        "Industry_Finance": [1.0, 0.0, 0.0],
+        "Industry_Retail": [0.0, 1.0, 0.0],
+        "Industry_Technology": [0.0, 0.0, 1.0],
+        "Region_North": [1.0, 0.0, 0.0],
+        "Region_South": [0.0, 1.0, 0.0],
+        "Region_East": [0.0, 0.0, 1.0],
+        "ROI_Score": [1.2, 3.4, 5.6]
     })
 
 
