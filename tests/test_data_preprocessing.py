@@ -104,12 +104,11 @@ def test_one_hot_encoding_creates_new_columns(sample_raw_df, mock_params):
         result = one_hot_encoding(df)
 
     assert "Industry_Finance" in result.columns
-    assert "Industry_Energy" in result.columns
-    assert "Industry_Healthcare" in result.columns
-    assert "Industry_Legal" in result.columns
-    assert "Failure_Reason_Cost Overrun" in result.columns
-    assert "Failure_Reason_No Failure" in result.columns
-    assert "Failure_Reason_Security Violation" in result.columns
+    assert "Industry_Retail" in result.columns
+    assert "Industry_Technology" in result.columns
+    assert "Failure_Reason_Loop Error" in result.columns
+    assert "Failure_Reason_No failure" in result.columns
+    assert "Failure_Reason_Supply chain" in result.columns
     
 
 

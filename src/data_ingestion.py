@@ -1,7 +1,7 @@
 import pandas as pd 
 from sklearn.model_selection import train_test_split
 import os
-from src.utility_code.utility_func import read_params
+from utility_code.utility_func import read_params
 
 
 
